@@ -18,6 +18,23 @@ body {
     background-color: #F5F5F5;
 }
 
-aside {}
+aside#sidebar {
+    display: grid;
+    align-content: space-between;
+    padding: 30px 20px;
+    grid-template-areas: "logo" "menu" ".";
+}
+
+aside#sidebar img {
+    width: 100%;
+}
+
+aside#sidebar img:nth-child(1) {
+    grid-area: logo;
+}
+
+aside#sidebar img:nth-child(2) {
+    grid-area: menu;
+}
 
 main {}
