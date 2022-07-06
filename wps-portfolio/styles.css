@@ -28,6 +28,7 @@ aside#sidebar {
     display: grid;
     align-content: space-between;
     padding: 30px 20px;
+    grid-template-rows: 1fr 2fr 1fr;
     grid-template-areas: "logo" "menu" ".";
 }
 
@@ -50,7 +51,6 @@ aside#sidebar img:nth-child(2) {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    row-gap: 50px;
 }
 
 .sidebar-icon {
