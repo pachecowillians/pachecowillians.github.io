@@ -11,7 +11,7 @@
     --background-dark: #191919;
     --darkgrey-dark: #2E2E2E;
     --darkblue-dark: #19358C;
-    --black-dark: #191919;
+    --black-dark: #000807;
     --lightblue-dark: #3258B9;
     --grey-dark: #252525;
     --white-dark: #D3D3D3;
@@ -23,6 +23,7 @@
     --lightblue: var(--lightblue-light);
     --grey: var(--grey-light);
     --white: var(--white-light);
+    --menu-option: var(--black-light);
 }
 
 html {
@@ -43,6 +44,7 @@ body {
     display: grid;
     grid-template-columns: 90px auto 90px;
     background-color: var(--background);
+    transition: all 500ms;
 }
 
 aside#sidebar {
@@ -52,10 +54,10 @@ aside#sidebar {
     grid-template-rows: 2.4rem auto 2.4rem;
     grid-template-areas: "logo" "menu" ".";
     padding: 30px;
+    transition: all 500ms;
 }
 
-aside#sidebar img,
-aside#option-menu img {
+aside#sidebar img {
     width: 4rem;
     cursor: pointer;
     user-select: none;
@@ -88,7 +90,7 @@ aside#sidebar img:nth-child(2) {
     color: var(--darkgrey);
     cursor: pointer;
     user-select: none;
-    transition: all 100ms;
+    transition: all 500ms;
 }
 
 .sidebar-icon span.selected-item {
@@ -106,16 +108,17 @@ aside#option-menu {
 }
 
 .menu-icon span {
-    color: var(--darkgrey);
+    color: var(--menu-option);
     cursor: pointer;
     user-select: none;
-    transition: all 100ms;
+    transition: all 500ms;
 }
 
 .menu-icon span:hover,
 .sidebar-icon span:hover {
-    color: var(--black);
-    opacity: 0.7;
+    transition: all 100ms;
+    color: var(--menu-option);
+    opacity: 0.5;
 }
 
 main {}
