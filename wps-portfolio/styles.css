@@ -2,6 +2,7 @@
     --background: #F5F5F5;
     --darkgrey: #B9B9B9;
     --darkblue: #1F3C88;
+    --black: #000807;
 }
 
 html {
@@ -28,6 +29,7 @@ aside#sidebar {
     display: grid;
     align-content: space-between;
     justify-content: center;
+    grid-template-rows: 2.4rem auto 2.4rem;
     grid-template-areas: "logo" "menu" ".";
     padding: 30px;
 }
@@ -55,7 +57,8 @@ aside#sidebar img:nth-child(2) {
     row-gap: 4rem;
 }
 
-.sidebar-icon {
+.sidebar-icon,
+.menu-icon {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -82,8 +85,7 @@ aside#option-menu {
 }
 
 .menu-icon {
-    display: flex;
-    justify-content: center;
+    color: var(--black);
 }
 
 main {}
