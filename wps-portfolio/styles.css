@@ -1,8 +1,28 @@
 :root {
-    --background: #F5F5F5;
-    --darkgrey: #B9B9B9;
-    --darkblue: #1F3C88;
-    --black: #000807;
+    /* Light Theme */
+    --background-light: #F5F5F5;
+    --darkgrey-light: #B9B9B9;
+    --darkblue-light: #1F3C88;
+    --black-light: #000807;
+    --lightblue-light: #3258B9;
+    --grey-light: #E1E1E1;
+    --white-light: #F5F5F5;
+    /* Dark Theme */
+    --background-dark: #191919;
+    --darkgrey-dark: #2E2E2E;
+    --darkblue-dark: #19358C;
+    --black-dark: #191919;
+    --lightblue-dark: #3258B9;
+    --grey-dark: #252525;
+    --white-dark: #D3D3D3;
+    /* Page Theme */
+    --background: var(--background-light);
+    --darkgrey: var(--darkgrey-light);
+    --darkblue: var(--darkblue-light);
+    --black: var(--black-light);
+    --lightblue: var(--lightblue-light);
+    --grey: var(--grey-light);
+    --white: var(--white-light);
 }
 
 html {
