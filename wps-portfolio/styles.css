@@ -68,6 +68,7 @@ aside#sidebar img:nth-child(2) {
     color: var(--darkgrey);
     cursor: pointer;
     user-select: none;
+    transition: all 100ms;
 }
 
 .sidebar-icon span.selected-item {
@@ -84,8 +85,17 @@ aside#option-menu {
     padding: 30px;
 }
 
-.menu-icon {
+.menu-icon span {
+    color: var(--darkgrey);
+    cursor: pointer;
+    user-select: none;
+    transition: all 100ms;
+}
+
+.menu-icon span:hover,
+.sidebar-icon span:hover {
     color: var(--black);
+    opacity: 0.7;
 }
 
 main {}
