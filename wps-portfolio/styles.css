@@ -32,7 +32,8 @@ aside#sidebar {
     grid-template-areas: "logo" "menu" ".";
 }
 
-aside#sidebar img {
+aside#sidebar img,
+aside#option-menu img {
     width: 100%;
     cursor: pointer;
     user-select: none;
@@ -67,6 +68,19 @@ aside#sidebar img:nth-child(2) {
 
 .sidebar-icon span.selected-item {
     color: var(--darkblue);
+}
+
+aside#option-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 10%;
+    padding: 30px 20px;
+}
+
+.menu-icon {
+    display: flex;
+    justify-content: center;
 }
 
 main {}
