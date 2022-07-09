@@ -155,7 +155,7 @@ main {
     }
     aside#option-menu {
         flex-direction: row-reverse;
-        height: 2.4px;
+        height: 2.4rem;
     }
     aside#option-menu #logoTopbar {
         height: 2rem;
