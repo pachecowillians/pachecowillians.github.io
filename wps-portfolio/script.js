@@ -1,4 +1,12 @@
 var darkTheme = false;
+var selected = "profile";
+let sections = [
+    "profile",
+    "programming",
+    "school",
+    "professional",
+    "projects"
+];
 
 document.querySelector("#theme-toggle").onclick = function() {
     let properties = [
@@ -27,3 +35,19 @@ document.querySelector("#theme-toggle").onclick = function() {
     }
     darkTheme = !darkTheme;
 }
+
+
+sections.map(section => {
+    console.log(section);
+    document.querySelector(`#${section}Icon`).onclick = function() {
+        let icon = document.querySelector(`#${section}Icon`);
+        let iconSpan = icon.querySelector("span");
+        iconSpan.classList.add("selected-item");
+
+        let oldIcon = document.querySelector(`#${selected}Icon`);
+        let oldIconSpan = oldIcon.querySelector("span");
+        oldIconSpan.classList.remove("selected-item");
+
+        selected = section;
+    }
+});
