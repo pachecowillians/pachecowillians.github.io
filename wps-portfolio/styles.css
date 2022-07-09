@@ -132,6 +132,17 @@ aside#option-menu {
 
 main {
     grid-area: main;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 4rem;
+}
+
+main img {
+    width: 16rem;
+    height: 16rem;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 
