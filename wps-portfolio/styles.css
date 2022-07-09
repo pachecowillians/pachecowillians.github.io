@@ -126,6 +126,10 @@ aside#option-menu {
     opacity: 0.5;
 }
 
+#logoTopbar {
+    display: none;
+}
+
 main {
     grid-area: main;
 }
@@ -159,6 +163,7 @@ main {
     }
     aside#option-menu #logoTopbar {
         height: 2rem;
+        display: block;
     }
 }
 
