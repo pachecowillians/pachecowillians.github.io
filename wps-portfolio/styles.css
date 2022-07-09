@@ -7,14 +7,16 @@
     --lightblue-light: #3258B9;
     --grey-light: #E1E1E1;
     --white-light: #F5F5F5;
+    --menu-option-light: var(--black-light);
     /* Dark Theme */
     --background-dark: #191919;
     --darkgrey-dark: #2E2E2E;
     --darkblue-dark: #19358C;
-    --black-dark: #000807;
+    --black-dark: var(--black-light);
     --lightblue-dark: #3258B9;
     --grey-dark: #252525;
     --white-dark: #D3D3D3;
+    --menu-option-dark: var(--white-dark);
     /* Page Theme */
     --background: var(--background-light);
     --darkgrey: var(--darkgrey-light);
