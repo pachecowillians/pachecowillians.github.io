@@ -152,7 +152,13 @@ main {
         flex-direction: row;
         row-gap: 0;
         column-gap: 4rem;
-        /* era 4rem */
+    }
+    aside#option-menu {
+        flex-direction: row-reverse;
+        height: 2.4px;
+    }
+    aside#option-menu #logoTopbar {
+        height: 2rem;
     }
 }
 
