@@ -122,7 +122,6 @@ aside#option-menu {
 .menu-icon span:hover,
 .sidebar-icon span:hover {
     transition: all 100ms;
-    color: var(--text);
     opacity: 0.5;
 }
 
@@ -197,6 +196,10 @@ main img {
     aside#option-menu #logoTopbar {
         height: 2rem;
         display: block;
+    }
+    .menu-icon span:hover,
+    .sidebar-icon span:hover {
+        opacity: 1;
     }
 }
 
