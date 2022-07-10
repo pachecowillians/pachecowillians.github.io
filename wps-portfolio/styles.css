@@ -133,6 +133,7 @@ aside#option-menu {
 main {
     grid-area: main;
     overflow-y: scroll;
+    scroll-behavior: smooth;
     scrollbar-width: none;
 }
 
