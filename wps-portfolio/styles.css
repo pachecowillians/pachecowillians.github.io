@@ -151,6 +151,8 @@ main section {
 
 section h1 {
     font-size: 3rem;
+    margin: 2rem 0rem;
+    color: var(--text);
 }
 
 #profile {}
@@ -163,11 +165,30 @@ section h1 {
 
 #projects {}
 
-main img {
+#profile>img {
     width: 15rem;
     height: 15rem;
     border-radius: 50%;
     object-fit: cover;
+}
+
+#profile .social-media {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1.6rem;
+}
+
+#profile .social-media img {
+    width: 2.88rem;
+    height: 2.88rem;
+    cursor: pointer;
+}
+
+#profile .profile-text {
+    color: var(--text);
+    font-size: 1.3rem;
+    text-align: justify;
+    margin: 2rem 6.4rem 2rem;
 }
 
 
@@ -204,6 +225,13 @@ main img {
     .menu-icon span:hover,
     .sidebar-icon span:hover {
         opacity: 1;
+    }
+    #profile .profile-text {
+        font-size: 1.5rem;
+        margin: 2rem 2rem 4rem;
+    }
+    html {
+        font-size: 10px;
     }
 }
 
