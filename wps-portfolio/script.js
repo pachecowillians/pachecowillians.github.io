@@ -17,7 +17,7 @@ document.querySelector("#theme-toggle").onclick = function() {
         "lightblue",
         "grey",
         "white",
-        "menu-option"
+        "text"
     ];
 
     if (!darkTheme) {
@@ -36,9 +36,7 @@ document.querySelector("#theme-toggle").onclick = function() {
     darkTheme = !darkTheme;
 }
 
-
 sections.map(section => {
-    console.log(section);
     document.querySelector(`#${section}Icon`).onclick = function() {
         let icon = document.querySelector(`#${section}Icon`);
         let iconSpan = icon.querySelector("span");

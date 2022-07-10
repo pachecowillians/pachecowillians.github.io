@@ -7,7 +7,7 @@
     --lightblue-light: #3258B9;
     --grey-light: #E1E1E1;
     --white-light: #F5F5F5;
-    --menu-option-light: var(--black-light);
+    --text-light: var(--black-light);
     /* Dark Theme */
     --background-dark: #191919;
     --darkgrey-dark: #2E2E2E;
@@ -16,7 +16,7 @@
     --lightblue-dark: #3258B9;
     --grey-dark: #252525;
     --white-dark: #D3D3D3;
-    --menu-option-dark: var(--white-dark);
+    --text-dark: var(--white-dark);
     /* Page Theme */
     --background: var(--background-light);
     --darkgrey: var(--darkgrey-light);
@@ -25,7 +25,7 @@
     --lightblue: var(--lightblue-light);
     --grey: var(--grey-light);
     --white: var(--white-light);
-    --menu-option: var(--black-light);
+    --text: var(--black-light);
 }
 
 html {
@@ -113,7 +113,7 @@ aside#option-menu {
 }
 
 .menu-icon span {
-    color: var(--menu-option);
+    color: var(--text);
     cursor: pointer;
     user-select: none;
     transition: all 500ms;
@@ -122,7 +122,7 @@ aside#option-menu {
 .menu-icon span:hover,
 .sidebar-icon span:hover {
     transition: all 100ms;
-    color: var(--menu-option);
+    color: var(--text);
     opacity: 0.5;
 }
 
@@ -146,7 +146,26 @@ main::-webkit-scrollbar {
     border: 1px solid black;
 }
 
-#profile {}
+#profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#profile .container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+#profile .container h1 {
+    font-size: 3rem;
+    color: var(--text);
+}
 
 #programming {}
 
