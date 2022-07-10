@@ -140,32 +140,16 @@ main::-webkit-scrollbar {
     display: none;
 }
 
-.sections section {
-    width: auto;
-    height: 100vh;
-    border: 1px solid black;
-}
-
-#profile {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#profile .container {
+main section {
     display: flex;
     flex-direction: column;
-    align-content: center;
-    justify-content: center;
     align-items: center;
-    height: 100%;
-    width: 100%;
+    padding-top: 100px;
+    min-height: calc(100% - 100px);
+    border-bottom: 1px solid black;
 }
 
-#profile .container h1 {
-    font-size: 3rem;
-    color: var(--text);
-}
+#profile {}
 
 #programming {}
 
@@ -176,8 +160,8 @@ main::-webkit-scrollbar {
 #projects {}
 
 main img {
-    width: 16rem;
-    height: 16rem;
+    width: 14rem;
+    height: 14rem;
     border-radius: 50%;
     object-fit: cover;
 }
