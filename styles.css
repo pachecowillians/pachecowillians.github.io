@@ -197,9 +197,8 @@ section h1 {
 @media only screen and (max-width: 600px) {
     body {
         grid-template-columns: none;
-        grid-template-rows: 90px auto 90px;
+        /* grid-template-rows: 90px auto 90px; */
         grid-template-areas: "options" "main" "navbar";
-        position: fixed;
     }
     aside#sidebar {
         grid-template-areas: "logo menu .";
