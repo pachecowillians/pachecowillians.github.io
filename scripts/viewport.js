@@ -16,3 +16,12 @@ export function isInViewport(element) {
         )
     }
 }
+
+export function isSectionInViewport(section) {
+    const dimensions = section.getBoundingClientRect();
+    if (dimensions.bottom > window.innerHeight / 2) {
+        return true;
+    } else {
+        return false;
+    }
+}
