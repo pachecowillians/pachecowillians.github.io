@@ -48,7 +48,7 @@ body {
     grid-template-columns: 90px auto 90px;
     grid-template-areas: "navbar main options";
     background-color: var(--background);
-    transition: all 500ms;
+    transition: background-color 500ms, filter ease-in 500ms;
 }
 
 aside#sidebar {
@@ -59,7 +59,6 @@ aside#sidebar {
     grid-template-areas: "logo" "menu" ".";
     padding: 30px;
     grid-area: navbar;
-    transition: all 500ms;
 }
 
 aside#sidebar img {
@@ -107,7 +106,7 @@ aside#sidebar img:nth-child(2) {
     color: var(--darkgrey);
     cursor: pointer;
     user-select: none;
-    transition: all 500ms;
+    transition: color 300ms, opacity 300ms;
 }
 
 .sidebar-icon span.selected-item {
@@ -129,12 +128,12 @@ aside#option-menu {
     color: var(--text);
     cursor: pointer;
     user-select: none;
-    transition: all 500ms;
+    transition: color 300ms, opacity 300ms;
 }
 
 .menu-icon span:hover,
 .sidebar-icon span:hover {
-    transition: all 100ms;
+    transition: color 300ms, opacity 100ms;
     opacity: 0.5;
 }
 
