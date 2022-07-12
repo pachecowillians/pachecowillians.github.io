@@ -78,7 +78,7 @@ sections.map(section => {
     }
 });
 
-document.querySelector("#programming").innerHTML = languages.map(
+document.querySelector(".programming-container").innerHTML = languages.map(
     (language) => (`
             <div class="language-container ${language.className}">
                 <img src="img/Languages/${language.className}.svg" alt="${language.name}" id="${language.className}">

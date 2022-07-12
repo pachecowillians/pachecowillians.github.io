@@ -193,12 +193,21 @@ section h1 {
     margin: 2rem 6.4rem 2rem;
 }
 
-
-/* #profile {
+#profile {
     display: none;
-} */
+}
 
-#programming {
+.programming-text {
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 80%;
+    background-color: var(--grey);
+    padding: 0.5rem 2rem;
+    border-left: 3px solid var(--text);
+    text-align: justify;
+}
+
+.programming-container {
     row-gap: 4rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -208,6 +217,7 @@ section h1 {
     justify-items: center;
     align-content: start;
     padding: 8rem 4rem;
+    width: 95%;
 }
 
 .progress-bar-container {
@@ -305,7 +315,7 @@ section h1 {
     html {
         font-size: 10px;
     }
-    #programming {
+    .programming-container {
         grid-template-columns: repeat(1, 1fr);
         padding: 8rem 0rem;
     }
@@ -315,7 +325,7 @@ section h1 {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 
 @media only screen and (min-width: 600px) {
-    #programming {
+    .programming-container {
         grid-template-columns: repeat(1, 1fr);
         padding: 8rem 2rem;
     }
@@ -325,7 +335,7 @@ section h1 {
 /* Medium devices (landscape tablets, 768px and up) */
 
 @media only screen and (min-width: 768px) {
-    #programming {
+    .programming-container {
         grid-template-columns: repeat(2, 1fr);
     }
 }
@@ -334,7 +344,7 @@ section h1 {
 /* Large devices (laptops/desktops, 992px and up) */
 
 @media only screen and (min-width: 992px) {
-    #programming {
+    .programming-container {
         grid-template-columns: repeat(3, 1fr);
     }
 }
