@@ -285,6 +285,7 @@ section h1 {
     align-items: flex-start;
     row-gap: 2rem;
     margin-top: 2rem;
+    color: var(--text);
 }
 
 .school {
