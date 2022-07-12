@@ -200,17 +200,26 @@ section h1 {
 
 #programming {
     row-gap: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: min-content;
+    justify-content: center;
+    align-items: center;
+    justify-items: stretch;
+    align-content: start;
+    padding: 8rem 4rem 0px;
 }
 
 .progress-bar-container {
     display: flex;
     flex-direction: column;
     row-gap: 0.8rem;
+    width: 70%;
 }
 
 .progress-bar {
     position: relative;
-    width: 24rem;
+    width: 100%;
     background: var(--white);
     height: 1.6rem;
     border-radius: 6px;
@@ -370,22 +379,37 @@ section h1 {
     html {
         font-size: 10px;
     }
+    #programming {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 600px) {
+    #programming {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
 
 
 /* Medium devices (landscape tablets, 768px and up) */
 
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+    #programming {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
 
 
 /* Large devices (laptops/desktops, 992px and up) */
 
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+    #programming {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
