@@ -220,7 +220,7 @@ section h1 {
 .progress-bar {
     position: relative;
     width: 100%;
-    background: var(--white);
+    background: transparent;
     height: 1.6rem;
     border-radius: 6px;
     overflow: hidden;
