@@ -40,6 +40,35 @@ let languages = [
     { name: 'Docker', className: 'docker', percentage: 85, color: '#028BB8' },
     { name: 'Git', className: 'git', percentage: 90, color: '#F34F29' },
 ];
+
+let schooling = [{
+        name: 'UFES - Computer Engineering College',
+        className: 'ufes',
+        begin: '2019',
+        end: 'Today',
+        percentage: 60
+    },
+    {
+        name: 'SENAI - Systems Development Technical Course',
+        className: 'senai',
+        begin: '2017',
+        end: '2018',
+        percentage: 100
+    }, {
+        name: 'SESI - High School',
+        className: 'sesiHigh',
+        begin: '2016',
+        end: '2018',
+        percentage: 100
+    }, {
+        name: 'SESI - Elementary School',
+        className: 'sesiElementary',
+        begin: '2012',
+        end: '2016',
+        percentage: 100
+    },
+];
+
 document.querySelector("#theme-toggle").onclick = function() {
     if (!darkTheme) {
         properties.map(prop => {
@@ -74,7 +103,7 @@ document.querySelector(".programming-container").innerHTML = languages.map(
                         <span>${language.percentage}%</span>
                     </div>
                     <div class="progress-bar">
-                    <span></span>
+                        <span></span>
                     </div>
                 </div>
             </div>
@@ -150,5 +179,50 @@ document.querySelector("main").onscroll = () => {
             }
         }
     });
-
 }
+
+
+document.querySelector(".scholarity-container").innerHTML = schooling.map(
+    (scholarity) => (`
+                <div class="scholarity-item ${scholarity.className}">
+                    <div class="scholarity-item-texts">
+                        <div class="scholarity-item-information">
+                            <div class="scholarity-item-title">
+                                <a href="">
+                                    <p>${scholarity.name}</p>
+                                    <span class="material-symbols-outlined">
+                                        link
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="scholarity-item-date">
+                                <p>${scholarity.begin} - ${scholarity.end}</p>
+                            </div>
+                        </div>
+                        <div class="scholarity-item-percentage">
+                            <span>${scholarity.percentage}%</span>
+                        </div>
+                    </div>
+
+                    <div class="progress-bar">
+                        <span></span>
+                    </div>
+                </div>
+            `)
+).join('');
+
+
+schooling.map((scholarity) => {
+    addCSS(`
+    .${scholarity.className} .progress-bar span {
+        background: var(--lightblue);
+        animation: progress-animation-${scholarity.className} 0.8s ease-out forwards;
+    }
+    
+    @keyframes progress-animation-${scholarity.className} {
+        to {
+            width: ${scholarity.percentage}%;
+        }
+    }
+    `);
+});

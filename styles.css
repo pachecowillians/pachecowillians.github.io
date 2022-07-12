@@ -193,12 +193,12 @@ section h1 {
     margin: 2rem 6.4rem 2rem;
 }
 
-
-/* #profile {
+#profile,
+#programming {
     display: none;
-} */
+}
 
-.programming-text {
+.information-text {
     font-size: 1.2rem;
     font-weight: 700;
     width: 80%;
@@ -234,7 +234,7 @@ section h1 {
     width: 100%;
     background: transparent;
     height: 1.6rem;
-    border-radius: 6px;
+    border-radius: 10px;
     overflow: hidden;
 }
 
@@ -273,6 +273,107 @@ section h1 {
 .language-container img {
     height: 100%;
     max-width: 4rem;
+}
+
+.school-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    width: 90%;
+}
+
+.scholarity {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1.5rem;
+    padding: 1rem 0rem;
+}
+
+.scholarity p {
+    font-size: 2.1rem;
+    font-weight: 700;
+}
+
+.scholarity span {
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+
+.scholarity-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+    row-gap: 2rem;
+}
+
+.scholarity-item {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+}
+
+.scholarity-container .progress-bar {
+    border: 1px solid var(--lightblue);
+}
+
+.scholarity-item-texts {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.scholarity-item-title a {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.scholarity-item-title span {
+    display: flex;
+}
+
+.scholarity-item-information * {
+    padding: 0;
+    margin: 0;
+}
+
+.scholarity-item-information {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    row-gap: 0.5rem;
+}
+
+.scholarity-item-date {
+    font-size: 1.1rem;
+}
+
+.scholarity-item-percentage {
+    font-size: 1.4rem;
+    font-weight: 700;
 }
 
 
