@@ -23,9 +23,9 @@ let languages = [
     { name: 'JavaScript', className: 'javascript', percentage: 80, color: '#F0DB4F' },
     { name: 'TypeScript', className: 'typescript', percentage: 60, color: '#007ACC' },
     { name: 'React JS', className: 'reactjs', percentage: 50, color: '#61DAFB' },
-    { name: 'Next JS', className: 'nextjs', percentage: 50, color: '#000000' },
+    { name: 'Next JS', className: 'nextjs', percentage: 50, color: 'var(--text)' },
     { name: 'Bootstrap', className: 'bootstrap', percentage: 75, color: '#7952B3' },
-    { name: 'Flask', className: 'flask', percentage: 75, color: '#000000' },
+    { name: 'Flask', className: 'flask', percentage: 75, color: 'var(--text)' },
     { name: 'PHP', className: 'php', percentage: 75, color: '#6181B6' },
     { name: 'Python', className: 'python', percentage: 85, color: '#386F9F' },
     { name: 'Java', className: 'java', percentage: 40, color: '#EA2D2E' },
@@ -48,6 +48,8 @@ document.querySelector("#theme-toggle").onclick = function() {
         document.querySelector("#logoNavbar").style.setProperty("filter", "invert(99%) sepia(0%) saturate(0%) hue-rotate(148deg) brightness(87%) contrast(91%)");
         document.querySelector("#logoTopbar").style.setProperty("filter", "invert(99%) sepia(0%) saturate(0%) hue-rotate(148deg) brightness(87%) contrast(91%)");
         document.querySelector("#github").style.setProperty("filter", "invert(99%) sepia(0%) saturate(0%) hue-rotate(148deg) brightness(87%) contrast(91%)");
+        document.querySelector("#nextjs").style.setProperty("filter", "invert(99%) sepia(0%) saturate(0%) hue-rotate(148deg) brightness(87%) contrast(91%)");
+        document.querySelector("#flask").style.setProperty("filter", "invert(99%) sepia(0%) saturate(0%) hue-rotate(148deg) brightness(87%) contrast(91%)");
     } else {
         properties.map(prop => {
             document.documentElement.style.setProperty(`--${prop}`, `var(--${prop}-light)`);
@@ -55,6 +57,8 @@ document.querySelector("#theme-toggle").onclick = function() {
         document.querySelector("#logoNavbar").style.setProperty("filter", "none");
         document.querySelector("#logoTopbar").style.setProperty("filter", "none");
         document.querySelector("#github").style.setProperty("filter", "none");
+        document.querySelector("#nextjs").style.setProperty("filter", "none");
+        document.querySelector("#flask").style.setProperty("filter", "none");
 
     }
     darkTheme = !darkTheme;
@@ -77,7 +81,7 @@ sections.map(section => {
 document.querySelector("#programming").innerHTML = languages.map(
     (language) => (`
             <div class="language-container ${language.className}">
-                <img src="img/Languages/${language.className}.svg" alt="${language.name}">
+                <img src="img/Languages/${language.className}.svg" alt="${language.name}" id="${language.className}">
                 <div class="progress-bar-container">
                     <div class="progress-bar-title">
                         <span>${language.name}</span>
