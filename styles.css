@@ -260,7 +260,8 @@ section h1 {
     max-width: 4rem;
 }
 
-.html .progress-bar::before {
+
+/* .html .progress-bar::before {
     background: #E44D26;
     width: 95%;
 }
@@ -271,20 +272,7 @@ section h1 {
 
 .html {
     color: #E44D26;
-}
-
-.css .progress-bar::before {
-    background: #1572B6;
-    width: 85%;
-}
-
-.css .progress-bar {
-    border: 1px solid #1572B6;
-}
-
-.css {
-    color: #1572B6;
-}
+} */
 
 .javascript .progress-bar::before {
     background: #F0DB4F;
@@ -375,6 +363,19 @@ section h1 {
 
 .php {
     color: #6181B6;
+}
+
+.python .progress-bar::before {
+    background: #386F9F;
+    width: 75%;
+}
+
+.python .progress-bar {
+    border: 1px solid #386F9F;
+}
+
+.python {
+    color: #386F9F;
 }
 
 

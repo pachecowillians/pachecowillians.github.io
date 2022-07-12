@@ -52,3 +52,51 @@ sections.map(section => {
         selected = section;
     }
 });
+
+let languages = [{
+        name: 'HTML',
+        percentage: 95,
+        color: '#E44D26',
+    },
+    {
+        name: 'CSS',
+        percentage: 85,
+        color: '#1572B6',
+    }
+]
+
+document.querySelector("#programming").innerHTML = languages.map(
+    (language) => (`
+            <div class="language-container ${language.name.toLowerCase()}">
+                <img src="img/Languages/${language.name.toLowerCase()}.svg" alt="${language.name}">
+                <div class="progress-bar-container">
+                    <div class="progress-bar-title">
+                        <span>${language.name}</span>
+                        <span>${language.percentage}%</span>
+                    </div>
+                    <div class="progress-bar">
+                    </div>
+                </div>
+            </div>
+            `)
+);
+
+const addCSS = css => document.head.appendChild(document.createElement("style")).innerHTML = css;
+
+languages.map((language) => {
+    console.log(language);
+    addCSS(`
+    .${language.name.toLowerCase()} .progress-bar::before {
+        background: ${language.color};
+        width: ${language.percentage}%;
+    }
+   
+    .${language.name.toLowerCase()} .progress-bar {
+        border: 1px solid ${language.color};
+    }
+    
+    .${language.name.toLowerCase()} {
+        color: ${language.color};
+    }
+    `);
+});
