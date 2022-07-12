@@ -100,7 +100,13 @@ languages.map((language) => {
     addCSS(`
     .${language.className} .progress-bar::before {
         background: ${language.color};
-        width: ${language.percentage}%;
+        animation: progress-animation-${language.className} 0.8s ease-in forwards;
+    }
+
+    @keyframes progress-animation-${language.className} {
+        to {
+            width: ${language.percentage}%;
+        }
     }
    
     .${language.className} .progress-bar {

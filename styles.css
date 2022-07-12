@@ -231,6 +231,8 @@ section h1 {
     top: 0;
     left: 0;
     height: 100%;
+    background: turquoise;
+    width: 0;
 }
 
 .language-container {
