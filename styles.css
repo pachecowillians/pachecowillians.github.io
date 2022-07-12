@@ -257,6 +257,7 @@ section h1 {
 
 .language-container img {
     height: 100%;
+    max-width: 4rem;
 }
 
 .html .progress-bar::before {
@@ -348,6 +349,32 @@ section h1 {
 
 .bootstrap {
     color: #7952B3;
+}
+
+.flask .progress-bar::before {
+    background: #000;
+    width: 75%;
+}
+
+.flask .progress-bar {
+    border: 1px solid #000;
+}
+
+.flask {
+    color: #000;
+}
+
+.php .progress-bar::before {
+    background: #6181B6;
+    width: 75%;
+}
+
+.php .progress-bar {
+    border: 1px solid #6181B6;
+}
+
+.php {
+    color: #6181B6;
 }
 
 
