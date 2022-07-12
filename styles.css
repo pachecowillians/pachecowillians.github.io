@@ -156,7 +156,7 @@ main section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 100px;
+    padding: 8rem 0rem;
     min-height: calc(100% - 100px);
     border-bottom: 1px solid black;
 }
@@ -193,10 +193,11 @@ section h1 {
     margin: 2rem 6.4rem 2rem;
 }
 
-#profile,
+
+/* #profile,
 #programming {
     display: none;
-}
+} */
 
 .information-text {
     font-size: 1.2rem;
@@ -275,16 +276,18 @@ section h1 {
     max-width: 4rem;
 }
 
-.school-container {
+.study-container {
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-content: center;
     justify-content: center;
     align-items: flex-start;
-    width: 90%;
+    row-gap: 2rem;
+    margin-top: 2rem;
 }
 
-.scholarity {
+.school {
     display: flex;
     flex-direction: row;
     align-content: center;
@@ -294,17 +297,17 @@ section h1 {
     padding: 1rem 0rem;
 }
 
-.scholarity p {
+.school p {
     font-size: 2.1rem;
     font-weight: 700;
 }
 
-.scholarity span {
+.school span {
     font-size: 2.4rem;
     font-weight: 500;
 }
 
-.scholarity-container {
+.school-container {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -314,7 +317,17 @@ section h1 {
     row-gap: 2rem;
 }
 
-.scholarity-item {
+.courses-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+    row-gap: 2rem;
+}
+
+.school-item {
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -323,11 +336,12 @@ section h1 {
     row-gap: 1rem;
 }
 
-.scholarity-container .progress-bar {
+.school-container .progress-bar,
+.courses-container .progress-bar {
     border: 1px solid var(--lightblue);
 }
 
-.scholarity-item-texts {
+.school-item-texts {
     display: flex;
     flex-direction: row;
     align-content: center;
@@ -336,7 +350,7 @@ section h1 {
     width: 100%;
 }
 
-.scholarity-item-title a {
+.school-item-title a {
     display: flex;
     flex-direction: row;
     align-content: center;
@@ -349,16 +363,17 @@ section h1 {
     text-decoration: inherit;
 }
 
-.scholarity-item-title span {
+.school-item-title span {
     display: flex;
+    font-size: 2rem;
 }
 
-.scholarity-item-information * {
+.school-item-information * {
     padding: 0;
     margin: 0;
 }
 
-.scholarity-item-information {
+.school-item-information {
     display: flex;
     flex-direction: column;
     align-content: space-between;
@@ -367,11 +382,11 @@ section h1 {
     row-gap: 0.5rem;
 }
 
-.scholarity-item-date {
+.school-item-date {
     font-size: 1.1rem;
 }
 
-.scholarity-item-percentage {
+.school-item-percentage {
     font-size: 1.2rem;
     font-weight: 700;
 }
@@ -430,7 +445,6 @@ section h1 {
 @media only screen and (min-width: 600px) {
     .programming-container {
         grid-template-columns: repeat(1, 1fr);
-        padding: 8rem 2rem;
     }
 }
 
