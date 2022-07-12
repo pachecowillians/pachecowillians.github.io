@@ -215,7 +215,6 @@ section h1 {
     height: 20px;
     border-radius: 6px;
     overflow: hidden;
-    border: 1px solid #E44D26;
 }
 
 .progress-bar::before {
@@ -224,7 +223,6 @@ section h1 {
     top: 0;
     left: 0;
     height: 100%;
-    width: 95%;
 }
 
 .language-container {
@@ -254,10 +252,28 @@ section h1 {
 
 .html-bar::before {
     background: #E44D26;
+    width: 95%;
+}
+
+.html-bar {
+    border: 1px solid #E44D26;
 }
 
 .html {
     color: #E44D26;
+}
+
+.css-bar::before {
+    background: #1572B6;
+    width: 85%;
+}
+
+.css-bar {
+    border: 1px solid #1572B6;
+}
+
+.css {
+    color: #1572B6;
 }
 
 
