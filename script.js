@@ -101,13 +101,9 @@ languages.map((language) => {
     addCSS(`
     .${language.className} .progress-bar span {
         background: ${language.color};
-        animation: progress-animation-${language.className} 0.8s ease-out forwards;
-    }
-
-    @keyframes progress-animation-${language.className} {
-        to {
-            width: ${language.percentage}%;
-        }
+        width: 10%;
+        // transition: progress-animation-${language.className} 0.8s ease-out forwards;
+        transition: width 0.8s ease-out;
     }
    
     .${language.className} .progress-bar {
@@ -143,9 +139,9 @@ document.querySelector("main").onscroll = () => {
     let progressBars = document.querySelectorAll('.progress-bar span');
     [...progressBars].map((progressBar) => {
         if (!isInViewport(progressBar)) {
-            progressBar.style.animation = 'none';
-            progressBar.offsetHeight;
-            progressBar.style.animation = null;
+            progressBar.style.setProperty("width", "0");
+        } else {
+            progressBar.style.setProperty("width", "50%");
         }
     });
 }
