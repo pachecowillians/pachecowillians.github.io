@@ -207,7 +207,7 @@ section h1 {
     align-items: center;
     justify-items: stretch;
     align-content: start;
-    padding: 8rem 4rem 0px;
+    padding: 8rem 4rem;
 }
 
 .progress-bar-container {
