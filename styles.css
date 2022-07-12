@@ -194,6 +194,10 @@ section h1 {
     margin: 2rem 6.4rem 2rem;
 }
 
+#profile {
+    display: none;
+}
+
 #programming {
     row-gap: 4rem;
 }
@@ -246,12 +250,12 @@ section h1 {
     height: 100%;
 }
 
-.html-bar::before {
+.html .progress-bar::before {
     background: #E44D26;
     width: 95%;
 }
 
-.html-bar {
+.html .progress-bar {
     border: 1px solid #E44D26;
 }
 
@@ -259,17 +263,43 @@ section h1 {
     color: #E44D26;
 }
 
-.css-bar::before {
+.css .progress-bar::before {
     background: #1572B6;
     width: 85%;
 }
 
-.css-bar {
+.css .progress-bar {
     border: 1px solid #1572B6;
 }
 
 .css {
     color: #1572B6;
+}
+
+.javascript .progress-bar::before {
+    background: #F0DB4F;
+    width: 80%;
+}
+
+.javascript .progress-bar {
+    border: 1px solid #F0DB4F;
+}
+
+.javascript {
+    color: #F0DB4F;
+}
+
+.typescript .progress-bar::before {
+    background: #007ACC;
+    width: 60%;
+}
+
+.typescript .progress-bar {
+    border: 1px solid #007ACC;
+}
+
+.typescript {
+    color: #007ACC;
 }
 
 
