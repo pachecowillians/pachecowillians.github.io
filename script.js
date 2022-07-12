@@ -52,18 +52,3 @@ sections.map(section => {
         selected = section;
     }
 });
-
-
-// const appHeight = () => {
-//     const doc = document.documentElement
-//     doc.style.setProperty('--app-height', `${window.innerHeight}px`)
-// }
-// window.addEventListener('resize', appHeight)
-// appHeight();
-
-// We listen to the resize event
-window.addEventListener('resize', () => {
-    // We execute the same script as before
-    let vh = window.innerHeight * 0.01;
-    document.documentElement.style.setProperty('--vh', `${vh}px`);
-});
