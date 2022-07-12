@@ -302,6 +302,32 @@ section h1 {
     color: #007ACC;
 }
 
+.react .progress-bar::before {
+    background: #61DAFB;
+    width: 50%;
+}
+
+.react .progress-bar {
+    border: 1px solid #61DAFB;
+}
+
+.react {
+    color: #61DAFB;
+}
+
+.next .progress-bar::before {
+    background: #000;
+    width: 50%;
+}
+
+.next .progress-bar {
+    border: 1px solid #000;
+}
+
+.next {
+    color: #000;
+}
+
 
 /* Extra small devices (phones, 600px and down) */
 
