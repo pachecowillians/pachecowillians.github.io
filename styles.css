@@ -337,6 +337,19 @@ section h1 {
     color: #000;
 }
 
+.bootstrap .progress-bar::before {
+    background: #7952B3;
+    width: 75%;
+}
+
+.bootstrap .progress-bar {
+    border: 1px solid #7952B3;
+}
+
+.bootstrap {
+    color: #7952B3;
+}
+
 
 /* Extra small devices (phones, 600px and down) */
 
