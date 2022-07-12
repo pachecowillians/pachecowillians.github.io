@@ -122,12 +122,21 @@ languages.map((language) => {
 
 function isInViewport(element) {
     const rect = element.getBoundingClientRect();
-    return (
-        rect.top >= 50 &&
-        rect.left >= 0 &&
-        rect.bottom <= (window.innerHeight - 50 || document.documentElement.clientHeight) &&
-        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-    );
+    if (window.innerWidth < 700) {
+        return (
+            rect.bottom >= 90 &&
+            rect.left >= 0 &&
+            rect.top <= (window.innerHeight - 90 || document.documentElement.clientHeight) &&
+            rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+        )
+    } else {
+        return (
+            rect.bottom >= 0 &&
+            rect.left >= 0 &&
+            rect.top <= (window.innerHeight || document.documentElement.clientHeight) &&
+            rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+        )
+    }
 }
 
 document.querySelector("main").onscroll = () => {
