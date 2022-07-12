@@ -1,5 +1,7 @@
+import { isInViewport } from "./scripts/viewport.js";
+import { setActiveSection } from "./scripts/navbar.js";
+
 var darkTheme = false;
-var selected = "profile";
 let properties = [
     "background",
     "darkgrey",
@@ -10,13 +12,7 @@ let properties = [
     "white",
     "text"
 ];
-let sections = [
-    "profile",
-    "programming",
-    "school",
-    "professional",
-    "projects"
-];
+
 let languages = [
     { name: 'HTML', className: 'html', percentage: 95, color: '#E44D26' },
     { name: 'CSS', className: 'css', percentage: 85, color: '#1572B6' },
@@ -165,25 +161,6 @@ languages.map((language) => {
     `);
 });
 
-function isInViewport(element) {
-    const rect = element.getBoundingClientRect();
-    if (window.innerWidth < 700) {
-        return (
-            rect.bottom >= 90 &&
-            rect.left >= 0 &&
-            rect.top <= (window.innerHeight - 90 || document.documentElement.clientHeight) &&
-            rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-        )
-    } else {
-        return (
-            rect.bottom >= 0 &&
-            rect.left >= 0 &&
-            rect.top <= (window.innerHeight || document.documentElement.clientHeight) &&
-            rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-        )
-    }
-}
-
 document.querySelector("main").onscroll = () => {
     let progressBars = document.querySelectorAll('.progress-bar span');
     [...progressBars].map((progressBar) => {
@@ -193,24 +170,10 @@ document.querySelector("main").onscroll = () => {
             progressBar.style.animation = null;
         }
     });
-
-    sections.map(section => {
-        if (isInViewport(document.querySelector(`#${section}`))) {
-            if (selected != section) {
-                let icon = document.querySelector(`#${section}Icon`);
-                let iconSpan = icon.querySelector("span");
-                iconSpan.classList.add("selected-item");
-
-                let oldIcon = document.querySelector(`#${selected}Icon`);
-                let oldIconSpan = oldIcon.querySelector("span");
-                oldIconSpan.classList.remove("selected-item");
-
-                selected = section;
-            }
-        }
-    });
+    let activeItem = document.querySelector(".selected-item").parentElement.parentElement.id;
+    activeItem = activeItem.substring(0, activeItem.length - 'Item'.length);
+    setActiveSection(activeItem);
 }
-
 
 document.querySelector(".school-container").innerHTML = schooling.map(
     (school) => (`
