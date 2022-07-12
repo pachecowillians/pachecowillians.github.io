@@ -193,18 +193,20 @@ section h1 {
     margin: 2rem 6.4rem 2rem;
 }
 
-#profile {
+
+/* #profile {
     display: none;
-}
+} */
 
 .programming-text {
     font-size: 1.2rem;
-    font-weight: 600;
+    font-weight: 700;
     width: 80%;
     background-color: var(--grey);
     padding: 0.5rem 2rem;
     border-left: 3px solid var(--text);
     text-align: justify;
+    color: var(--text);
 }
 
 .programming-container {
