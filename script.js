@@ -18,27 +18,27 @@ let sections = [
     "projects"
 ];
 let languages = [
-    { name: 'HTML', percentage: 95, color: '#E44D26' },
-    { name: 'CSS', percentage: 85, color: '#1572B6' },
-    { name: 'JavaScript', percentage: 80, color: '#1572B6' },
-    { name: 'TypeScript', percentage: 60, color: '#1572B6' },
-    { name: 'React JS', percentage: 50, color: '#1572B6' },
-    { name: 'Next JS', percentage: 50, color: '#1572B6' },
-    { name: 'Bootstrap', percentage: 75, color: '#1572B6' },
-    { name: 'Flask', percentage: 75, color: '#1572B6' },
-    { name: 'PHP', percentage: 75, color: '#1572B6' },
-    { name: 'Python', percentage: 85, color: '#1572B6' },
-    { name: 'Java', percentage: 40, color: '#1572B6' },
-    { name: 'C', percentage: 90, color: '#1572B6' },
-    { name: 'C++', percentage: 85, color: '#1572B6' },
-    { name: 'C#', percentage: 40, color: '#1572B6' },
-    { name: 'Arch Linux', percentage: 80, color: '#1572B6' },
-    { name: 'Ubuntu', percentage: 85, color: '#1572B6' },
-    { name: 'Windows', percentage: 60, color: '#1572B6' },
-    { name: 'SQL Server', percentage: 60, color: '#1572B6' },
-    { name: 'MySQl', percentage: 85, color: '#1572B6' },
-    { name: 'Docker', percentage: 85, color: '#1572B6' },
-    { name: 'Git', percentage: 90, color: '#1572B6' },
+    { name: 'HTML', className: 'html', percentage: 95, color: '#E44D26' },
+    { name: 'CSS', className: 'css', percentage: 85, color: '#1572B6' },
+    { name: 'JavaScript', className: 'javascript', percentage: 80, color: '#1572B6' },
+    { name: 'TypeScript', className: 'typescript', percentage: 60, color: '#1572B6' },
+    { name: 'React JS', className: 'reactjs', percentage: 50, color: '#1572B6' },
+    { name: 'Next JS', className: 'nextjs', percentage: 50, color: '#1572B6' },
+    { name: 'Bootstrap', className: 'bootstrap', percentage: 75, color: '#1572B6' },
+    { name: 'Flask', className: 'flask', percentage: 75, color: '#1572B6' },
+    { name: 'PHP', className: 'php', percentage: 75, color: '#1572B6' },
+    { name: 'Python', className: 'python', percentage: 85, color: '#1572B6' },
+    { name: 'Java', className: 'java', percentage: 40, color: '#1572B6' },
+    { name: 'C', className: 'c', percentage: 90, color: '#1572B6' },
+    { name: 'C++', className: 'cplusplus', percentage: 85, color: '#1572B6' },
+    { name: 'C#', className: 'csharp', percentage: 40, color: '#1572B6' },
+    { name: 'Arch Linux', className: 'archlinux', percentage: 80, color: '#1572B6' },
+    { name: 'Ubuntu', className: 'ubuntu', percentage: 85, color: '#1572B6' },
+    { name: 'Windows', className: 'windows', percentage: 60, color: '#1572B6' },
+    { name: 'SQL Server', className: 'sqlserver', percentage: 60, color: '#1572B6' },
+    { name: 'MySQl', className: 'mysql', percentage: 85, color: '#1572B6' },
+    { name: 'Docker', className: 'docker', percentage: 85, color: '#1572B6' },
+    { name: 'Git', className: 'git', percentage: 90, color: '#1572B6' },
 ];
 document.querySelector("#theme-toggle").onclick = function() {
     if (!darkTheme) {
@@ -76,8 +76,8 @@ sections.map(section => {
 
 document.querySelector("#programming").innerHTML = languages.map(
     (language) => (`
-            <div class="language-container ${language.name.toLowerCase().replace(' ','')}">
-                <img src="img/Languages/${language.name.toLowerCase().replace(' ','')}.svg" alt="${language.name}">
+            <div class="language-container ${language.className}">
+                <img src="img/Languages/${language.className}.svg" alt="${language.name}">
                 <div class="progress-bar-container">
                     <div class="progress-bar-title">
                         <span>${language.name}</span>
@@ -93,18 +93,17 @@ document.querySelector("#programming").innerHTML = languages.map(
 const addCSS = css => document.head.appendChild(document.createElement("style")).innerHTML = css;
 
 languages.map((language) => {
-    console.log(language);
     addCSS(`
-    .${language.name.toLowerCase().replace(' ','')} .progress-bar::before {
+    .${language.className} .progress-bar::before {
         background: ${language.color};
         width: ${language.percentage}%;
     }
    
-    .${language.name.toLowerCase().replace(' ','')} .progress-bar {
+    .${language.className} .progress-bar {
         border: 1px solid ${language.color};
     }
     
-    .${language.name.toLowerCase().replace(' ','')} {
+    .${language.className} {
         color: ${language.color};
     }
     `);

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.0"
+   width="128"
+   height="128"
+   id="svg2424"
+   sodipodi:docname="archlinux.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview32"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="1.9483333"
+     inkscape:cx="21.813516"
+     inkscape:cy="87.767322"
+     inkscape:window-width="1366"
+     inkscape:window-height="713"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g2424"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1" />
+  <defs
+     id="defs2426">
+    <linearGradient
+       x1="112.49854"
+       y1="6.1372099"
+       x2="112.49853"
+       y2="129.3468"
+       id="path1082_2_"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(287,-83)">
+      <stop
+         id="stop193"
+         style="stop-color:#ffffff;stop-opacity:0"
+         offset="0" />
+      <stop
+         id="stop195"
+         style="stop-color:#ffffff;stop-opacity:0.27450982"
+         offset="1" />
+      <midPointStop
+         offset="0"
+         style="stop-color:#FFFFFF"
+         id="midPointStop197" />
+      <midPointStop
+         offset="0.5"
+         style="stop-color:#FFFFFF"
+         id="midPointStop199" />
+      <midPointStop
+         offset="1"
+         style="stop-color:#000000"
+         id="midPointStop201" />
+    </linearGradient>
+    <linearGradient
+       x1="541.33502"
+       y1="104.50665"
+       x2="606.91248"
+       y2="303.14029"
+       id="linearGradient2544"
+       xlink:href="#path1082_2_"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-0.3937741,0,0,0.393752,357.51969,122.00151)" />
+    <linearGradient
+       id="linearGradient3388">
+      <stop
+         id="stop3390"
+         style="stop-color:#000000;stop-opacity:0"
+         offset="0" />
+      <stop
+         id="stop3392"
+         style="stop-color:#000000;stop-opacity:0.37113401"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       x1="490.72305"
+       y1="237.72447"
+       x2="490.72305"
+       y2="183.9644"
+       id="linearGradient4416"
+       xlink:href="#linearGradient3388"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.749107,0,0,0.749107,-35.459862,91.44108)" />
+  </defs>
+  <g
+     transform="matrix(0.81889109,0,0,0.81889109,26.80072,-88.234084)"
+     id="layer1">
+    <g
+       transform="matrix(0.8746356,0,0,0.8746356,14.730518,23.408954)"
+       id="g2424">
+      <path
+         d="m 35.080136,103.34891 c -7.338289,17.99153 -11.764387,29.76007 -19.934606,47.21678 5.009367,5.30994 11.158129,11.49361 21.143702,18.47749 -10.735469,-4.41757 -18.058369,-8.85271 -23.530894,-13.45507 -10.4563219,21.81871 -26.838373,52.89851 -60.082829,112.63205 26.129027,-15.08475 46.38378451,-24.38464 65.260245,-27.93326 -0.810563,-3.48621 -1.2714,-7.25721 -1.2401,-11.19189 l 0.03101,-0.83707 c 0.414606,-16.74017 9.122832,-29.61336 19.438555,-28.73931 10.315741,0.87408 18.334042,15.16138 17.919455,31.90158 -0.07806,3.14996 -0.433288,6.18021 -1.054092,8.99072 18.671519,3.65247 38.709687,12.92857 64.485168,27.80923 -5.08242,-9.35711 -9.61893,-17.79184 -13.95112,-25.82509 -6.823905,-5.28897 -13.941583,-12.17261 -28.460275,-19.62457 9.979321,2.59305 17.124381,5.58473 22.69382,8.92872 C 53.751536,149.69207 50.1847,138.79504 35.080136,103.34891 Z"
+         id="path2518"
+         style="fill:#1793d1;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.99208" />
+      <g
+         id="text2634"
+         style="font-style:normal;font-weight:normal;font-size:8.44138px;font-family:'DejaVu Sans Mono';fill:#ffffff;fill-opacity:1;stroke:none" />
+      <g
+         id="text2638"
+         style="font-style:normal;font-weight:normal;font-size:8.2513px;font-family:'DejaVu Sans Mono';fill:#ffffff;fill-opacity:1;stroke:none" />
+    </g>
+  </g>
+</svg>
