@@ -64,22 +64,6 @@ document.querySelector("#theme-toggle").onclick = function() {
     darkTheme = !darkTheme;
 }
 
-sections.map(section => {
-    document.querySelector(`#${section}Icon`).onclick = function() {
-        if (selected != section) {
-            let icon = document.querySelector(`#${section}Icon`);
-            let iconSpan = icon.querySelector("span");
-            iconSpan.classList.add("selected-item");
-
-            let oldIcon = document.querySelector(`#${selected}Icon`);
-            let oldIconSpan = oldIcon.querySelector("span");
-            oldIconSpan.classList.remove("selected-item");
-
-            selected = section;
-        }
-    }
-});
-
 document.querySelector(".programming-container").innerHTML = languages.map(
     (language) => (`
             <div class="language-container ${language.className}">
@@ -150,4 +134,21 @@ document.querySelector("main").onscroll = () => {
             progressBar.style.animation = null;
         }
     });
+
+    sections.map(section => {
+        if (isInViewport(document.querySelector(`#${section}`))) {
+            if (selected != section) {
+                let icon = document.querySelector(`#${section}Icon`);
+                let iconSpan = icon.querySelector("span");
+                iconSpan.classList.add("selected-item");
+
+                let oldIcon = document.querySelector(`#${selected}Icon`);
+                let oldIconSpan = oldIcon.querySelector("span");
+                oldIconSpan.classList.remove("selected-item");
+
+                selected = section;
+            }
+        }
+    });
+
 }
