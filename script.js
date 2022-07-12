@@ -88,6 +88,7 @@ document.querySelector("#programming").innerHTML = languages.map(
                         <span>${language.percentage}%</span>
                     </div>
                     <div class="progress-bar">
+                    <span></span>
                     </div>
                 </div>
             </div>
@@ -98,9 +99,9 @@ const addCSS = css => document.head.appendChild(document.createElement("style"))
 
 languages.map((language) => {
     addCSS(`
-    .${language.className} .progress-bar::before {
+    .${language.className} .progress-bar span {
         background: ${language.color};
-        animation: progress-animation-${language.className} 0.8s ease-in forwards;
+        animation: progress-animation-${language.className} 0.8s ease-out forwards;
     }
 
     @keyframes progress-animation-${language.className} {
@@ -118,3 +119,24 @@ languages.map((language) => {
     }
     `);
 });
+
+function isInViewport(element) {
+    const rect = element.getBoundingClientRect();
+    return (
+        rect.top >= 50 &&
+        rect.left >= 0 &&
+        rect.bottom <= (window.innerHeight - 50 || document.documentElement.clientHeight) &&
+        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+}
+
+document.querySelector("main").onscroll = () => {
+    let progressBars = document.querySelectorAll('.progress-bar span');
+    [...progressBars].map((progressBar) => {
+        if (!isInViewport(progressBar)) {
+            progressBar.style.animation = 'none';
+            progressBar.offsetHeight;
+            progressBar.style.animation = null;
+        }
+    });
+}

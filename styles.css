@@ -193,9 +193,10 @@ section h1 {
     margin: 2rem 6.4rem 2rem;
 }
 
-#profile {
+
+/* #profile {
     display: none;
-}
+} */
 
 #programming {
     row-gap: 4rem;
@@ -225,7 +226,7 @@ section h1 {
     overflow: hidden;
 }
 
-.progress-bar::before {
+.progress-bar span {
     content: "";
     position: absolute;
     top: 0;
