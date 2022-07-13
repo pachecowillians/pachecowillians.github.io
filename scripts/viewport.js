@@ -1,4 +1,4 @@
-export function isLanguageInViewport(element) {
+export function isProgressBarInViewport(element) {
     const rect = element.getBoundingClientRect();
     if (window.innerWidth < 700) {
         return (

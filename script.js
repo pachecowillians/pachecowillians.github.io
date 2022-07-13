@@ -1,4 +1,4 @@
-import { isLanguageInViewport } from "./scripts/viewport.js";
+import { isProgressBarInViewport } from "./scripts/viewport.js";
 import { setActiveSection } from "./scripts/navbar.js";
 import { toggleTheme } from "./scripts/theme.js";
 import { languagesCSS, languagesHTML } from "./scripts/language.js";
@@ -59,9 +59,9 @@ setInterval(() => {
 }, 300);
 
 function scrollFunction() {
-    let progressBars = document.querySelectorAll('#programming .progress-bar span');
+    let progressBars = document.querySelectorAll('.progress-bar span');
     [...progressBars].map((progressBar) => {
-        if (isLanguageInViewport(progressBar)) {
+        if (isProgressBarInViewport(progressBar)) {
             progressBar.style.animationPlayState = 'running';
         }
     });

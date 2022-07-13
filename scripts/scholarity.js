@@ -41,10 +41,12 @@ function scholarityCSS(scholarity) {
     return `
     .${scholarity.className} .progress-bar span {
         background: var(--lightblue);
-        animation: progress-animation-${scholarity.className} 0.8s ease-out forwards;
+        animation: animation-${scholarity.className} 0.8s ease-out forwards;
+        animation-play-state: paused;
+
     }
     
-    @keyframes progress-animation-${scholarity.className} {
+    @keyframes animation-${scholarity.className} {
         to {
             width: ${scholarity.percentage}%;
         }
