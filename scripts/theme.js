@@ -30,6 +30,8 @@ export function toggleTheme() {
         imagesToFilter.map((image) => {
             document.querySelector(`#${image}`).style.setProperty("filter", "none");
         });
+
+        document.querySelector("#theme-toggle span").innerHTML = 'dark_mode';
     } else {
         properties.map(prop => {
             document.documentElement.style.setProperty(`--${prop}`, `var(--${prop}-dark)`);
@@ -38,5 +40,7 @@ export function toggleTheme() {
         imagesToFilter.map((image) => {
             document.querySelector(`#${image}`).style.setProperty("filter", "invert(99%) sepia(0%) saturate(0%) hue-rotate(148deg) brightness(87%) contrast(91%)");
         });
+
+        document.querySelector("#theme-toggle span").innerHTML = 'light_mode';
     }
 }
