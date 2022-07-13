@@ -84,7 +84,7 @@ addCSS(languagesCSS());
 // }
 
 
-document.querySelector("main").addEventListener('scroll', (evt) => {
+document.querySelector("main").addEventListener('wheel', (evt) => {
     let progressBars = document.querySelectorAll('#programming .progress-bar span');
     [...progressBars].map((progressBar) => {
         if (isLanguageInViewport(progressBar)) {
