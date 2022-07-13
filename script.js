@@ -71,20 +71,7 @@ const addCSS = css => document.head.appendChild(document.createElement("style"))
 
 addCSS(languagesCSS());
 
-// document.querySelector("main").onscroll = () => {
-//     let progressBars = document.querySelectorAll('#programming .progress-bar span');
-//     [...progressBars].map((progressBar) => {
-//         if (isLanguageInViewport(progressBar)) {
-//             progressBar.style.animationPlayState = 'running';
-//         }
-//     });
-//     let activeItem = document.querySelector(".selected-item").parentElement.parentElement.id;
-//     activeItem = activeItem.substring(0, activeItem.length - 'Item'.length);
-//     setActiveSection(activeItem);
-// }
-
-
-document.querySelector("main").addEventListener('wheel', (evt) => {
+document.querySelector("main").onscroll = () => {
     let progressBars = document.querySelectorAll('#programming .progress-bar span');
     [...progressBars].map((progressBar) => {
         if (isLanguageInViewport(progressBar)) {
@@ -94,10 +81,23 @@ document.querySelector("main").addEventListener('wheel', (evt) => {
     let activeItem = document.querySelector(".selected-item").parentElement.parentElement.id;
     activeItem = activeItem.substring(0, activeItem.length - 'Item'.length);
     setActiveSection(activeItem);
-}, {
-    capture: true,
-    passive: true
-});
+}
+
+
+// document.querySelector("main").addEventListener('wheel', (evt) => {
+//     let progressBars = document.querySelectorAll('#programming .progress-bar span');
+//     [...progressBars].map((progressBar) => {
+//         if (isLanguageInViewport(progressBar)) {
+//             progressBar.style.animationPlayState = 'running';
+//         }
+//     });
+//     let activeItem = document.querySelector(".selected-item").parentElement.parentElement.id;
+//     activeItem = activeItem.substring(0, activeItem.length - 'Item'.length);
+//     setActiveSection(activeItem);
+// }, {
+//     capture: true,
+//     passive: true
+// });
 
 
 
