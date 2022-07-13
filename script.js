@@ -1,30 +1,8 @@
 import { isInViewport } from "./scripts/viewport.js";
 import { setActiveSection } from "./scripts/navbar.js";
 import { toggleTheme } from "./scripts/theme.js";
-
-let languages = [
-    { name: 'HTML', className: 'html', percentage: 95, color: '#E44D26' },
-    { name: 'CSS', className: 'css', percentage: 85, color: '#1572B6' },
-    { name: 'JavaScript', className: 'javascript', percentage: 80, color: '#F0DB4F' },
-    { name: 'TypeScript', className: 'typescript', percentage: 60, color: '#007ACC' },
-    { name: 'React JS', className: 'reactjs', percentage: 50, color: '#61DAFB' },
-    { name: 'Next JS', className: 'nextjs', percentage: 50, color: 'var(--text)' },
-    { name: 'Bootstrap', className: 'bootstrap', percentage: 75, color: '#7952B3' },
-    { name: 'Flask', className: 'flask', percentage: 75, color: 'var(--text)' },
-    { name: 'PHP', className: 'php', percentage: 75, color: '#6181B6' },
-    { name: 'Python', className: 'python', percentage: 85, color: '#386F9F' },
-    { name: 'Java', className: 'java', percentage: 40, color: '#EA2D2E' },
-    { name: 'C', className: 'c', percentage: 90, color: '#03599C' },
-    { name: 'C++', className: 'cplusplus', percentage: 85, color: '#9C033A' },
-    { name: 'C#', className: 'csharp', percentage: 40, color: '#68217A' },
-    { name: 'Arch Linux', className: 'archlinux', percentage: 80, color: '#1793D1' },
-    { name: 'Ubuntu', className: 'ubuntu', percentage: 85, color: '#DD4814' },
-    { name: 'Windows', className: 'windows', percentage: 60, color: '#0078D4' },
-    { name: 'SQL Server', className: 'sqlserver', percentage: 60, color: '#A91D22' },
-    { name: 'MySQl', className: 'mysql', percentage: 85, color: '#00618A' },
-    { name: 'Docker', className: 'docker', percentage: 85, color: '#028BB8' },
-    { name: 'Git', className: 'git', percentage: 90, color: '#F34F29' },
-];
+import { languagesHTML } from "./scripts/languages.js";
+import { languages } from "./data/languages.js";
 
 let schooling = [{
         name: 'UFES - Computer Engineering College',
@@ -88,22 +66,8 @@ document.querySelector("#theme-toggle").onclick = function() {
     toggleTheme();
 }
 
-document.querySelector(".programming-container").innerHTML = languages.map(
-    (language) => (`
-            <div class="language-container ${language.className}">
-                <img src="img/Languages/${language.className}.svg" alt="${language.name}" id="${language.className}">
-                <div class="progress-bar-container">
-                    <div class="progress-bar-title">
-                        <span>${language.name}</span>
-                        <span>${language.percentage}%</span>
-                    </div>
-                    <div class="progress-bar">
-                        <span></span>
-                    </div>
-                </div>
-            </div>
-            `)
-).join('');
+document.querySelector(".programming-container").innerHTML = languagesHTML();
+
 
 const addCSS = css => document.head.appendChild(document.createElement("style")).innerHTML = css;
 
