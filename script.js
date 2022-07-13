@@ -1,7 +1,7 @@
 import { isInViewport } from "./scripts/viewport.js";
 import { setActiveSection } from "./scripts/navbar.js";
 import { toggleTheme } from "./scripts/theme.js";
-import { languagesCSS, languagesHTML } from "./scripts/languages.js";
+import { languagesCSS, languagesHTML } from "./scripts/language.js";
 
 let schooling = [{
         name: 'UFES - Computer Engineering College',
