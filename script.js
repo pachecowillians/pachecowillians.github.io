@@ -71,19 +71,6 @@ const addCSS = css => document.head.appendChild(document.createElement("style"))
 
 addCSS(languagesCSS());
 
-function throttle(fn, wait) {
-    var time = Date.now();
-    return function() {
-        if ((time + wait - Date.now()) < 0) {
-            fn();
-            time = Date.now();
-        }
-    }
-}
-
-// document.querySelector("main").onscroll = throttle(scrollFunction, 1000);
-
-
 let scrolling = false;
 
 document.querySelector("main").onscroll = () => {
@@ -93,17 +80,9 @@ document.querySelector("main").onscroll = () => {
 setInterval(() => {
     if (scrolling) {
         scrolling = false;
-        // place the scroll handling logic here
         scrollFunction();
     }
 }, 300);
-
-// document.querySelector("main").addEventListener(
-//     'scroll',
-//     (event) => {
-//         scrollFunction();
-//     }, { passive: true }
-// );
 
 function scrollFunction() {
     let progressBars = document.querySelectorAll('#programming .progress-bar span');
