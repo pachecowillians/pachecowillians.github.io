@@ -1,4 +1,4 @@
-export function isInViewport(element) {
+export function isLanguageInViewport(element) {
     const rect = element.getBoundingClientRect();
     if (window.innerWidth < 700) {
         return (

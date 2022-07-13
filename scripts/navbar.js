@@ -1,4 +1,4 @@
-import { isInViewport, isSectionInViewport } from "./viewport.js";
+import { isSectionInViewport } from "./viewport.js";
 import { sections } from "../data/sections.js";
 
 export function setActiveSection(oldSection) {

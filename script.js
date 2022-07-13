@@ -1,4 +1,4 @@
-import { isInViewport } from "./scripts/viewport.js";
+import { isLanguageInViewport } from "./scripts/viewport.js";
 import { setActiveSection } from "./scripts/navbar.js";
 import { toggleTheme } from "./scripts/theme.js";
 import { languagesCSS, languagesHTML } from "./scripts/language.js";
@@ -72,12 +72,10 @@ const addCSS = css => document.head.appendChild(document.createElement("style"))
 addCSS(languagesCSS());
 
 document.querySelector("main").onscroll = () => {
-    let progressBars = document.querySelectorAll('.progress-bar span');
+    let progressBars = document.querySelectorAll('#programming .progress-bar span');
     [...progressBars].map((progressBar) => {
-        if (!isInViewport(progressBar)) {
-            progressBar.style.animation = 'none';
-            progressBar.offsetHeight;
-            progressBar.style.animation = null;
+        if (isLanguageInViewport(progressBar)) {
+            progressBar.style.animationPlayState = 'running';
         }
     });
     let activeItem = document.querySelector(".selected-item").parentElement.parentElement.id;

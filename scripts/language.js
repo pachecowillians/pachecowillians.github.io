@@ -29,10 +29,11 @@ function languageCSS(language) {
     return `
     .${language.className} .progress-bar span {
         background: ${language.color};
-        animation: progress-animation-${language.className} 0.8s ease-out forwards;
+        animation: animation-${language.className} 0.8s ease-out forwards;
+        animation-play-state: paused;
     }
 
-    @keyframes progress-animation-${language.className} {
+    @keyframes animation-${language.className} {
         to {
             width: ${language.percentage}%;
         }
