@@ -287,7 +287,8 @@ section h1 {
     color: var(--text);
 }
 
-.school {
+.scholarity,
+.courses {
     display: flex;
     flex-direction: row;
     align-content: center;
@@ -297,26 +298,19 @@ section h1 {
     padding: 1rem 0rem;
 }
 
-.school p {
+.scholarity p,
+.courses p {
     font-size: 2.1rem;
     font-weight: 700;
 }
 
-.school span {
+.scholarity span,
+.courses span {
     font-size: 2.4rem;
     font-weight: 500;
 }
 
-.school-container {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    align-items: stretch;
-    row-gap: 2rem;
-}
-
+.scholarity-container,
 .courses-container {
     width: 100%;
     display: flex;
@@ -327,7 +321,7 @@ section h1 {
     row-gap: 2rem;
 }
 
-.school-item {
+.scholarity-item {
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -336,12 +330,12 @@ section h1 {
     row-gap: 1rem;
 }
 
-.school-container .progress-bar,
+.scholarity-container .progress-bar,
 .courses-container .progress-bar {
     border: 1px solid var(--lightblue);
 }
 
-.school-item-texts {
+.scholarity-item-texts {
     display: flex;
     flex-direction: row;
     align-content: center;
@@ -350,7 +344,7 @@ section h1 {
     width: 100%;
 }
 
-.school-item-title a {
+.scholarity-item-title a {
     display: flex;
     flex-direction: row;
     align-content: center;
@@ -363,17 +357,17 @@ section h1 {
     text-decoration: inherit;
 }
 
-.school-item-title span {
+.scholarity-item-title span {
     display: flex;
     font-size: 2rem;
 }
 
-.school-item-information * {
+.scholarity-item-information * {
     padding: 0;
     margin: 0;
 }
 
-.school-item-information {
+.scholarity-item-information {
     display: flex;
     flex-direction: column;
     align-content: space-between;
@@ -382,11 +376,11 @@ section h1 {
     row-gap: 0.5rem;
 }
 
-.school-item-date {
+.scholarity-item-date {
     font-size: 1.1rem;
 }
 
-.school-item-percentage {
+.scholarity-item-percentage {
     font-size: 1.2rem;
     font-weight: 700;
 }
