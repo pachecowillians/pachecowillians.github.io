@@ -83,12 +83,27 @@ function throttle(fn, wait) {
 
 // document.querySelector("main").onscroll = throttle(scrollFunction, 1000);
 
-document.querySelector("main").addEventListener(
-    'scroll',
-    (event) => {
+
+let scrolling = false;
+
+document.querySelector("main").onscroll = () => {
+    scrolling = true;
+};
+
+setInterval(() => {
+    if (scrolling) {
+        scrolling = false;
+        // place the scroll handling logic here
         scrollFunction();
-    }, { passive: true }
-);
+    }
+}, 300);
+
+// document.querySelector("main").addEventListener(
+//     'scroll',
+//     (event) => {
+//         scrollFunction();
+//     }, { passive: true }
+// );
 
 function scrollFunction() {
     let progressBars = document.querySelectorAll('#programming .progress-bar span');
