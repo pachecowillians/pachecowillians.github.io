@@ -41,7 +41,7 @@ function courseCSS(course) {
     return `
     .${course.className} .progress-bar span {
         background: var(--lightblue);
-        animation: animation-${course.className} 0.8s ease-out forwards;
+        animation: animation-${course.className} 1.4s ease-out forwards;
         animation-play-state: paused;
 
     }
