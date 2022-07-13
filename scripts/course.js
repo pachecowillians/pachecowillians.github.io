@@ -14,12 +14,12 @@ function courseHTML(course) {
                 <div class="course-item-texts">
                     <div class="course-item-information">
                         <div class="course-item-title">
-                            <a href="">
+                            <div>
                                 <p>${course.name}</p>
                                 <span class="material-symbols-outlined">
-                                    link
+                                    expand_more
                                 </span>
-                            </a>
+                            </div>
                         </div>
                         <div class="course-item-date">
                             <p>${course.date}</p>

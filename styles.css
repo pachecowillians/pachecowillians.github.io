@@ -152,11 +152,11 @@ main::-webkit-scrollbar {
     display: none;
 }
 
-main section {
+main section .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 8rem 0rem;
+    padding: 5rem 2rem;
     min-height: calc(100% - 100px);
     border-bottom: 1px solid black;
 }
@@ -167,7 +167,7 @@ section h1 {
     color: var(--text);
 }
 
-#profile>img {
+#profile img {
     width: 15rem;
     height: 15rem;
     border-radius: 50%;
@@ -348,10 +348,10 @@ section h1 {
     width: 100%;
 }
 
-.scholarity-item-title a,
-.course-item-title a {
+.scholarity-item-title div,
+.course-item-title div {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     align-content: center;
     justify-content: center;
     align-items: flex-start;
@@ -393,6 +393,10 @@ section h1 {
 .course-item-percentage {
     font-size: 1.2rem;
     font-weight: 700;
+}
+
+summary {
+    list-style: none;
 }
 
 

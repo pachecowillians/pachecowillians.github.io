@@ -10,16 +10,17 @@ export function schoolingCSS() {
 
 function scholarityHTML(scholarity) {
     return `
-            <div class="scholarity-item ${scholarity.className}">
+            <details class="scholarity-item ${scholarity.className}">
+            <summary class="title">
                 <div class="scholarity-item-texts">
                     <div class="scholarity-item-information">
                         <div class="scholarity-item-title">
-                            <a href="">
+                            <div>
                                 <p>${scholarity.name}</p>
                                 <span class="material-symbols-outlined">
-                                    link
+                                    expand_more
                                 </span>
-                            </a>
+                            </div>
                         </div>
                         <div class="scholarity-item-date">
                             <p>${scholarity.begin} - ${scholarity.end}</p>
@@ -33,7 +34,9 @@ function scholarityHTML(scholarity) {
                 <div class="progress-bar">
                     <span></span>
                 </div>
-            </div>
+                </summary>
+                <div class="description">Texto</div>
+            </details>
         `;
 }
 
