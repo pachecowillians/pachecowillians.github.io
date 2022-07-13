@@ -202,12 +202,13 @@ section h1 {
 .information-text {
     font-size: 1.2rem;
     font-weight: 700;
-    width: 80%;
+    width: 70%;
     background-color: var(--grey);
     padding: 0.5rem 2rem;
     border-left: 3px solid var(--text);
     text-align: justify;
     color: var(--text);
+    transition: background-color 300ms, color 300ms;
 }
 
 .programming-container {
@@ -255,7 +256,7 @@ section h1 {
     align-items: flex-end;
     column-gap: 1.6rem;
     height: 4rem;
-    width: 80%;
+    width: 85%;
 }
 
 .progress-bar-title {
@@ -272,7 +273,8 @@ section h1 {
 
 .language-container img {
     height: 100%;
-    max-width: 4rem;
+    max-height: 3.5rem;
+    max-width: 3.5rem;
 }
 
 .study-container {
@@ -352,7 +354,7 @@ section h1 {
     flex-direction: row;
     align-content: center;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     column-gap: 10px;
     font-size: 1.4rem;
     font-weight: 600;
@@ -414,7 +416,7 @@ section h1 {
     #sidebar-menu {
         flex-direction: row;
         row-gap: 0;
-        column-gap: 4rem;
+        column-gap: 5rem;
     }
     aside#option-menu {
         flex-direction: row-reverse;
