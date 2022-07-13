@@ -34,7 +34,6 @@ function onScroll() {
     setActiveSection(activeItem);
 }
 
-
 document.querySelector("main").onscroll = () => {
     scrolling = true;
 };
