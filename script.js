@@ -83,24 +83,6 @@ document.querySelector("main").onscroll = () => {
     setActiveSection(activeItem);
 }
 
-
-// document.querySelector("main").addEventListener('wheel', (evt) => {
-//     let progressBars = document.querySelectorAll('#programming .progress-bar span');
-//     [...progressBars].map((progressBar) => {
-//         if (isLanguageInViewport(progressBar)) {
-//             progressBar.style.animationPlayState = 'running';
-//         }
-//     });
-//     let activeItem = document.querySelector(".selected-item").parentElement.parentElement.id;
-//     activeItem = activeItem.substring(0, activeItem.length - 'Item'.length);
-//     setActiveSection(activeItem);
-// }, {
-//     capture: true,
-//     passive: true
-// });
-
-
-
 document.querySelector(".school-container").innerHTML = schooling.map(
     (school) => (`
                 <div class="school-item ${school.className}">
