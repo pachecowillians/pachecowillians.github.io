@@ -1,17 +1,6 @@
 import { isInViewport } from "./scripts/viewport.js";
 import { setActiveSection } from "./scripts/navbar.js";
-
-var darkTheme = false;
-let properties = [
-    "background",
-    "darkgrey",
-    "darkblue",
-    "black",
-    "lightblue",
-    "grey",
-    "white",
-    "text"
-];
+import { toggleTheme } from "./scripts/theme.js";
 
 let languages = [
     { name: 'HTML', className: 'html', percentage: 95, color: '#E44D26' },
@@ -96,27 +85,7 @@ let courses = [{
 ];
 
 document.querySelector("#theme-toggle").onclick = function() {
-    if (!darkTheme) {
-        properties.map(prop => {
-            document.documentElement.style.setProperty(`--${prop}`, `var(--${prop}-dark)`);
-        });
-        document.querySelector("#logoNavbar").style.setProperty("filter", "invert(99%) sepia(0%) saturate(0%) hue-rotate(148deg) brightness(87%) contrast(91%)");
-        document.querySelector("#logoTopbar").style.setProperty("filter", "invert(99%) sepia(0%) saturate(0%) hue-rotate(148deg) brightness(87%) contrast(91%)");
-        document.querySelector("#github").style.setProperty("filter", "invert(99%) sepia(0%) saturate(0%) hue-rotate(148deg) brightness(87%) contrast(91%)");
-        document.querySelector("#nextjs").style.setProperty("filter", "invert(99%) sepia(0%) saturate(0%) hue-rotate(148deg) brightness(87%) contrast(91%)");
-        document.querySelector("#flask").style.setProperty("filter", "invert(99%) sepia(0%) saturate(0%) hue-rotate(148deg) brightness(87%) contrast(91%)");
-    } else {
-        properties.map(prop => {
-            document.documentElement.style.setProperty(`--${prop}`, `var(--${prop}-light)`);
-        });
-        document.querySelector("#logoNavbar").style.setProperty("filter", "none");
-        document.querySelector("#logoTopbar").style.setProperty("filter", "none");
-        document.querySelector("#github").style.setProperty("filter", "none");
-        document.querySelector("#nextjs").style.setProperty("filter", "none");
-        document.querySelector("#flask").style.setProperty("filter", "none");
-
-    }
-    darkTheme = !darkTheme;
+    toggleTheme();
 }
 
 document.querySelector(".programming-container").innerHTML = languages.map(
