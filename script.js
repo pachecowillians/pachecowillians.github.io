@@ -71,7 +71,20 @@ const addCSS = css => document.head.appendChild(document.createElement("style"))
 
 addCSS(languagesCSS());
 
-document.querySelector("main").onscroll = () => {
+// document.querySelector("main").onscroll = () => {
+//     let progressBars = document.querySelectorAll('#programming .progress-bar span');
+//     [...progressBars].map((progressBar) => {
+//         if (isLanguageInViewport(progressBar)) {
+//             progressBar.style.animationPlayState = 'running';
+//         }
+//     });
+//     let activeItem = document.querySelector(".selected-item").parentElement.parentElement.id;
+//     activeItem = activeItem.substring(0, activeItem.length - 'Item'.length);
+//     setActiveSection(activeItem);
+// }
+
+
+document.querySelector("main").addEventListener('scroll', (evt) => {
     let progressBars = document.querySelectorAll('#programming .progress-bar span');
     [...progressBars].map((progressBar) => {
         if (isLanguageInViewport(progressBar)) {
@@ -81,7 +94,12 @@ document.querySelector("main").onscroll = () => {
     let activeItem = document.querySelector(".selected-item").parentElement.parentElement.id;
     activeItem = activeItem.substring(0, activeItem.length - 'Item'.length);
     setActiveSection(activeItem);
-}
+}, {
+    capture: true,
+    passive: true
+});
+
+
 
 document.querySelector(".school-container").innerHTML = schooling.map(
     (school) => (`
