@@ -47,4 +47,4 @@ setInterval(() => {
         scrolling = false;
         onScroll();
     }
-}, 300);
+}, 200);
