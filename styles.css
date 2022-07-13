@@ -321,7 +321,8 @@ section h1 {
     row-gap: 2rem;
 }
 
-.scholarity-item {
+.scholarity-item,
+.course-item {
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -335,7 +336,8 @@ section h1 {
     border: 1px solid var(--lightblue);
 }
 
-.scholarity-item-texts {
+.scholarity-item-texts,
+.course-item-texts {
     display: flex;
     flex-direction: row;
     align-content: center;
@@ -344,7 +346,8 @@ section h1 {
     width: 100%;
 }
 
-.scholarity-item-title a {
+.scholarity-item-title a,
+.course-item-title a {
     display: flex;
     flex-direction: row;
     align-content: center;
@@ -357,17 +360,20 @@ section h1 {
     text-decoration: inherit;
 }
 
-.scholarity-item-title span {
+.scholarity-item-title span,
+.course-item-title span {
     display: flex;
     font-size: 2rem;
 }
 
-.scholarity-item-information * {
+.scholarity-item-information *,
+.course-item-information * {
     padding: 0;
     margin: 0;
 }
 
-.scholarity-item-information {
+.scholarity-item-information,
+.course-item-information {
     display: flex;
     flex-direction: column;
     align-content: space-between;
@@ -376,11 +382,13 @@ section h1 {
     row-gap: 0.5rem;
 }
 
-.scholarity-item-date {
+.scholarity-item-date,
+.course-item-date {
     font-size: 1.1rem;
 }
 
-.scholarity-item-percentage {
+.scholarity-item-percentage,
+.course-item-percentage {
     font-size: 1.2rem;
     font-weight: 700;
 }
