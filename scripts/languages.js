@@ -4,6 +4,10 @@ export function languagesHTML() {
     return languages.map((language) => (languageHTML(language))).join('');
 }
 
+export function languagesCSS() {
+    return languages.map((language) => (languageCSS(language))).join('\n');
+}
+
 function languageHTML(language) {
     return `
         <div class="language-container ${language.className}">
@@ -18,5 +22,28 @@ function languageHTML(language) {
                 </div>
             </div>
         </div>
+    `;
+}
+
+function languageCSS(language) {
+    return `
+    .${language.className} .progress-bar span {
+        background: ${language.color};
+        animation: progress-animation-${language.className} 0.8s ease-out forwards;
+    }
+
+    @keyframes progress-animation-${language.className} {
+        to {
+            width: ${language.percentage}%;
+        }
+    }
+   
+    .${language.className} .progress-bar {
+        border: 1px solid ${language.color};
+    }
+    
+    .${language.className} {
+        color: ${language.color};
+    }
     `;
 }
