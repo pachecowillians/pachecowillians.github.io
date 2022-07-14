@@ -23,7 +23,7 @@ function scholarityHTML(scholarity) {
                                 </div>
                             </div>
                             <div class="scholarity-item-date">
-                                <p>${scholarity.begin} - ${scholarity.end}</p>
+                                <p>${scholarity.data}</p>
                             </div>
                         </div>
                         <div class="scholarity-item-percentage">
@@ -35,7 +35,14 @@ function scholarityHTML(scholarity) {
                         <span></span>
                     </div>
                 </summary>
-                <div class="description">Texto</div>
+                <div class="scholarity-collapse">
+                    <h3>Description</h3>
+                    <p>${scholarity.description}</p>
+                    <h3>Subjects Studied</h3>
+                    <ul>
+                        ${scholarity.subjectsStudied.map((subject)=>(`<li>${subject}</li>`)).join('')}
+                    </ul>
+                </div>
             </details>
         `;
 }

@@ -406,6 +406,10 @@ summary {
     list-style: none;
 }
 
+.scholarity-collapse {
+    text-align: justify;
+}
+
 
 /* Extra small devices (phones, 600px and down) */
 
