@@ -35,7 +35,14 @@ function courseHTML(course) {
                         <span></span>
                     </div>
                 </summary>
-                <div class="description">Texto</div>
+                <div class="course-collapse">
+                    <h3>Description</h3>
+                    <p>${course.description}</p>
+                    <h3>Subjects Studied</h3>
+                    <ul>
+                        ${course.subjectsStudied.map((subject)=>(`<li>${subject}</li>`)).join('')}
+                    </ul>
+                </div>
             </details>
         `;
 }
