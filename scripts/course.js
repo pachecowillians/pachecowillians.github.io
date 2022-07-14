@@ -10,30 +10,33 @@ export function coursesCSS() {
 
 function courseHTML(course) {
     return `
-            <div class="course-item ${course.className}">
-                <div class="course-item-texts">
-                    <div class="course-item-information">
-                        <div class="course-item-title">
-                            <div>
-                                <p>${course.name}</p>
-                                <span class="material-symbols-outlined">
-                                    expand_more
-                                </span>
+            <details class="course-item ${course.className}">
+                <summary>
+                    <div class="course-item-texts">
+                        <div class="course-item-information">
+                            <div class="course-item-title">
+                                <div>
+                                    <p>${course.name}</p>
+                                    <span class="material-symbols-outlined">
+                                        expand_more
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="course-item-date">
+                                <p>${course.date}</p>
                             </div>
                         </div>
-                        <div class="course-item-date">
-                            <p>${course.date}</p>
+                        <div class="course-item-percentage">
+                            <span>${course.percentage}%</span>
                         </div>
                     </div>
-                    <div class="course-item-percentage">
-                        <span>${course.percentage}%</span>
-                    </div>
-                </div>
 
-                <div class="progress-bar">
-                    <span></span>
-                </div>
-            </div>
+                    <div class="progress-bar">
+                        <span></span>
+                    </div>
+                </summary>
+                <div class="description">Texto</div>
+            </details>
         `;
 }
 
