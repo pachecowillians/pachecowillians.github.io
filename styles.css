@@ -415,11 +415,12 @@ summary {
 }
 
 details[open] .scholarity-item-title span {
-    transform: rotate(180deg);
+    transform: rotate(0deg);
 }
 
 .scholarity-item-title span {
     transition: .25s transform ease;
+    transform: rotate(-90deg);
 }
 
 
