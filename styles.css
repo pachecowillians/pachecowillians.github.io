@@ -154,6 +154,8 @@ main::-webkit-scrollbar {
 
 main section {
     min-height: 100%;
+    border-bottom: 1px solid var(--grey);
+    transition: border 300ms;
 }
 
 main section .container {
