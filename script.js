@@ -12,10 +12,8 @@ document.querySelector(".programming-container").innerHTML = languagesHTML();
 addCSS(languagesCSS());
 
 document.querySelector(".scholarity-container").innerHTML = schoolingHTML();
-addCSS(schoolingCSS());
 
 document.querySelector(".courses-container").innerHTML = coursesHTML();
-addCSS(coursesCSS());
 
 function progressBarsLoad() {
     let progressBars = document.querySelectorAll('.progress-bar span');
@@ -48,3 +46,16 @@ setInterval(() => {
         onScroll();
     }
 }, 200);
+
+let toggleItems = document.querySelectorAll(".school-item-toggle-icon");
+
+[...toggleItems].map((item) => {
+    item.onclick = (event) => {
+        let schoolItem = event.target.parentElement.parentElement;
+        if (schoolItem.classList.contains("item-active")) {
+            schoolItem.classList.remove("item-active");
+        } else {
+            schoolItem.classList.add("item-active");
+        }
+    };
+})

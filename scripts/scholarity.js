@@ -10,56 +10,30 @@ export function schoolingCSS() {
 
 function scholarityHTML(scholarity) {
     return `
-            <details class="scholarity-item ${scholarity.className}">
-                <summary>
-                    <div class="scholarity-item-texts">
-                        <div class="scholarity-item-information">
-                            <div class="scholarity-item-title">
-                                <div>
-                                    <p>${scholarity.name}</p>
-                                    <span class="material-symbols-outlined">
-                                        expand_more
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="scholarity-item-date">
-                                <p>${scholarity.data}</p>
-                            </div>
-                        </div>
-                        <div class="scholarity-item-percentage">
-                            <span>${scholarity.percentage}%</span>
-                        </div>
+    <div class="school-item-container ${scholarity.className}">
+        <div class="school-item-toggle-icon">
+            <span class="material-symbols-outlined">
+                navigate_next
+            </span>
+        </div>
+        <div class="school-item-information">
+            <div class="school-item-visible-area">
+                <div class="school-item-header">
+                    <div class="school-item-header-information">
+                        <h2>${scholarity.name}</h2>
+                        <p>${scholarity.data}</p>
                     </div>
-
-                    <div class="progress-bar">
-                        <span></span>
-                    </div>
-                </summary>
-                <div class="scholarity-collapse">
-                    <h3>Description</h3>
-                    <p>${scholarity.description}</p>
-                    <h3>Subjects Studied</h3>
-                    <ul>
-                        ${scholarity.subjectsStudied.map((subject)=>(`<li>${subject}</li>`)).join('')}
-                    </ul>
                 </div>
-            </details>
+            </div>
+            <div class="school-item-collapse-area">
+                <h3>Description</h3>
+                <p>${scholarity.description}</p>
+                <h3>Subjects Studied</h3>
+                <ul>
+                    ${scholarity.subjectsStudied.map((subject)=>(`<li>${subject}</li>`)).join('')}
+                </ul>
+            </div>
+        </div>
+    </div>
         `;
-}
-
-function scholarityCSS(scholarity) {
-    return `
-    .${scholarity.className} .progress-bar span {
-        background: var(--lightblue);
-        animation: animation-${scholarity.className} 1.4s ease-out forwards;
-        animation-play-state: paused;
-
-    }
-    
-    @keyframes animation-${scholarity.className} {
-        to {
-            width: ${scholarity.percentage}%;
-        }
-    }
-    `;
 }

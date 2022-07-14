@@ -321,106 +321,59 @@ section h1 {
     row-gap: 2rem;
 }
 
-.scholarity-item,
-.course-item {
+.school-item-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-content: center;
-    justify-content: center;
-    align-items: center;
-    row-gap: 1rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 60rem;
+    padding-left: 3rem;
+}
+
+.school-item-header h2 {
+    padding: 0px;
+    margin: 0px;
+    font-size: 1.5rem;
+}
+
+.school-item-toggle-icon {
+    padding-right: 1rem;
     cursor: pointer;
+    user-select: none;
 }
 
-.scholarity-container .progress-bar,
-.courses-container .progress-bar {
-    border: 1px solid var(--lightblue);
+.school-item-collapse-area {
+    max-height: 0rem;
+    text-align: justify;
+    overflow: hidden;
+    transition: 0.7s max-height ease;
 }
 
-.scholarity-item-texts,
-.course-item-texts {
+.school-item-toggle-icon span {
+    transition: .25s transform ease;
+}
+
+.item-active .school-item-toggle-icon span {
+    transform: rotate(90deg);
+}
+
+.item-active .school-item-collapse-area {
+    max-height: 30rem;
+}
+
+.school-item-header {
     display: flex;
     flex-direction: row;
     align-content: center;
     justify-content: space-between;
-    align-items: flex-end;
-    width: 100%;
-    margin-bottom: 1rem;
+    align-items: center;
 }
 
-.scholarity-item-title div,
-.course-item-title div {
-    display: flex;
-    flex-direction: row-reverse;
-    align-content: center;
-    justify-content: center;
-    align-items: flex-start;
-    column-gap: 10px;
-    font-size: 1.4rem;
-    font-weight: 600;
-    color: inherit;
-    text-decoration: inherit;
-}
-
-.scholarity-item-title span,
-.course-item-title span {
-    display: flex;
-    font-size: 2rem;
-    user-select: none;
-}
-
-.scholarity-item-information *,
-.course-item-information * {
-    padding: 0;
-    margin: 0;
-}
-
-.scholarity-item-information,
-.course-item-information {
-    display: flex;
-    flex-direction: column;
-    align-content: space-between;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    row-gap: 0.5rem;
-}
-
-.scholarity-item-date,
-.course-item-date {
-    font-size: 1.1rem;
-    padding-left: 35px;
-}
-
-.scholarity-item-percentage,
-.course-item-percentage {
-    font-size: 1.2rem;
-    font-weight: 700;
-}
-
-summary {
-    list-style: none;
-}
-
-.scholarity-collapse,
-.course-collapse {
-    text-align: justify;
-    width: calc(100% - 35px);
-    margin-left: 35px;
-}
-
-.scholarity-item .progress-bar,
-.course-item .progress-bar {
-    width: calc(100% - 35px);
-    margin-left: 35px;
-}
-
-details[open] .scholarity-item-title span {
-    transform: rotate(0deg);
-}
-
-.scholarity-item-title span {
-    transition: .25s transform ease;
-    transform: rotate(-90deg);
+.school-item-header-information p {
+    padding: 0px;
+    margin: 0px;
+    margin-top: 1rem;
 }
 
 
