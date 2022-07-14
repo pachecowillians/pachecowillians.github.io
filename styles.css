@@ -394,6 +394,7 @@ section h1 {
 .scholarity-item-date,
 .course-item-date {
     font-size: 1.1rem;
+    padding-left: 35px;
 }
 
 .scholarity-item-percentage,
@@ -406,8 +407,17 @@ summary {
     list-style: none;
 }
 
-.scholarity-collapse {
+.scholarity-collapse,
+.course-collapse {
     text-align: justify;
+    width: calc(100% - 35px);
+    margin-left: 35px;
+}
+
+.scholarity-item .progress-bar,
+.course-item .progress-bar {
+    width: calc(100% - 35px);
+    margin-left: 35px;
 }
 
 
