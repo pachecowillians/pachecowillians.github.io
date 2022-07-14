@@ -197,12 +197,6 @@ section h1 {
     margin: 2rem 0rem;
 }
 
-
-/* #profile,
-#programming {
-    display: none;
-} */
-
 .information-text {
     font-size: 1.2rem;
     font-weight: 700;
@@ -335,6 +329,7 @@ section h1 {
     justify-content: center;
     align-items: center;
     row-gap: 1rem;
+    cursor: pointer;
 }
 
 .scholarity-container .progress-bar,
@@ -371,7 +366,6 @@ section h1 {
 .course-item-title span {
     display: flex;
     font-size: 2rem;
-    cursor: pointer;
     user-select: none;
 }
 
@@ -418,6 +412,14 @@ summary {
 .course-item .progress-bar {
     width: calc(100% - 35px);
     margin-left: 35px;
+}
+
+details[open] .scholarity-item-title span {
+    transform: rotate(180deg);
+}
+
+.scholarity-item-title span {
+    transition: .25s transform ease;
 }
 
 
