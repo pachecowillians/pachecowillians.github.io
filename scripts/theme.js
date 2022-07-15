@@ -9,19 +9,19 @@ let properties = [
     "text"
 ];
 
+let imagesToFilter = [
+    "logoNavbar",
+    "logoTopbar",
+    "github",
+    "nextjs",
+    "flask",
+    "controleeletronica"
+]
+
 export function toggleTheme() {
     let windowStyle = window.getComputedStyle(document.documentElement);
     let actualBackground = windowStyle.getPropertyValue('--background').replace(/\s/g, '');
     let darkBackground = windowStyle.getPropertyValue('--background-dark').replace(/\s/g, '');
-
-    let imagesToFilter = [
-        "logoNavbar",
-        "logoTopbar",
-        "github",
-        "nextjs",
-        "flask",
-        "controleeletronica"
-    ]
 
     if (actualBackground == darkBackground) {
         properties.map(prop => {
