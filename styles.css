@@ -419,14 +419,14 @@ section h1 {
 .projects-container {
     display: grid;
     align-content: center;
-    justify-content: center;
-    align-items: center;
+    align-items: start;
     justify-items: center;
     grid-template-columns: repeat(2, 1fr);
     margin-top: 6rem;
     max-width: 80%;
     row-gap: 3rem;
     column-gap: 3rem;
+    justify-content: center;
 }
 
 .project-item {
@@ -434,7 +434,7 @@ section h1 {
     flex-direction: column;
     align-content: center;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     text-align: justify;
     padding: 3rem 2rem;
     border-radius: 1.5rem;
