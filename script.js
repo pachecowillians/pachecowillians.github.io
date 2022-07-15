@@ -51,7 +51,7 @@ let toggleItems = document.querySelectorAll(".school-item-toggle-icon");
 
 [...toggleItems].map((item) => {
     item.onclick = (event) => {
-        let schoolItem = event.target.parentElement.parentElement;
+        let schoolItem = event.currentTarget.parentElement;
         if (schoolItem.classList.contains("item-active")) {
             schoolItem.classList.remove("item-active");
         } else {
