@@ -4,10 +4,6 @@ export function schoolingHTML() {
     return schooling.map((scholarity) => (scholarityHTML(scholarity))).join('');
 }
 
-export function schoolingCSS() {
-    return schooling.map((scholarity) => (scholarityCSS(scholarity))).join('\n');
-}
-
 function scholarityHTML(scholarity) {
     return `
     <div class="school-item-container ${scholarity.className}">

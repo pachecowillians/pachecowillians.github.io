@@ -2,8 +2,8 @@ import { isProgressBarInViewport } from "./scripts/viewport.js";
 import { setActiveSection } from "./scripts/navbar.js";
 import { toggleTheme } from "./scripts/theme.js";
 import { languagesCSS, languagesHTML } from "./scripts/language.js";
-import { schoolingCSS, schoolingHTML } from "./scripts/scholarity.js";
-import { coursesCSS, coursesHTML } from "./scripts/course.js";
+import { schoolingHTML } from "./scripts/scholarity.js";
+import { coursesHTML } from "./scripts/course.js";
 
 const addCSS = css => document.head.appendChild(document.createElement("style")).innerHTML = css;
 let scrolling = false;
