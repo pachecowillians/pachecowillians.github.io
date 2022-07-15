@@ -17,7 +17,7 @@ function scholarityHTML(scholarity) {
                 <div class="school-item-header">
                     <div class="school-item-header-information">
                         <h2>${scholarity.name}</h2>
-                        <p>${scholarity.data}</p>
+                        <p>${scholarity.date}</p>
                     </div>
                 </div>
             </div>
