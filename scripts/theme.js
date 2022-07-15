@@ -9,14 +9,22 @@ let properties = [
     "text"
 ];
 
+// let imagesToFilter = [
+//     "logoNavbar",
+//     "logoTopbar",
+//     "github",
+//     "nextjs",
+//     "flask",
+//     "controleeletronica"
+// ]
+
 let imagesToFilter = [
-    "logoNavbar",
-    "logoTopbar",
-    "github",
-    "nextjs",
-    "flask",
-    "controleeletronica"
-]
+    "logo.svg",
+    "github.svg",
+    "nextjs.svg",
+    "flask.svg",
+    "controleeletronica.png"
+];
 
 export function toggleTheme() {
     let windowStyle = window.getComputedStyle(document.documentElement);
