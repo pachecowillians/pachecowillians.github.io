@@ -19,7 +19,8 @@ export function toggleTheme() {
         "logoTopbar",
         "github",
         "nextjs",
-        "flask"
+        "flask",
+        "controleeletronica"
     ]
 
     if (actualBackground == darkBackground) {

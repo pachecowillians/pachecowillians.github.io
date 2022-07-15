@@ -390,6 +390,7 @@ section h1 {
     align-items: center;
     padding-top: 6rem;
     row-gap: 3rem;
+    color: var(--text);
 }
 
 .professional-item {
