@@ -9,15 +9,6 @@ let properties = [
     "text"
 ];
 
-// let imagesToFilter = [
-//     "logoNavbar",
-//     "logoTopbar",
-//     "github",
-//     "nextjs",
-//     "flask",
-//     "controleeletronica"
-// ]
-
 let imagesToFilter = [
     "logo.svg",
     "github.svg",
