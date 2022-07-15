@@ -427,6 +427,7 @@ section h1 {
     row-gap: 3rem;
     column-gap: 3rem;
     justify-content: center;
+    color: var(--text);
 }
 
 .project-item {
