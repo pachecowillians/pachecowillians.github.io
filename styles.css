@@ -416,13 +416,6 @@ section h1 {
     column-gap: 3rem;
 }
 
-#profile,
-#programming,
-#school,
-#professional {
-    display: none;
-}
-
 .projects-container {
     display: grid;
     align-content: center;
