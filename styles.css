@@ -458,7 +458,7 @@ section h1 {
     align-content: center;
     justify-content: center;
     align-items: flex-start;
-    row-gap: 1.5rem;
+    row-gap: 1rem;
 }
 
 .project-item-header {
@@ -472,7 +472,6 @@ section h1 {
 
 .project-item-header h2 {
     font-size: 1.8rem;
-    margin: 2rem 0rem;
 }
 
 .project-item-languages {
@@ -487,7 +486,7 @@ section h1 {
 }
 
 .project-item-languages img {
-    height: 2.5rem;
+    height: 2rem;
 }
 
 .project-item-content {
