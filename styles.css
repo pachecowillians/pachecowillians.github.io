@@ -468,6 +468,9 @@ section h1 {
     section h1 {
         font-size: 2.5rem;
     }
+    .professional-item {
+        max-width: 90%;
+    }
 }
 
 
