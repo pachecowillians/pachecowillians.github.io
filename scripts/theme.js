@@ -37,8 +37,12 @@ export function toggleTheme() {
         });
 
         imagesToFilter.map((image) => {
-            document.querySelector(`#${image}`).style.setProperty("filter", "none");
+            let equalImages = document.querySelectorAll(`img[src$="${image}"]`);
+            [...equalImages].map((equalImage) => {
+                equalImage.style.setProperty("filter", "none");
+            });
         });
+
 
         document.querySelector("#theme-toggle span").innerHTML = 'dark_mode';
     } else {
@@ -47,7 +51,10 @@ export function toggleTheme() {
         });
 
         imagesToFilter.map((image) => {
-            document.querySelector(`#${image}`).style.setProperty("filter", "invert(99%) sepia(0%) saturate(0%) hue-rotate(148deg) brightness(87%) contrast(91%)");
+            let equalImages = document.querySelectorAll(`img[src$="${image}"]`);
+            [...equalImages].map((equalImage) => {
+                equalImage.style.setProperty("filter", "invert(99%) sepia(0%) saturate(0%) hue-rotate(148deg) brightness(87%) contrast(91%)");
+            });
         });
 
         document.querySelector("#theme-toggle span").innerHTML = 'light_mode';
