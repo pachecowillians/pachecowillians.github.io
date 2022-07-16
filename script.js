@@ -4,6 +4,7 @@ import { toggleTheme } from "./scripts/theme.js";
 import { languagesCSS, languagesHTML } from "./scripts/language.js";
 import { schoolingHTML } from "./scripts/scholarity.js";
 import { coursesHTML } from "./scripts/course.js";
+import { projectsHTML } from "./scripts/project.js";
 
 const addCSS = css => document.head.appendChild(document.createElement("style")).innerHTML = css;
 let scrolling = false;
@@ -59,3 +60,5 @@ let toggleItems = document.querySelectorAll(".school-item-toggle-icon");
         }
     };
 })
+
+document.querySelector(".projects-container").innerHTML = projectsHTML();
