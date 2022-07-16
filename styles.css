@@ -473,7 +473,7 @@ section h1 {
     right: 0rem;
     transition: 1s ease;
     transition-property: top, right, transform;
-    transform-origin: 3% 3%;
+    transform-origin: 2rem 2rem;
 }
 
 .project-item-visible img {
@@ -493,7 +493,27 @@ section h1 {
     /* right: 18rem; */
     /* transform: rotateY(120deg); */
     /* transform: rotateZ(120deg); */
-    animation: 0.4s recoverCard forwards ease;
+    animation: 0.4s recoverCard forwards ease-in-out;
+}
+
+.project-item-pin-fixed {
+    position: absolute;
+    left: 1.1rem;
+    top: 1.1rem;
+    width: 0.75rem;
+    height: 0.75rem;
+    border-radius: 50%;
+    background-color: var(--black);
+}
+
+.project-item-pin {
+    position: absolute;
+    right: 1.5rem;
+    top: 1.5rem;
+}
+
+.project-item-pin span {
+    font-size: 2rem;
 }
 
 @keyframes fallCard {
@@ -503,17 +523,20 @@ section h1 {
     40% {
         transform: rotateZ(91deg);
     }
+    75% {
+        transform: rotateZ(78deg);
+    }
     100% {
-        transform: rotateZ(80deg);
+        transform: rotateZ(82deg);
     }
 }
 
 @keyframes recoverCard {
     0% {
-        transform: rotateZ(80deg);
+        transform: rotateZ(82deg);
     }
     100% {
-        transform: rotateZ(1deg);
+        transform: rotateZ(2deg);
     }
 }
 
