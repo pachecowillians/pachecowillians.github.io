@@ -506,13 +506,15 @@ section h1 {
     background-color: var(--black);
 }
 
-.project-item-pin {
+.project-item-information {
     position: absolute;
     right: 1.5rem;
     top: 1.5rem;
+    display: none;
+    user-select: none;
 }
 
-.project-item-pin span {
+.project-item-information span {
     font-size: 2rem;
 }
 
@@ -765,6 +767,9 @@ section h1 {
     }
     .projects-container {
         grid-template-columns: repeat(1, 1fr);
+    }
+    .project-item-information {
+        display: inline;
     }
 }
 
