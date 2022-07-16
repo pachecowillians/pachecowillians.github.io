@@ -429,19 +429,6 @@ section h1 {
     user-select: none;
 }
 
-.project-item-hidden {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    background: var(--grey);
-    height: 27rem;
-    width: 48rem;
-    border-radius: 10px;
-}
-
 .project-item-visible {
     display: flex;
     align-content: center;
@@ -458,6 +445,7 @@ section h1 {
 .project-item-visible img {
     max-height: 27rem;
     border-radius: 10px;
+    box-shadow: 1px 1px 6px 0px rgb(0 0 0 / 40%);
 }
 
 .project-item:hover .project-item-visible {
@@ -522,6 +510,60 @@ section h1 {
     align-items: center;
     row-gap: 8rem;
     margin-top: 6rem;
+}
+
+#profile,
+#programming,
+#school,
+#professional {
+    display: none;
+}
+
+.project-item-hidden {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: var(--background);
+    height: 27rem;
+    width: 48rem;
+    border-radius: 10px;
+    column-gap: 3rem;
+}
+
+.project-item-hidden-information {
+    margin-left: 7rem;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    align-content: center;
+    row-gap: 2rem;
+}
+
+.project-item-hidden-header {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-content: center;
+    align-items: center;
+}
+
+.project-item-hidden-languages {
+    margin-right: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2rem;
+}
+
+.project-item-hidden-languages img {
+    height: 3rem;
 }
 
 
