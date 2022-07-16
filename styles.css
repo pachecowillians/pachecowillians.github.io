@@ -531,6 +531,7 @@ section h1 {
     width: 48rem;
     border-radius: 10px;
     column-gap: 3rem;
+    text-align: justify;
 }
 
 .project-item-hidden-information {
@@ -550,6 +551,11 @@ section h1 {
     width: 90%;
     align-content: center;
     align-items: center;
+    font-size: 1rem;
+}
+
+.project-item-hidden-header img {
+    height: 3rem;
 }
 
 .project-item-hidden-languages {
@@ -630,10 +636,14 @@ section h1 {
     .project-item-hidden {
         height: 17rem;
         width: 30rem;
+        column-gap: 2rem;
     }
     .project-item-pin-fixed {
         width: 0.6rem;
         height: 0.6rem;
+    }
+    .project-item-hidden-languages {
+        margin-right: 2rem;
     }
 }
 
