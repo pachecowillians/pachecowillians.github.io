@@ -473,18 +473,48 @@ section h1 {
     right: 0rem;
     transition: 1s ease;
     transition-property: top, right, transform;
-    transform-origin: 0% 0%;
+    transform-origin: 3% 3%;
 }
 
 .project-item-visible img {
     max-height: 20rem;
     border-radius: 10px;
+    left: 2px;
 }
 
 .project-item:hover .project-item-visible {
     /* right: 18rem; */
     /* transform: rotateY(120deg); */
-    transform: rotateZ(120deg);
+    /* transform: rotateZ(120deg); */
+    animation: 1.1s fallCard forwards ease;
+}
+
+.project-item:not(:hover) .project-item-visible {
+    /* right: 18rem; */
+    /* transform: rotateY(120deg); */
+    /* transform: rotateZ(120deg); */
+    animation: 0.4s recoverCard forwards ease;
+}
+
+@keyframes fallCard {
+    0% {
+        transform: rotateZ(2deg);
+    }
+    40% {
+        transform: rotateZ(91deg);
+    }
+    100% {
+        transform: rotateZ(80deg);
+    }
+}
+
+@keyframes recoverCard {
+    0% {
+        transform: rotateZ(80deg);
+    }
+    100% {
+        transform: rotateZ(1deg);
+    }
 }
 
 
