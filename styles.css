@@ -416,13 +416,6 @@ section h1 {
     column-gap: 3rem;
 }
 
-#profile,
-#programming,
-#professional,
-#school {
-    display: none;
-}
-
 .project-item {
     display: flex;
     flex-direction: column;
@@ -477,8 +470,8 @@ section h1 {
 
 .project-item-pin-fixed {
     position: absolute;
-    left: 1.2rem;
-    top: 1.2rem;
+    left: 1.5rem;
+    top: 1.5rem;
     width: 0.75rem;
     height: 0.75rem;
     border-radius: 50%;
@@ -597,8 +590,6 @@ section h1 {
         width: 30rem;
     }
     .project-item-pin-fixed {
-        left: 1.5rem;
-        top: 1.5rem;
         width: 0.6rem;
         height: 0.6rem;
     }
