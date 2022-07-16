@@ -416,7 +416,8 @@ section h1 {
     column-gap: 3rem;
 }
 
-.projects-container {
+
+/* .projects-container {
     display: grid;
     align-content: center;
     align-items: center;
@@ -428,7 +429,7 @@ section h1 {
     column-gap: 3rem;
     justify-content: center;
     color: var(--text);
-}
+} */
 
 #profile,
 #programming,
@@ -458,8 +459,8 @@ section h1 {
     width: 100%;
     height: 100%;
     background: var(--black);
-    height: 20rem;
-    width: 35rem;
+    height: 27rem;
+    width: 48rem;
     border-radius: 10px;
 }
 
@@ -477,9 +478,8 @@ section h1 {
 }
 
 .project-item-visible img {
-    max-height: 20rem;
+    max-height: 27rem;
     border-radius: 10px;
-    left: 2px;
 }
 
 .project-item:hover .project-item-visible {
@@ -498,8 +498,8 @@ section h1 {
 
 .project-item-pin-fixed {
     position: absolute;
-    left: 1.1rem;
-    top: 1.1rem;
+    left: 1.2rem;
+    top: 1.2rem;
     width: 0.75rem;
     height: 0.75rem;
     border-radius: 50%;
@@ -540,6 +540,16 @@ section h1 {
     100% {
         transform: rotateZ(2deg);
     }
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    row-gap: 8rem;
+    margin-top: 6rem;
 }
 
 
@@ -765,11 +775,24 @@ section h1 {
     .professional-item {
         max-width: 90%;
     }
-    .projects-container {
+    /* .projects-container {
         grid-template-columns: repeat(1, 1fr);
-    }
+    } */
     .project-item-information {
         display: inline;
+    }
+    .project-item-visible img {
+        max-height: 17rem;
+    }
+    .project-item-hidden {
+        height: 17rem;
+        width: 30rem;
+    }
+    .project-item-pin-fixed {
+        left: 1.5rem;
+        top: 1.5rem;
+        width: 0.6rem;
+        height: 0.6rem;
     }
 }
 
@@ -780,12 +803,18 @@ section h1 {
     html {
         font-size: 11px;
     }
-    .programming-container,
-    .projects-container {
+    .programming-container {
         grid-template-columns: repeat(1, 1fr);
     }
     main section .container {
         padding: 5rem 3rem;
+    }
+    .project-item-visible img {
+        max-height: 20rem;
+    }
+    .project-item-hidden {
+        height: 20rem;
+        width: 35rem;
     }
 }
 
@@ -803,6 +832,13 @@ section h1 {
     main section .container {
         padding: 5rem 4rem;
     }
+    .project-item-visible img {
+        max-height: 25rem;
+    }
+    .project-item-hidden {
+        height: 25rem;
+        width: 44rem;
+    }
 }
 
 
@@ -811,6 +847,13 @@ section h1 {
 @media only screen and (min-width: 992px) {
     main section .container {
         padding: 5rem 8rem;
+    }
+    .project-item-visible img {
+        max-height: 27rem;
+    }
+    .project-item-hidden {
+        height: 27rem;
+        width: 48rem;
     }
 }
 
