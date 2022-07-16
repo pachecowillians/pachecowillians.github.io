@@ -472,6 +472,7 @@ section h1 {
     top: 1.5rem;
     display: none;
     user-select: none;
+    color: var(--black);
 }
 
 .project-item-information span {
