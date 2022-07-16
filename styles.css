@@ -510,6 +510,8 @@ section h1 {
     align-items: center;
     row-gap: 8rem;
     margin-top: 6rem;
+    user-select: none;
+    color: var(--text);
 }
 
 #profile,
