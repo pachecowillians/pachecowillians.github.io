@@ -515,13 +515,6 @@ section h1 {
     color: var(--text);
 }
 
-#profile,
-#programming,
-#school,
-#professional {
-    display: none;
-}
-
 .project-item-hidden {
     display: flex;
     align-content: center;
