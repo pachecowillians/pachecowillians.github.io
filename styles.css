@@ -479,6 +479,14 @@ section h1 {
     font-size: 1.8rem;
 }
 
+a {
+    all: unset;
+}
+
+.project-item-hidden-information a {
+    width: 100%;
+}
+
 @keyframes fallCard {
     0% {
         transform: rotateZ(2deg);

@@ -10,10 +10,12 @@ function projectHTML(project) {
     <div class="project-item">
         <div class="project-item-hidden">
             <div class="project-item-hidden-information">
+            <a href=${project.link}>
                 <div class="project-item-hidden-header">
-                    <h2>${project.name}</h2>
-                    <img src="img/Social/github.svg" alt="GitHub">
-                </div>
+                        <h2>${project.name}</h2>
+                        <img src="img/Social/github.svg" alt="GitHub">
+                        </div>
+                        </a>
                 <div class="project-item-hidden-description">
                     <p>${project.description}</p>
                 </div>
