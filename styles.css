@@ -120,7 +120,7 @@ aside#option-menu {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 6.24rem;
+    height: 80px;
     padding: 30px;
 }
 
