@@ -329,6 +329,7 @@ section h1 {
     align-items: flex-start;
     max-width: 60rem;
     padding-left: 3rem;
+    cursor: pointer;
 }
 
 .school-item-header h2 {
@@ -347,6 +348,7 @@ section h1 {
     max-height: 0rem;
     text-align: justify;
     overflow: hidden;
+    cursor: default;
     transition: 0.7s max-height ease;
 }
 
@@ -481,6 +483,7 @@ section h1 {
 
 a {
     all: unset;
+    cursor: pointer;
 }
 
 .project-item-hidden-information a {

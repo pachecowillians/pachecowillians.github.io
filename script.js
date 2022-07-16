@@ -48,11 +48,11 @@ setInterval(() => {
     }
 }, 200);
 
-let toggleItems = document.querySelectorAll(".school-item-toggle-icon");
+let toggleItems = document.querySelectorAll(".school-item-container");
 
 [...toggleItems].map((item) => {
     item.onclick = (event) => {
-        let schoolItem = event.currentTarget.parentElement;
+        let schoolItem = event.currentTarget;
         if (schoolItem.classList.contains("item-active")) {
             schoolItem.classList.remove("item-active");
         } else {

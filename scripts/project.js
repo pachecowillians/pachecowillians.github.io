@@ -5,7 +5,6 @@ export function projectsHTML() {
 }
 
 function projectHTML(project) {
-    console.log("entrou");
     return (`
     <div class="project-item">
         <div class="project-item-hidden">
