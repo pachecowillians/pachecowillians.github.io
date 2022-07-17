@@ -31,8 +31,6 @@ function projectHTML(project) {
                 </span>
             </div>
         </div>
-        <div class="project-item-pin-fixed">
-        </div>
     </div>
     `);
 }
