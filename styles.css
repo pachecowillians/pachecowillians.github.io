@@ -37,7 +37,7 @@ body,
 html {
     margin: 0;
     padding: 0;
-    font-size: 12.5px;
+    font-size: 14px;
     height: 100%;
 }
 
@@ -49,6 +49,7 @@ body {
     grid-template-areas: "navbar main options";
     background-color: var(--background);
     transition: background-color 500ms, filter ease-in 500ms;
+    font-size: 1rem;
 }
 
 aside#sidebar {
@@ -80,7 +81,7 @@ aside#sidebar img:nth-child(2) {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    row-gap: 4rem;
+    row-gap: 3rem;
 }
 
 .sidebar-icon,
@@ -166,14 +167,18 @@ main section .container {
 }
 
 section h1 {
-    font-size: 2.8rem;
-    margin: 2rem 0rem;
+    font-size: 2.5rem;
+    margin: 1.5rem 0rem;
     color: var(--text);
 }
 
+section p {
+    font-size: 1rem;
+}
+
 #profileImg {
-    width: 15rem;
-    height: 15rem;
+    width: 14rem;
+    height: 14rem;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -181,20 +186,27 @@ section h1 {
 #profile .social-media {
     display: flex;
     flex-direction: row;
-    column-gap: 1.6rem;
+    column-gap: 1.5rem;
+}
+
+#profile .social-media a {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
 #profile .social-media img {
-    width: 2.88rem;
-    height: 2.88rem;
+    width: 2.5rem;
+    height: 2.5rem;
     cursor: pointer;
 }
 
 #profile .profile-text {
     color: var(--text);
-    font-size: 1.3rem;
+    font-size: 1rem;
     text-align: justify;
-    margin: 2rem 0rem;
+    margin: 1.5rem 0rem;
 }
 
 .information-text {
@@ -212,7 +224,7 @@ section h1 {
 .programming-container {
     row-gap: 4rem;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: min-content;
     justify-content: center;
     align-items: center;
@@ -265,14 +277,13 @@ section h1 {
 }
 
 .progress-bar-title span {
-    font-size: 1.2rem;
-    font-weight: 700;
+    font-size: 1.1rem;
+    font-weight: 600;
 }
 
 .language-container img {
     height: 100%;
-    max-height: 3.5rem;
-    max-width: 3.5rem;
+    width: 56px;
 }
 
 .study-container {
@@ -282,7 +293,7 @@ section h1 {
     align-content: center;
     justify-content: center;
     align-items: flex-start;
-    row-gap: 2rem;
+    row-gap: 1rem;
     margin-top: 2rem;
     color: var(--text);
 }
@@ -295,19 +306,18 @@ section h1 {
     justify-content: center;
     align-items: center;
     column-gap: 1.5rem;
-    padding: 1rem 0rem;
 }
 
 .scholarity p,
 .courses p {
-    font-size: 2.1rem;
-    font-weight: 700;
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin: 1.5rem 0rem;
 }
 
 .scholarity span,
 .courses span {
     font-size: 2.4rem;
-    font-weight: 500;
 }
 
 .scholarity-container,
@@ -327,9 +337,22 @@ section h1 {
     align-content: center;
     justify-content: flex-start;
     align-items: flex-start;
-    max-width: 60rem;
+    max-width: 55vw;
     padding-left: 3rem;
     cursor: pointer;
+}
+
+li {
+    margin: 0.25rem 0rem;
+}
+
+.school-item-header-information {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    row-gap: 0.5rem;
 }
 
 .school-item-header h2 {
@@ -350,6 +373,31 @@ section h1 {
     overflow: hidden;
     cursor: default;
     transition: 0.7s max-height ease;
+}
+
+.school-item-collapse-area p,
+.school-item-collapse-area h3 {
+    margin: 1rem 0rem;
+}
+
+.school-item-collapse-area h3 {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+
+.school-item-link {
+    display: flex;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 0.5rem;
+    margin-top: 2rem;
+}
+
+.school-item-link h3 {
+    padding: 0;
+    margin: 0;
 }
 
 .school-item-toggle-icon span {
@@ -375,7 +423,6 @@ section h1 {
 .school-item-header-information p {
     padding: 0px;
     margin: 0px;
-    margin-top: 1rem;
 }
 
 .professional-items-container {
@@ -396,17 +443,35 @@ section h1 {
     justify-content: center;
     align-items: flex-start;
     text-align: justify;
-    max-width: 80%;
+    max-width: 70%;
 }
 
 .professional-item h2 {
     padding: 0;
     margin: 0;
-    margin-bottom: 1rem;
 }
 
 .professional-item-header-image img {
-    max-width: 10rem;
+    max-height: 3.85rem;
+}
+
+.professional-item-header-information {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    row-gap: 0.5rem;
+}
+
+.professional-item-header-information h2 {
+    font-size: 1.5rem;
+}
+
+.professional-item-header-information p {
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
 }
 
 .professional-item-header {
@@ -416,6 +481,11 @@ section h1 {
     align-content: center;
     justify-content: flex-start;
     column-gap: 3rem;
+}
+
+.professional-item-informations h3 {
+    font-size: 1.2rem;
+    margin-top: 2rem;
 }
 
 .project-item {
@@ -484,6 +554,8 @@ section h1 {
 a {
     all: unset;
     cursor: pointer;
+    color: var(--darkblue);
+    font-weight: bold;
 }
 
 .project-item-hidden-information a {
@@ -579,7 +651,7 @@ a {
 }
 
 
-/* Extra small devices (phones, 600px and down) */
+/* Extra small devices (phones, 600px and down)
 
 @media only screen and (max-width: 600px) {
     body {
@@ -651,11 +723,13 @@ a {
     .project-item-hidden-languages {
         margin-right: 2rem;
     }
-}
+} */
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 
+
+/* 
 @media only screen and (min-width: 600px) {
     html {
         font-size: 11px;
@@ -678,9 +752,11 @@ a {
 
 /* Medium devices (landscape tablets, 768px and up) */
 
+
+/* 
 @media only screen and (min-width: 768px) {
     html {
-        font-size: 12px;
+        font-size: 14px;
     }
     main section .container {
         padding: 5rem 4rem;
@@ -692,12 +768,13 @@ a {
         height: 25rem;
         width: 44rem;
     }
-}
+} */
 
 
 /* Large devices (laptops/desktops, 992px and up) */
 
-@media only screen and (min-width: 992px) {
+
+/* @media only screen and (min-width: 992px) {
     main section .container {
         padding: 5rem 8rem;
     }
@@ -708,9 +785,10 @@ a {
         height: 27rem;
         width: 48rem;
     }
-}
+} */
 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
-@media only screen and (min-width: 1200px) {}
+
+/* @media only screen and (min-width: 1200px) {} */

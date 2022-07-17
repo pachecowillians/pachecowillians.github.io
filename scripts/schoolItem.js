@@ -16,8 +16,10 @@ export function schoolItemHTML(schoolItem) {
                 </div>
             </div>
             <div class="school-item-collapse-area">
-                <h3>Certificate link</h3>
-                <a href="${schoolItem.link}">${schoolItem.link}</a>
+                <div class="school-item-link">
+                    <h3>Certificate:</h3>
+                    <a href="${schoolItem.link}">${schoolItem.link}</a>
+                </div>
                 <h3>Description</h3>
                 <p>${schoolItem.description}</p>
                 <h3>Subjects Studied</h3>
