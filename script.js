@@ -1,5 +1,5 @@
 import { isProgressBarInViewport } from "./scripts/viewport.js";
-import { setActiveSection } from "./scripts/navbar.js";
+import { setActiveSection, sidebarIconsHTML } from "./scripts/navbar.js";
 import { toggleTheme } from "./scripts/theme.js";
 import { languagesCSS, languagesHTML } from "./scripts/language.js";
 import { schoolingHTML } from "./scripts/scholarity.js";
@@ -62,6 +62,7 @@ let schoolItems = document.querySelectorAll(".school-item-container");
 })
 
 document.querySelector(".projects-container").innerHTML = projectsHTML();
+document.querySelector("#sidebar-menu").innerHTML = sidebarIconsHTML();
 
 function setProjectItemHeight() {
     let items = document.querySelectorAll(".project-item");
