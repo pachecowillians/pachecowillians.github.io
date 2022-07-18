@@ -24,7 +24,7 @@ export function sidebarIconsHTML() {
 function sidebarIconHTML(section) {
     return (`
     <a href="#${section.referenceName}">
-        <div class="sidebar-icon ${section.referenceName=='profile' && 'selected-item'}" id="${section.referenceName}Icon">
+        <div class="sidebar-icon ${section.referenceName=='profile' ? 'selected-item' : ''}" id="${section.referenceName}Icon">
             <span class="material-symbols-outlined">
                 ${section.iconName}
             </span>
