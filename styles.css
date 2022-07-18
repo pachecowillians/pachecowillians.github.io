@@ -762,5 +762,53 @@ a {
     }
 }
 
+@media(min-width: 1024px) and (max-width: 1600px) {
+    html {
+        font-size: 14px;
+    }
+    main section .container {
+        padding: 5rem 6rem;
+    }
+    .programming-container,
+    .projects-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .project-item {
+        width: 90%;
+    }
+}
 
-/* @media only screen and (min-width: 1200px) {} */
+@media(min-width: 1600px) and (max-width: 2000px) {
+    html {
+        font-size: 20px;
+    }
+    main section .container {
+        padding: 5rem 6rem;
+    }
+    .programming-container,
+    .projects-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .project-item {
+        width: 90%;
+    }
+}
+
+@media(min-width: 2000px) {
+    html {
+        font-size: 20px;
+    }
+    main section .container {
+        padding: 5rem 4rem;
+    }
+    body {
+        grid-template-columns: 5% auto 5%;
+    }
+    .programming-container,
+    .projects-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .project-item {
+        width: 90%;
+    }
+}
