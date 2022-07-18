@@ -1,6 +1,6 @@
 export const projects = [{
         name: 'WPS - Timer',
-        link: '#',
+        link: 'https://www.google.com.br',
         referenceName: 'wpstimer',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
         languages: [
@@ -11,7 +11,7 @@ export const projects = [{
     },
     {
         name: 'WPS - Timer',
-        link: '#',
+        link: 'https://www.google.com.br',
         referenceName: 'wpstimer',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
         languages: [
@@ -21,7 +21,7 @@ export const projects = [{
         ]
     }, {
         name: 'WPS - Timer',
-        link: '#',
+        link: 'https://www.google.com.br',
         referenceName: 'wpstimer',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
         languages: [
@@ -31,7 +31,7 @@ export const projects = [{
         ]
     }, {
         name: 'WPS - Timer',
-        link: '#',
+        link: 'https://www.google.com.br',
         referenceName: 'wpstimer',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
         languages: [
@@ -41,7 +41,7 @@ export const projects = [{
         ]
     }, {
         name: 'WPS - Timer',
-        link: '#',
+        link: 'https://www.google.com.br',
         referenceName: 'wpstimer',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
         languages: [

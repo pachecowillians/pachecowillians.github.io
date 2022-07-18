@@ -48,9 +48,9 @@ setInterval(() => {
     }
 }, 200);
 
-let toggleItems = document.querySelectorAll(".school-item-container");
+let schoolItems = document.querySelectorAll(".school-item-container");
 
-[...toggleItems].map((item) => {
+[...schoolItems].map((item) => {
     item.onclick = (event) => {
         let schoolItem = event.currentTarget;
         if (schoolItem.classList.contains("item-active")) {
@@ -69,8 +69,22 @@ function setProjectItemHeight() {
     [...items].map((item) => {
         item.style.height = `${width * 245.094/435.938}px`;
     })
-    console.log('entroiu');
 }
 
 window.addEventListener("resize", setProjectItemHeight);
 window.addEventListener("load", setProjectItemHeight);
+
+let projectItems = document.querySelectorAll(".project-item");
+
+[...projectItems].map((item) => {
+    item.onclick = (event) => {
+        let projectItem = event.currentTarget;
+        if (projectItem.classList.contains("item-active")) {
+            projectItem.classList.remove("item-active");
+            projectItem.querySelector(".project-item-info span").innerHTML = "info";
+        } else {
+            projectItem.classList.add("item-active");
+            projectItem.querySelector(".project-item-info span").innerHTML = "horizontal_rule";
+        }
+    };
+})
