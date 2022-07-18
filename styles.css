@@ -496,21 +496,14 @@ li {
     align-items: center;
     border-radius: 10px;
     position: relative;
-    cursor: pointer;
     user-select: none;
     width: 100%;
     box-shadow: 1px 1px 6px 0px rgb(0 0 0 / 40%);
     color: var(--text);
 }
 
-#programming *,
-#school *,
-#professional *,
-#projects * {
-    user-select: none;
-}
-
 .project-item-info {
+    cursor: pointer;
     position: absolute;
     right: 1.2rem;
     top: 1rem;
