@@ -6,7 +6,8 @@ let properties = [
     "lightblue",
     "grey",
     "white",
-    "text"
+    "text",
+    "box-shadow"
 ];
 
 let imagesToFilter = [

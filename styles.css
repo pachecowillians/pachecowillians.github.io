@@ -8,6 +8,7 @@
     --grey-light: #E1E1E1;
     --white-light: #F5F5F5;
     --text-light: var(--black-light);
+    --box-shadow-light: rgb(0 0 0 / 40%);
     /* Dark Theme */
     --background-dark: #191919;
     --darkgrey-dark: #2E2E2E;
@@ -17,6 +18,7 @@
     --grey-dark: #252525;
     --white-dark: #D3D3D3;
     --text-dark: var(--white-dark);
+    --box-shadow-dark: rgb(255 255 255 / 40%);
     /* Page Theme */
     --background: var(--background-light);
     --darkgrey: var(--darkgrey-light);
@@ -26,6 +28,7 @@
     --grey: var(--grey-light);
     --white: var(--white-light);
     --text: var(--black-light);
+    --box-shadow: var(--box-shadow-light);
 }
 
 *,
@@ -508,7 +511,7 @@ li {
     position: relative;
     user-select: none;
     width: 100%;
-    box-shadow: 1px 1px 6px 0px rgb(0 0 0 / 40%);
+    box-shadow: 0px 0px 6px 0px var(--box-shadow);
     color: var(--text);
 }
 
