@@ -338,7 +338,7 @@ section p {
     justify-content: flex-start;
     align-items: flex-start;
     max-width: 55vw;
-    padding-left: 3rem;
+    padding-left: 3%;
     cursor: pointer;
 }
 
