@@ -84,7 +84,7 @@ let projectItems = document.querySelectorAll(".project-item-info");
             projectItem.querySelector(".project-item-info span").innerHTML = "info";
         } else {
             projectItem.classList.add("item-active");
-            projectItem.querySelector(".project-item-info span").innerHTML = "horizontal_rule";
+            projectItem.querySelector(".project-item-info span").innerHTML = "<span style='color:var(--text)'> horizontal_rule </span>";
         }
     };
 })

@@ -495,11 +495,12 @@ li {
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    box-shadow: 1px 1px 6px 0px rgb(0 0 0 / 40%);
     position: relative;
     cursor: pointer;
     user-select: none;
     width: 100%;
+    box-shadow: 1px 1px 6px 0px rgb(0 0 0 / 40%);
+    color: var(--text);
 }
 
 #programming *,
@@ -532,8 +533,8 @@ li {
     align-items: center;
     top: 0rem;
     right: 0rem;
-    transition: 0.7s ease;
-    transition-property: top, right, transform, opacity;
+    transition: 0.5s ease;
+    transition-property: opacity;
     transform-origin: 2rem 2rem;
     opacity: 1;
 }
@@ -593,7 +594,6 @@ a {
     align-items: center;
     max-width: 90%;
     height: 100%;
-    background: var(--background);
     border-radius: 10px;
     text-align: justify;
     max-height: 60%;
