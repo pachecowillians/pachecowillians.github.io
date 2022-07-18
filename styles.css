@@ -605,63 +605,6 @@ a {
     height: 2.5rem;
 }
 
-
-/* @media only screen and (max-width: 600px) {
-    body {
-        grid-template-columns: none;
-        grid-template-rows: 90px auto 90px;
-        grid-template-areas: "options" "main" "navbar";
-    }
-    aside#sidebar {
-        grid-template-areas: "logo menu .";
-        grid-template-rows: 0 auto 0;
-        align-content: center;
-        padding: 30px 0px;
-    }
-    #logoNavbar {
-        display: none;
-    }
-    #sidebar-menu {
-        flex-direction: row;
-        row-gap: 0;
-        column-gap: 5rem;
-    }
-    aside#option-menu {
-        flex-direction: row-reverse;
-        height: 2.4rem;
-    }
-    aside#option-menu #logoTopbar {
-        height: 2rem;
-        display: block;
-    }
-    .menu-icon span:hover,
-    .sidebar-icon span:hover {
-        opacity: 1;
-    }
-    #profile .profile-text {
-        font-size: 1.5rem;
-        margin: 2rem 2rem 4rem;
-    }
-    html {
-        font-size: 10px;
-    }
-    .programming-container,
-    .projects-container {
-        grid-template-columns: repeat(1, 1fr);
-    }
-    main section .container {
-        padding: 5rem 2rem;
-    }
-    .project-item-visible img {
-        max-height: 18rem;
-        width: 31rem;
-    }
-    .project-item-hidden {
-        height: 17rem;
-        width: 31rem;
-    }
-} */
-
 @media (max-width: 425px) {
     html {
         font-size: 10px;
@@ -818,20 +761,6 @@ a {
         width: 90%;
     }
 }
-
-
-/* @media only screen and (min-width: 992px) {
-    main section .container {
-        padding: 5rem 8rem;
-    }
-    .project-item-visible img {
-        max-height: 27rem;
-    }
-    .project-item-hidden {
-        height: 27rem;
-        width: 48rem;
-    }
-} */
 
 
 /* @media only screen and (min-width: 1200px) {} */
