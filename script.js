@@ -74,11 +74,11 @@ function setProjectItemHeight() {
 window.addEventListener("resize", setProjectItemHeight);
 window.addEventListener("load", setProjectItemHeight);
 
-let projectItems = document.querySelectorAll(".project-item");
+let projectItems = document.querySelectorAll(".project-item-info");
 
 [...projectItems].map((item) => {
     item.onclick = (event) => {
-        let projectItem = event.currentTarget;
+        let projectItem = event.currentTarget.parentElement;
         if (projectItem.classList.contains("item-active")) {
             projectItem.classList.remove("item-active");
             projectItem.querySelector(".project-item-info span").innerHTML = "info";
