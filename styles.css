@@ -800,7 +800,27 @@ a {
     }
 }
 
-@media(min-width: 1024px) and (max-width: 1600px) {
+@media(min-width: 1024px) and (max-width: 1300px) {
+    html {
+        font-size: 13px;
+    }
+    main section .container {
+        padding: 5rem 6rem;
+    }
+    body {
+        grid-template-rows: none;
+        grid-template-columns: 14rem auto 6rem;
+    }
+    .programming-container,
+    .projects-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .project-item {
+        width: 80%;
+    }
+}
+
+@media(min-width: 1300px) and (max-width: 1600px) {
     html {
         font-size: 14px;
     }
