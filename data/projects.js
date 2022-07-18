@@ -6,7 +6,9 @@ export const projects = [{
         languages: [
             'html',
             'css',
-            'javascript'
+            'javascript',
+            'nextjs',
+            'reactjs'
         ]
     },
     {
