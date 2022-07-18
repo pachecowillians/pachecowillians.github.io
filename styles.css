@@ -263,10 +263,10 @@ section p {
     display: flex;
     align-content: center;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     column-gap: 1.6rem;
     height: 4rem;
-    width: 85%;
+    width: 90%;
 }
 
 .progress-bar-title {
