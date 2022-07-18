@@ -5,16 +5,11 @@ import { languagesCSS, languagesHTML } from "./scripts/language.js";
 import { schoolingHTML } from "./scripts/scholarity.js";
 import { coursesHTML } from "./scripts/course.js";
 import { projectsHTML } from "./scripts/project.js";
+import { profileDescription } from "./data/profile.js";
 
 const addCSS = css => document.head.appendChild(document.createElement("style")).innerHTML = css;
+
 let scrolling = false;
-
-document.querySelector(".programming-container").innerHTML = languagesHTML();
-addCSS(languagesCSS());
-
-document.querySelector(".scholarity-container").innerHTML = schoolingHTML();
-
-document.querySelector(".courses-container").innerHTML = coursesHTML();
 
 function progressBarsLoad() {
     let progressBars = document.querySelectorAll('.progress-bar span');
@@ -25,7 +20,7 @@ function progressBarsLoad() {
     });
 }
 
-function onScroll() {
+function scrollPage() {
     progressBarsLoad();
 
     let activeItem = document.querySelector(".selected-item").parentElement.parentElement.id;
@@ -33,18 +28,30 @@ function onScroll() {
     setActiveSection(activeItem);
 }
 
-document.querySelector("main").onscroll = () => {
-    scrolling = true;
-};
-
-document.querySelector("#theme-toggle").onclick = function() {
-    toggleTheme();
+function setProjectItemHeight() {
+    let items = document.querySelectorAll(".project-item");
+    let width = items[0].offsetWidth;
+    [...items].map((item) => {
+        item.style.height = `${width * 245.094/435.938}px`;
+    })
 }
+
+document.querySelector(".programming-container").innerHTML = languagesHTML();
+addCSS(languagesCSS());
+
+document.querySelector(".scholarity-container").innerHTML = schoolingHTML();
+
+document.querySelector(".courses-container").innerHTML = coursesHTML();
+
+
+document.querySelector("main").onscroll = () => { scrolling = true; };
+
+document.querySelector("#theme-toggle").onclick = () => { toggleTheme(); }
 
 setInterval(() => {
     if (scrolling) {
         scrolling = false;
-        onScroll();
+        scrollPage();
     }
 }, 200);
 
@@ -62,17 +69,11 @@ let schoolItems = document.querySelectorAll(".school-item-container");
 })
 
 document.querySelector(".projects-container").innerHTML = projectsHTML();
+
 document.querySelector("#sidebar-menu").innerHTML = sidebarIconsHTML();
 
-function setProjectItemHeight() {
-    let items = document.querySelectorAll(".project-item");
-    let width = items[0].offsetWidth;
-    [...items].map((item) => {
-        item.style.height = `${width * 245.094/435.938}px`;
-    })
-}
-
 window.addEventListener("resize", setProjectItemHeight);
+
 window.addEventListener("load", setProjectItemHeight);
 
 let projectItems = document.querySelectorAll(".project-item-info");
@@ -89,3 +90,5 @@ let projectItems = document.querySelectorAll(".project-item-info");
         }
     };
 })
+
+document.querySelector(".profile-text").innerHTML = `<p>${profileDescription}</p>`
