@@ -62,3 +62,14 @@ let toggleItems = document.querySelectorAll(".school-item-container");
 })
 
 document.querySelector(".projects-container").innerHTML = projectsHTML();
+
+let setProjectItemHeight = () => {
+    let items = document.querySelectorAll(".project-item");
+    let width = items[0].offsetWidth;
+    [...items].map((item) => {
+        item.style.height = `${width * 245.094/435.938}px`;
+    })
+}
+
+document.querySelector("body").onresize = setProjectItemHeight();
+document.onload = setProjectItemHeight();
