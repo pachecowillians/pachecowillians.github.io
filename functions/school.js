@@ -1,4 +1,4 @@
-import { schoolItemHTML } from "../components/schoolItem.js";
+import { schoolItemHTML } from "../components/school.js";
 import { schoolCourses, schoolSchooling, schoolInformationText, schoolTitles } from "../data/school.js";
 
 export function schoolingHTML() {
