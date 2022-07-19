@@ -1,5 +1,5 @@
 import { isProgressBarInViewport } from "./functions/viewport.js";
-import { setActiveSection, sidebarIconsHTML } from "./functions/navbar.js";
+import { navbarIconsHTML, setActiveSection } from "./functions/navbar.js";
 import { toggleTheme } from "./functions/theme.js";
 import { languagesCSS, languagesHTML, programmingInformationTextHTML } from "./functions/language.js";
 import { coursesTitleHTML, scholarityTitleHTML, schoolInformationTextHTML, schoolingHTML } from "./functions/school.js";
@@ -45,7 +45,7 @@ document.querySelector("#projects .projects-container").innerHTML = projectsHTML
 
 document.querySelector("#theme-toggle").onclick = () => { toggleTheme(); }
 
-document.querySelector("#sidebar-menu").innerHTML = sidebarIconsHTML();
+document.querySelector("#sidebar-menu").innerHTML = navbarIconsHTML();
 
 let scrolling = false;
 

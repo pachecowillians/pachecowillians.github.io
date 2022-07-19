@@ -1,5 +1,6 @@
 import { isSectionInViewport } from "./viewport.js";
 import { sections } from "../data/sections.js";
+import { navbarIconHTML } from "../components/navbarIcon.js";
 
 export function setActiveSection(oldSection) {
     var i = 0;
@@ -17,19 +18,6 @@ export function setActiveSection(oldSection) {
     }
 }
 
-export function sidebarIconsHTML() {
-    return sections.map((section) => (sidebarIconHTML(section))).join('');
-}
-
-function sidebarIconHTML(section) {
-    return (`
-    <a href="#${section.referenceName}">
-        <div class="sidebar-icon ${section.referenceName=='profile' ? 'selected-item' : ''}" id="${section.referenceName}Icon">
-            <span class="material-symbols-outlined">
-                ${section.iconName}
-            </span>
-            <span>${section.name}</span>
-        </div>
-    </a>
-    `)
+export function navbarIconsHTML() {
+    return sections.map((section) => (navbarIconHTML(section))).join('');
 }
