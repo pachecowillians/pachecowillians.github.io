@@ -1,5 +1,5 @@
 import { sections } from "../data/sections.js";
-import { NavbarIcon } from "./navbarIcon.js";
+import { navbarIcon } from "./navbarIcon.js";
 
 export function Navbar() {
     return /*html*/ `
@@ -10,7 +10,7 @@ export function Navbar() {
             </a>
         </div>
         <div id="sidebar-menu">
-            ${sections.map((section) => (NavbarIcon(section))).join('')}
+            ${sections.map((section) => (navbarIcon(section))).join('')}
         </div>
     </aside>
     `;
