@@ -10,6 +10,41 @@ import { professionalDescriptionHTML, professionalInformationTextHTML, professio
 
 const addCSS = css => document.head.appendChild(document.createElement("style")).innerHTML = css;
 
+document.querySelector("#profile .profile-text").innerHTML = profileDescriptionHTML();
+
+document.querySelector("#profile .social-media").innerHTML = socialMediaHTML();
+
+document.querySelector("#programming .information-text").innerHTML = programmingInformationTextHTML();
+
+document.querySelector("#programming .programming-container").innerHTML = languagesHTML();
+addCSS(languagesCSS());
+
+document.querySelector("#school .information-text").innerHTML = schoolInformationTextHTML();
+
+document.querySelector("#school .scholarity").innerHTML += scholarityTitleHTML();
+
+document.querySelector("#school .scholarity-container").innerHTML = schoolingHTML();
+
+document.querySelector("#school .courses").innerHTML += coursesTitleHTML();
+
+document.querySelector("#school .courses-container").innerHTML = coursesHTML();
+
+document.querySelector("#professional .information-text").innerHTML = professionalInformationTextHTML();
+
+document.querySelector("#professional .professional-items-container").innerHTML = professionalItemsHTML();
+
+document.querySelector("#professional .professional-description").innerHTML = professionalDescriptionHTML();
+
+document.querySelector("#professional .professional-task").innerHTML = professionalTasksHTML();
+
+document.querySelector("#projects .information-text").innerHTML = projectInformationTextHTML();
+
+document.querySelector("#projects .projects-container").innerHTML = projectsHTML();
+
+document.querySelector("#theme-toggle").onclick = () => { toggleTheme(); }
+
+document.querySelector("#sidebar-menu").innerHTML = sidebarIconsHTML();
+
 let scrolling = false;
 
 function progressBarsLoad() {
@@ -78,38 +113,3 @@ let projectItems = document.querySelectorAll(".project-item-info");
         }
     };
 })
-
-document.querySelector("#profile .profile-text").innerHTML = profileDescriptionHTML();
-
-document.querySelector("#profile .social-media").innerHTML = socialMediaHTML();
-
-document.querySelector("#programming .information-text").innerHTML = programmingInformationTextHTML();
-
-document.querySelector("#programming .programming-container").innerHTML = languagesHTML();
-addCSS(languagesCSS());
-
-document.querySelector("#school .information-text").innerHTML = schoolInformationTextHTML();
-
-document.querySelector("#school .scholarity").innerHTML += scholarityTitleHTML();
-
-document.querySelector("#school .scholarity-container").innerHTML = schoolingHTML();
-
-document.querySelector("#school .courses").innerHTML += coursesTitleHTML();
-
-document.querySelector("#school .courses-container").innerHTML = coursesHTML();
-
-document.querySelector("#professional .information-text").innerHTML = professionalInformationTextHTML();
-
-document.querySelector("#professional .professional-items-container").innerHTML = professionalItemsHTML();
-
-document.querySelector("#professional .professional-description").innerHTML = professionalDescriptionHTML();
-
-document.querySelector("#professional .professional-task").innerHTML = professionalTasksHTML();
-
-document.querySelector("#projects .information-text").innerHTML = projectInformationTextHTML();
-
-document.querySelector("#projects .projects-container").innerHTML = projectsHTML();
-
-document.querySelector("#theme-toggle").onclick = () => { toggleTheme(); }
-
-document.querySelector("#sidebar-menu").innerHTML = sidebarIconsHTML();
