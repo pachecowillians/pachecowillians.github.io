@@ -1,7 +1,7 @@
 import { isProgressBarInViewport } from "./functions/viewport.js";
 import { setActiveSection, sidebarIconsHTML } from "./functions/navbar.js";
 import { toggleTheme } from "./functions/theme.js";
-import { languagesCSS, languagesHTML } from "./functions/language.js";
+import { languagesCSS, languagesHTML, programmingInformationTextHTML } from "./functions/language.js";
 import { schoolingHTML } from "./functions/scholarity.js";
 import { coursesHTML } from "./functions/course.js";
 import { projectsHTML } from "./functions/project.js";
@@ -93,4 +93,7 @@ let projectItems = document.querySelectorAll(".project-item-info");
 })
 
 document.querySelector(".profile-text").innerHTML = `<p>${profileDescription}</p>`
+
 document.querySelector(".social-media").innerHTML = socialMediaHTML();
+
+document.querySelector("#programming .information-text").innerHTML = programmingInformationTextHTML();
