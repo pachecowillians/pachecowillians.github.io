@@ -1,9 +1,10 @@
-export const images = [{
-        name: 'controleeletronica',
-        path: 'img/Companies/controleeletronica.png',
-        filter: true
-    },
-    {
+const companies = [{
+    name: 'controleeletronica',
+    path: 'img/Companies/controleeletronica.png',
+    filter: true
+}]
+
+const languages = [{
         name: 'archlinux',
         path: 'img/Languages/archlinux.svg',
         filter: false
@@ -107,8 +108,10 @@ export const images = [{
         name: 'windows',
         path: 'img/Languages/windows.svg',
         filter: false
-    },
-    {
+    }
+]
+
+const logo = [{
         name: 'logo',
         path: 'img/Logo/logo.svg',
         filter: true
@@ -117,13 +120,16 @@ export const images = [{
         name: 'logofavicon',
         path: 'img/Logo/logofavicon.svg',
         filter: false
-    },
-    {
-        name: 'wpstimer',
-        path: 'img/Projects/wpstimer.png',
-        filter: false
-    },
-    {
+    }
+]
+
+const projects = [{
+    name: 'wpstimer',
+    path: 'img/Projects/wpstimer.png',
+    filter: false
+}]
+
+const social = [{
         name: 'github',
         path: 'img/Social/github.svg',
         filter: true
@@ -137,10 +143,13 @@ export const images = [{
         name: 'linkedin',
         path: 'img/Social/linkedin.svg',
         filter: false
-    },
-    {
-        name: 'profile',
-        path: 'img/profile.svg',
-        filter: false
     }
 ]
+
+const profile = [{
+    name: 'profile',
+    path: 'img/profile.svg',
+    filter: false
+}]
+
+export const images = companies.concat(languages).concat(logo).concat(projects).concat(social).concat(profile);

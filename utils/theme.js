@@ -2,6 +2,7 @@ import { colors } from "../data/colors.js";
 import { images } from "../data/images.js";
 
 export function toggleTheme() {
+    console.log(images)
     let windowStyle = window.getComputedStyle(document.documentElement);
     let actualBackground = windowStyle.getPropertyValue('--background').replace(/\s/g, '');
     let darkBackground = windowStyle.getPropertyValue('--background-dark').replace(/\s/g, '');
