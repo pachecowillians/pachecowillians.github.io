@@ -1,4 +1,4 @@
-export function professionalItemHTML(professional) {
+export function professionalItemHTML(professional, titles) {
     return `
     <div class="professional-item">
         <div class="professional-item-header">
@@ -11,11 +11,11 @@ export function professionalItemHTML(professional) {
             </div>
         </div>
         <div class="professional-item-informations">
-            <div class="professional-website"></div>
+            <h3>${titles.website}</h3>
             <a href="${professional.link}" target="_blank">${professional.link}</a>
-            <div class="professional-description"></div>
+            <h3>${titles.description}</h3>
             <p>${professional.description}</p>
-            <div class="professional-task"></div>
+            <h3>${titles.tasks}</h3>
             <ul>
                 ${professional.tasks.map((task)=>(`<li>${task}</li>`)).join('')}
             </ul>

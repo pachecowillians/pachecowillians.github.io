@@ -2,10 +2,10 @@ import { isProgressBarInViewport } from "./functions/viewport.js";
 import { navbarIconsHTML, setActiveSection } from "./functions/navbar.js";
 import { toggleTheme } from "./functions/theme.js";
 import { projectInformationTextHTML, projectsHTML } from "./functions/project.js";
-import { professionalDescriptionHTML, professionalInformationTextHTML, professionalItemsHTML, professionalTasksHTML, professionalWebsiteHTML } from "./functions/professional.js";
 import { Profile } from "./pages/profile.js";
 import { languagesCSS, Programming } from "./pages/programming.js";
 import { School } from "./pages/school.js";
+import { Professional } from "./pages/professional.js";
 
 const addCSS = css => document.head.appendChild(document.createElement("style")).innerHTML = css;
 
@@ -15,17 +15,9 @@ document.querySelector("main").innerHTML += Programming();
 
 document.querySelector("main").innerHTML += School();
 
+document.querySelector("main").innerHTML += Professional();
+
 addCSS(languagesCSS());
-
-document.querySelector("#professional .information-text").innerHTML = professionalInformationTextHTML();
-
-document.querySelector("#professional .professional-items-container").innerHTML = professionalItemsHTML();
-
-document.querySelector("#professional .professional-website").innerHTML = professionalWebsiteHTML();
-
-document.querySelector("#professional .professional-description").innerHTML = professionalDescriptionHTML();
-
-document.querySelector("#professional .professional-task").innerHTML = professionalTasksHTML();
 
 document.querySelector("#projects .information-text").innerHTML = projectInformationTextHTML();
 

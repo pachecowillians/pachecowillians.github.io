@@ -1,4 +1,4 @@
-export const professionalInformationText = "I am at the beginning of my professional career and i am looking for opportunities to apply my knowledge working in a company. Below are my experiences in the job market."
+export const informationText = "I am at the beginning of my professional career and i am looking for opportunities to apply my knowledge working in a company. Below are my experiences in the job market."
 
 export const professionalItems = [{
     name: 'Controle Eletrônica',
@@ -14,7 +14,7 @@ export const professionalItems = [{
     ]
 }]
 
-export const professionalTitles = {
+export const titles = {
     website: 'Website',
     description: 'Description',
     tasks: 'Tasks'
