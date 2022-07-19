@@ -1,14 +1,4 @@
-let properties = [
-    "background",
-    "darkgrey",
-    "darkblue",
-    "black",
-    "lightblue",
-    "grey",
-    "white",
-    "text",
-    "box-shadow"
-];
+import { colors } from "../data/colors.js";
 
 let imagesToFilter = [
     "logo.svg",
@@ -24,8 +14,8 @@ export function toggleTheme() {
     let darkBackground = windowStyle.getPropertyValue('--background-dark').replace(/\s/g, '');
 
     if (actualBackground == darkBackground) {
-        properties.map(prop => {
-            document.documentElement.style.setProperty(`--${prop}`, `var(--${prop}-light)`);
+        colors.map(color => {
+            document.documentElement.style.setProperty(`--${color}`, `var(--${color}-light)`);
         });
 
         imagesToFilter.map((image) => {
@@ -38,8 +28,8 @@ export function toggleTheme() {
 
         document.querySelector("#theme-toggle span").innerHTML = 'dark_mode';
     } else {
-        properties.map(prop => {
-            document.documentElement.style.setProperty(`--${prop}`, `var(--${prop}-dark)`);
+        colors.map(color => {
+            document.documentElement.style.setProperty(`--${color}`, `var(--${color}-dark)`);
         });
 
         imagesToFilter.map((image) => {

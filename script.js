@@ -1,7 +1,7 @@
+import { Home } from "./pages/home.js";
 import { setActiveSection } from "./utils/navbar.js";
 import { toggleTheme } from "./utils/theme.js";
 import { languagesCSS } from "./pages/programming.js";
-import { Home } from "./pages/home.js";
 import { setProjectItemHeight, toggleProjectItem } from "./components/project.js";
 import { progressBarsLoad } from "./components/language.js";
 import { toggleSchoolItem } from "./components/school.js";
