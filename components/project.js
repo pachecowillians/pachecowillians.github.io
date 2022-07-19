@@ -4,7 +4,7 @@ export function projectHTML(project) {
         <div class="project-item-hidden">
             <div class="project-item-hidden-information">
                 <h2>${project.name}</h2>
-                <a href=${project.link}>${project.link}</a>
+                <a href=${project.link} target="_blank">${project.link}</a>
                 <p>${project.description}</p>
             </div>
             <div class="project-item-hidden-languages">
