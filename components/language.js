@@ -1,5 +1,5 @@
 export function languageHTML(language) {
-    return `
+    return /*html*/ `
         <div class="language-container ${language.referenceName}">
             <img src="img/Languages/${language.referenceName}.svg" alt="${language.name}" id="${language.referenceName}">
             <div class="progress-bar-container">
@@ -14,7 +14,7 @@ export function languageHTML(language) {
 }
 
 export function languageCSS(language) {
-    return `
+    return /*css*/ `
     .${language.referenceName} .progress-bar span {
         background: ${language.color};
         animation: animation-${language.referenceName} 0.8s ease-out forwards;

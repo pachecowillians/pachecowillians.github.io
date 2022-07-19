@@ -2,7 +2,7 @@ import { professionalItemHTML } from "../components/professional.js";
 import { informationText, professionalItems, titles } from "../data/professional.js";
 
 export function Professional() {
-    return `
+    return /*html*/ `
     <section id="professional">
         <div class="container">
             <div class="information-text">${informationText}</div>

@@ -1,5 +1,5 @@
 export function professionalItemHTML(professional, titles) {
-    return `
+    return /* html */ `
     <div class="professional-item">
         <div class="professional-item-header">
             <div class="professional-item-header-image">

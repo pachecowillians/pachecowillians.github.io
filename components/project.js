@@ -1,5 +1,5 @@
 export function projectHTML(project) {
-    return (`
+    return ( /*html*/ `
     <div class="project-item">
         <div class="project-item-hidden">
             <div class="project-item-hidden-information">

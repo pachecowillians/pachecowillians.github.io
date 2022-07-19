@@ -2,7 +2,7 @@ import { projectHTML } from "../components/project.js";
 import { informationText, projects } from "../data/project.js";
 
 export function Projects() {
-    return `
+    return /*html*/ `
     <section id="projects">
         <div class="container">
             <div class="information-text">${informationText}</div>

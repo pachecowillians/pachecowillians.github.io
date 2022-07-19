@@ -2,7 +2,7 @@ import { socialMedia } from "../components/socialMedia.js";
 import { description, socialMediaItems } from "../data/profile.js";
 
 export function Profile() {
-    return `
+    return /*html*/ `
     <section id="profile">
         <div class="container">
             <img src="img/profile.png" alt="Profile Picture" id="profileImg">

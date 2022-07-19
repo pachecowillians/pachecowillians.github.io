@@ -2,7 +2,7 @@ import { languageCSS, languageHTML } from "../components/language.js";
 import { informationText, languages } from "../data/programming.js";
 
 export function Programming() {
-    return `
+    return /*html*/ `
     <section id="programming">
         <div class="container">
             <div class="information-text">${informationText}</div>

@@ -1,5 +1,5 @@
 export function schoolItemHTML(schoolItem, titles) {
-    return `
+    return /*html*/ `
         <div class="school-item-container ${schoolItem.referenceName}">
             <div class="school-item-toggle-icon">
                 <span class="material-symbols-outlined"> navigate_next </span>

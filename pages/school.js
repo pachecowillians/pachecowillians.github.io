@@ -2,7 +2,7 @@ import { schoolItemHTML } from "../components/school.js";
 import { courses, informationText, schooling, titles } from "../data/school.js";
 
 export function School() {
-    return `
+    return /*html*/ `
     <section id="school">
         <div class="container">
             <div class="information-text">${informationText}</div>
