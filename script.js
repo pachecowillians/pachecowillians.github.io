@@ -5,8 +5,7 @@ import { languagesCSS, languagesHTML, programmingInformationTextHTML } from "./f
 import { schoolingHTML } from "./functions/scholarity.js";
 import { coursesHTML } from "./functions/course.js";
 import { projectsHTML } from "./functions/project.js";
-import { profileDescription } from "./data/profile.js";
-import { socialMediaHTML } from "./functions/socialMedia.js";
+import { profileDescriptionHTML, socialMediaHTML } from "./functions/profile.js";
 
 const addCSS = css => document.head.appendChild(document.createElement("style")).innerHTML = css;
 
@@ -92,8 +91,8 @@ let projectItems = document.querySelectorAll(".project-item-info");
     };
 })
 
-document.querySelector(".profile-text").innerHTML = `<p>${profileDescription}</p>`
+document.querySelector("#profile .profile-text").innerHTML = profileDescriptionHTML();
 
-document.querySelector(".social-media").innerHTML = socialMediaHTML();
+document.querySelector("#profile .social-media").innerHTML = socialMediaHTML();
 
 document.querySelector("#programming .information-text").innerHTML = programmingInformationTextHTML();
