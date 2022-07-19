@@ -1,4 +1,4 @@
-import { projects } from "../data/projects.js";
+import { projects } from "../data/project.js";
 
 export function projectsHTML() {
     return projects.map((project) => (projectHTML(project))).join('');
