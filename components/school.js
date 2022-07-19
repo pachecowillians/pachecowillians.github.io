@@ -2,7 +2,7 @@ import { schoolTitles } from "../data/school.js";
 
 export function schoolItemHTML(schoolItem) {
     return `
-        <div class="school-item-container ${schoolItem.className}">
+        <div class="school-item-container ${schoolItem.referenceName}">
             <div class="school-item-toggle-icon">
                 <span class="material-symbols-outlined"> navigate_next </span>
             </div>

@@ -2,7 +2,7 @@ export const schoolInformationText = "I have always enjoyed studying, improving 
 
 export let schoolSchooling = [{
         name: 'UFES - Computer Engineering College',
-        className: 'ufes',
+        referenceName: 'ufes',
         date: '2019 - Today',
         link: 'https://www.google.com.br',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis tortor et erat accumsan, porttitor iaculis massa porttitor. Fusce eu dolor eu nisi suscipit vestibulum. Donec nisl quam, pharetra at aliquet sit amet, suscipit sed urna.',
@@ -15,7 +15,7 @@ export let schoolSchooling = [{
     },
     {
         name: 'SENAI - Systems Development Technical Course',
-        className: 'senai',
+        referenceName: 'senai',
         date: '2017 - 2018',
         link: 'https://www.google.com.br',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis tortor et erat accumsan, porttitor iaculis massa porttitor. Fusce eu dolor eu nisi suscipit vestibulum. Donec nisl quam, pharetra at aliquet sit amet, suscipit sed urna.',
@@ -27,7 +27,7 @@ export let schoolSchooling = [{
         ]
     }, {
         name: 'SESI - High School',
-        className: 'sesiHigh',
+        referenceName: 'sesiHigh',
         date: '2016 - 2018',
         link: 'https://www.google.com.br',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis tortor et erat accumsan, porttitor iaculis massa porttitor. Fusce eu dolor eu nisi suscipit vestibulum. Donec nisl quam, pharetra at aliquet sit amet, suscipit sed urna.',
@@ -38,7 +38,7 @@ export let schoolSchooling = [{
         ]
     }, {
         name: 'SESI - Elementary School',
-        className: 'sesiElementary',
+        referenceName: 'sesiElementary',
         date: '2012 - 2016',
         link: 'https://www.google.com.br',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis tortor et erat accumsan, porttitor iaculis massa porttitor. Fusce eu dolor eu nisi suscipit vestibulum. Donec nisl quam, pharetra at aliquet sit amet, suscipit sed urna.',
@@ -52,7 +52,7 @@ export let schoolSchooling = [{
 
 export let schoolCourses = [{
         name: 'CS50 - Introduction to Computer Science',
-        className: 'cs50',
+        referenceName: 'cs50',
         date: '2020',
         link: 'https://www.google.com.br',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis tortor et erat accumsan, porttitor iaculis massa porttitor. Fusce eu dolor eu nisi suscipit vestibulum. Donec nisl quam, pharetra at aliquet sit amet, suscipit sed urna.',
@@ -64,7 +64,7 @@ export let schoolCourses = [{
     },
     {
         name: 'SENAI - Unlocking Industry 4.0',
-        className: 'senai',
+        referenceName: 'senai',
         date: '2020',
         link: 'https://www.google.com.br',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis tortor et erat accumsan, porttitor iaculis massa porttitor. Fusce eu dolor eu nisi suscipit vestibulum. Donec nisl quam, pharetra at aliquet sit amet, suscipit sed urna.',
@@ -75,7 +75,7 @@ export let schoolCourses = [{
         ]
     }, {
         name: 'Code IOT - Introduction to the Internet of Things',
-        className: 'iot',
+        referenceName: 'iot',
         date: '2020',
         link: 'https://www.google.com.br',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis tortor et erat accumsan, porttitor iaculis massa porttitor. Fusce eu dolor eu nisi suscipit vestibulum. Donec nisl quam, pharetra at aliquet sit amet, suscipit sed urna.',
@@ -84,7 +84,7 @@ export let schoolCourses = [{
         ]
     }, {
         name: 'Code IOT - Apps for mobile devices',
-        className: 'iotmobile',
+        referenceName: 'iotmobile',
         date: '2020',
         link: 'https://www.google.com.br',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis tortor et erat accumsan, porttitor iaculis massa porttitor. Fusce eu dolor eu nisi suscipit vestibulum. Donec nisl quam, pharetra at aliquet sit amet, suscipit sed urna.',
@@ -94,7 +94,7 @@ export let schoolCourses = [{
         ]
     }, {
         name: 'DELL - Intermediary English',
-        className: 'dell',
+        referenceName: 'dell',
         date: '2020',
         link: 'https://www.google.com.br',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis tortor et erat accumsan, porttitor iaculis massa porttitor. Fusce eu dolor eu nisi suscipit vestibulum. Donec nisl quam, pharetra at aliquet sit amet, suscipit sed urna.',
