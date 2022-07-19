@@ -1,12 +1,11 @@
 import { isProgressBarInViewport } from "./functions/viewport.js";
 import { navbarIconsHTML, setActiveSection } from "./functions/navbar.js";
 import { toggleTheme } from "./functions/theme.js";
-import { coursesTitleHTML, scholarityTitleHTML, schoolInformationTextHTML, schoolingHTML } from "./functions/school.js";
-import { coursesHTML } from "./functions/school.js";
 import { projectInformationTextHTML, projectsHTML } from "./functions/project.js";
 import { professionalDescriptionHTML, professionalInformationTextHTML, professionalItemsHTML, professionalTasksHTML, professionalWebsiteHTML } from "./functions/professional.js";
 import { Profile } from "./pages/profile.js";
 import { languagesCSS, Programming } from "./pages/programming.js";
+import { School } from "./pages/school.js";
 
 const addCSS = css => document.head.appendChild(document.createElement("style")).innerHTML = css;
 
@@ -14,17 +13,9 @@ document.querySelector("main").innerHTML += Profile();
 
 document.querySelector("main").innerHTML += Programming();
 
+document.querySelector("main").innerHTML += School();
+
 addCSS(languagesCSS());
-
-document.querySelector("#school .information-text").innerHTML = schoolInformationTextHTML();
-
-document.querySelector("#school .scholarity").innerHTML += scholarityTitleHTML();
-
-document.querySelector("#school .scholarity-container").innerHTML = schoolingHTML();
-
-document.querySelector("#school .courses").innerHTML += coursesTitleHTML();
-
-document.querySelector("#school .courses-container").innerHTML = coursesHTML();
 
 document.querySelector("#professional .information-text").innerHTML = professionalInformationTextHTML();
 

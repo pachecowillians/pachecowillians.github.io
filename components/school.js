@@ -1,6 +1,4 @@
-import { schoolTitles } from "../data/school.js";
-
-export function schoolItemHTML(schoolItem) {
+export function schoolItemHTML(schoolItem, titles) {
     return `
         <div class="school-item-container ${schoolItem.referenceName}">
             <div class="school-item-toggle-icon">
@@ -17,12 +15,12 @@ export function schoolItemHTML(schoolItem) {
                 </div>
                 <div class="school-item-collapse-area">
                     <div class="school-item-link">
-                        <h3>${schoolTitles.certificate}</h3>
+                        <h3>${titles.certificate}</h3>
                         <a href="${schoolItem.link}" target="_blank">${schoolItem.link}</a>
                     </div>
-                    <h3>${schoolTitles.description}</h3>
+                    <h3>${titles.description}</h3>
                     <p>${schoolItem.description}</p>
-                    <h3>${schoolTitles.subjectsStudied}</h3>
+                    <h3>${titles.subjectsStudied}</h3>
                     <ul>
                         ${schoolItem.subjectsStudied.map((subject)=>(`<li>${subject}</li>`)).join('')}
                     </ul>

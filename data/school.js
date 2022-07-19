@@ -1,6 +1,6 @@
-export const schoolInformationText = "I have always enjoyed studying, improving my knowledge and learning new things. Here's my education, and some courses I've taken or am taking, along with the percentage completed for each.";
+export const informationText = "I have always enjoyed studying, improving my knowledge and learning new things. Here's my education, and some courses I've taken or am taking, along with the percentage completed for each.";
 
-export let schoolSchooling = [{
+export let schooling = [{
         name: 'UFES - Computer Engineering College',
         referenceName: 'ufes',
         date: '2019 - Today',
@@ -50,7 +50,7 @@ export let schoolSchooling = [{
     },
 ];
 
-export let schoolCourses = [{
+export let courses = [{
         name: 'CS50 - Introduction to Computer Science',
         referenceName: 'cs50',
         date: '2020',
@@ -104,7 +104,7 @@ export let schoolCourses = [{
     }
 ];
 
-export const schoolTitles = {
+export const titles = {
     scholarity: 'Scholarity',
     courses: 'Courses',
     certificate: 'Certificate',
