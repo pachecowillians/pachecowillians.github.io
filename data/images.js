@@ -148,7 +148,7 @@ const social = [{
 
 const profile = [{
     name: 'profile',
-    path: 'img/profile.svg',
+    path: 'img/profile.png',
     filter: false
 }]
 

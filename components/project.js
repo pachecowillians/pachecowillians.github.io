@@ -1,3 +1,5 @@
+import { images } from "../data/images.js";
+
 export function projectHTML(project) {
     return ( /*html*/ `
     <div class="project-item">
@@ -9,12 +11,12 @@ export function projectHTML(project) {
             </div>
             <div class="project-item-hidden-languages">
                 ${project.languages.map((language)=>(
-                    /*html*/ `<img src="img/Languages/${language}.svg" alt="HTML">`
+                    /*html*/ `<img src="${images.filter(image => image.name==language)[0].path}" alt="HTML">`
                     )).join('')}
             </div>
         </div>
         <div class="project-item-visible">
-            <img src="img/Projects/${project.referenceName}.png" alt="${project.name}">
+            <img src="${images.filter(image => image.name==project.referenceName)[0].path}" alt="${project.name}">
         </div>
         <div class="project-item-info">
             <span class="material-symbols-outlined selected-item"> info </span>
