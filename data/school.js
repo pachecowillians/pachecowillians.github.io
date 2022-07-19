@@ -106,5 +106,8 @@ export let schoolCourses = [{
 
 export const schoolTitles = {
     scholarity: 'Scholarity',
-    courses: 'Courses'
+    courses: 'Courses',
+    certificate: 'Certificate',
+    description: 'Description',
+    subjectsStudied: 'Subjects Studied'
 }

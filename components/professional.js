@@ -17,7 +17,7 @@ export function professionalItemHTML(professional) {
             <p>${professional.description}</p>
             <div class="professional-task"></div>
             <ul>
-            ${professional.tasks.map((task)=>(`<li>${task}</li>`)).join('')}
+                ${professional.tasks.map((task)=>(`<li>${task}</li>`)).join('')}
             </ul>
         </div>
     </div>

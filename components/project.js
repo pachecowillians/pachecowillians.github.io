@@ -15,9 +15,7 @@ export function projectHTML(project) {
             <img src="img/Projects/${project.referenceName}.png" alt="${project.name}">
         </div>
         <div class="project-item-info">
-            <span class="material-symbols-outlined selected-item">
-                info
-            </span>
+            <span class="material-symbols-outlined selected-item"> info </span>
         </div>
     </div>
     `);

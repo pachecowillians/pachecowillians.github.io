@@ -7,9 +7,7 @@ export function languageHTML(language) {
                     <span>${language.name}</span>
                     <span>${language.percentage}%</span>
                 </div>
-                <div class="progress-bar">
-                    <span></span>
-                </div>
+                <div class="progress-bar"> <span> </span> </div>
             </div>
         </div>
     `;
