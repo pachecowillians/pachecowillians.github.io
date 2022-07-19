@@ -9,6 +9,11 @@ export function professionalInformationTextHTML() {
     return `<p>${professionalInformationText}</p>`
 }
 
+export function professionalWebsiteHTML() {
+    return `<h3>${professionalTitles.website}</h3>`
+}
+
+
 export function professionalDescriptionHTML() {
     return `<h3>${professionalTitles.description}</h3>`
 }

@@ -6,7 +6,7 @@ import { coursesTitleHTML, scholarityTitleHTML, schoolInformationTextHTML, schoo
 import { coursesHTML } from "./functions/school.js";
 import { projectInformationTextHTML, projectsHTML } from "./functions/project.js";
 import { profileDescriptionHTML, socialMediaHTML } from "./functions/profile.js";
-import { professionalDescriptionHTML, professionalInformationTextHTML, professionalItemsHTML, professionalTasksHTML } from "./functions/professional.js";
+import { professionalDescriptionHTML, professionalInformationTextHTML, professionalItemsHTML, professionalTasksHTML, professionalWebsiteHTML } from "./functions/professional.js";
 
 const addCSS = css => document.head.appendChild(document.createElement("style")).innerHTML = css;
 
@@ -32,6 +32,8 @@ document.querySelector("#school .courses-container").innerHTML = coursesHTML();
 document.querySelector("#professional .information-text").innerHTML = professionalInformationTextHTML();
 
 document.querySelector("#professional .professional-items-container").innerHTML = professionalItemsHTML();
+
+document.querySelector("#professional .professional-website").innerHTML = professionalWebsiteHTML();
 
 document.querySelector("#professional .professional-description").innerHTML = professionalDescriptionHTML();
 

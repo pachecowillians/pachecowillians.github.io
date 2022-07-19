@@ -11,6 +11,8 @@ export function professionalItemHTML(professional) {
             </div>
         </div>
         <div class="professional-item-informations">
+            <div class="professional-website"></div>
+            <a href="${professional.link}" target="_blank">${professional.link}</a>
             <div class="professional-description"></div>
             <p>${professional.description}</p>
             <div class="professional-task"></div>
