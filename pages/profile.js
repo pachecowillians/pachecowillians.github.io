@@ -8,7 +8,7 @@ export function Profile() {
             <img src="img/profile.png" alt="Profile Picture" id="profileImg">
             <h1>Willian Pacheco Silva</h1>
             <div class="social-media"> ${
-                [...socialMediaItems].map((socialMediaItem) => (socialMedia(socialMediaItem))).join('')
+                socialMediaItems.map((socialMediaItem) => (socialMedia(socialMediaItem))).join('')
             } </div>
             <div class="profile-text"> ${description} </div>
         </div>

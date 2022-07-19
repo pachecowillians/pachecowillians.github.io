@@ -7,7 +7,7 @@ export function Professional() {
         <div class="container">
             <div class="information-text">${informationText}</div>
             <div class="professional-items-container">${
-                [...professionalItems].map((professionalItem) => (professionalItemHTML(professionalItem, titles))).join('')
+                professionalItems.map((professionalItem) => (professionalItemHTML(professionalItem, titles))).join('')
             }</div>
         </div>
     </section>
