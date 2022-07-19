@@ -1,20 +1,19 @@
 import { isProgressBarInViewport } from "./functions/viewport.js";
 import { navbarIconsHTML, setActiveSection } from "./functions/navbar.js";
 import { toggleTheme } from "./functions/theme.js";
-import { languagesCSS, languagesHTML, programmingInformationTextHTML } from "./functions/language.js";
 import { coursesTitleHTML, scholarityTitleHTML, schoolInformationTextHTML, schoolingHTML } from "./functions/school.js";
 import { coursesHTML } from "./functions/school.js";
 import { projectInformationTextHTML, projectsHTML } from "./functions/project.js";
 import { professionalDescriptionHTML, professionalInformationTextHTML, professionalItemsHTML, professionalTasksHTML, professionalWebsiteHTML } from "./functions/professional.js";
 import { Profile } from "./pages/profile.js";
+import { languagesCSS, Programming } from "./pages/programming.js";
 
 const addCSS = css => document.head.appendChild(document.createElement("style")).innerHTML = css;
 
 document.querySelector("main").innerHTML += Profile();
 
-document.querySelector("#programming .information-text").innerHTML = programmingInformationTextHTML();
+document.querySelector("main").innerHTML += Programming();
 
-document.querySelector("#programming .programming-container").innerHTML = languagesHTML();
 addCSS(languagesCSS());
 
 document.querySelector("#school .information-text").innerHTML = schoolInformationTextHTML();

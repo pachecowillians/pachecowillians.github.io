@@ -1,6 +1,6 @@
-export const programmingInformationText = 'During my life, I learned to use several programming languages, technologies and operating systems. The main knowledge obtained is listed here based on how much I know about each one.';
+export const informationText = 'During my life, I learned to use several programming languages, technologies and operating systems. The main knowledge obtained is listed here based on how much I know about each one.';
 
-export let programmingLanguages = [{
+export let languages = [{
         name: 'HTML',
         referenceName: 'html',
         percentage: 95,
