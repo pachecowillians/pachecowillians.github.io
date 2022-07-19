@@ -2,8 +2,8 @@ import { isProgressBarInViewport } from "./functions/viewport.js";
 import { setActiveSection, sidebarIconsHTML } from "./functions/navbar.js";
 import { toggleTheme } from "./functions/theme.js";
 import { languagesCSS, languagesHTML, programmingInformationTextHTML } from "./functions/language.js";
-import { schoolingHTML } from "./functions/scholarity.js";
-import { coursesHTML } from "./functions/course.js";
+import { coursesTitleHTML, scholarityTitleHTML, schoolInformationTextHTML, schoolingHTML } from "./functions/school.js";
+import { coursesHTML } from "./functions/school.js";
 import { projectsHTML } from "./functions/project.js";
 import { profileDescriptionHTML, socialMediaHTML } from "./functions/profile.js";
 
@@ -96,3 +96,9 @@ document.querySelector("#profile .profile-text").innerHTML = profileDescriptionH
 document.querySelector("#profile .social-media").innerHTML = socialMediaHTML();
 
 document.querySelector("#programming .information-text").innerHTML = programmingInformationTextHTML();
+
+document.querySelector("#school .information-text").innerHTML = schoolInformationTextHTML();
+
+document.querySelector("#school .scholarity").innerHTML += scholarityTitleHTML();
+
+document.querySelector("#school .courses").innerHTML += coursesTitleHTML();
