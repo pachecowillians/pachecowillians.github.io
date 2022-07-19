@@ -5,6 +5,7 @@ import { languagesCSS } from "./pages/programming.js";
 import { setProjectItemHeight, toggleProjectItem } from "./components/project.js";
 import { progressBarsLoad } from "./components/language.js";
 import { toggleSchoolItem } from "./components/school.js";
+import { favicon } from "./components/favicon.js";
 
 const addCSS = css => document.head.appendChild(document.createElement("style")).innerHTML = css;
 
@@ -13,6 +14,8 @@ let scrolling = false;
 addCSS(languagesCSS());
 
 document.querySelector("body").innerHTML = Home();
+
+document.querySelector("head").innerHTML += favicon();
 
 document.querySelector("#theme-toggle").onclick = () => { toggleTheme(); }
 

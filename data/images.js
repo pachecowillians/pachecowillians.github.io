@@ -117,8 +117,8 @@ const logo = [{
         filter: true
     },
     {
-        name: 'logofavicon',
-        path: 'img/Logo/logofavicon.svg',
+        name: 'favicon',
+        path: 'img/Logo/favicon.svg',
         filter: false
     }
 ]
