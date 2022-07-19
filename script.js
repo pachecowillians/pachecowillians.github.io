@@ -4,7 +4,7 @@ import { toggleTheme } from "./functions/theme.js";
 import { languagesCSS, languagesHTML, programmingInformationTextHTML } from "./functions/language.js";
 import { coursesTitleHTML, scholarityTitleHTML, schoolInformationTextHTML, schoolingHTML } from "./functions/school.js";
 import { coursesHTML } from "./functions/school.js";
-import { projectsHTML } from "./functions/project.js";
+import { projectInformationTextHTML, projectsHTML } from "./functions/project.js";
 import { profileDescriptionHTML, socialMediaHTML } from "./functions/profile.js";
 import { professionalDescriptionHTML, professionalInformationTextHTML, professionalItemsHTML, professionalTasksHTML } from "./functions/professional.js";
 
@@ -111,3 +111,5 @@ document.querySelector("#professional .professional-items-container").innerHTML 
 document.querySelector("#professional .professional-description").innerHTML = professionalDescriptionHTML();
 
 document.querySelector("#professional .professional-task").innerHTML = professionalTasksHTML();
+
+document.querySelector("#projects .information-text").innerHTML = projectInformationTextHTML();
