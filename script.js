@@ -1,11 +1,12 @@
-import { isProgressBarInViewport } from "./scripts/viewport.js";
-import { setActiveSection, sidebarIconsHTML } from "./scripts/navbar.js";
-import { toggleTheme } from "./scripts/theme.js";
-import { languagesCSS, languagesHTML } from "./scripts/language.js";
-import { schoolingHTML } from "./scripts/scholarity.js";
-import { coursesHTML } from "./scripts/course.js";
-import { projectsHTML } from "./scripts/project.js";
+import { isProgressBarInViewport } from "./functions/viewport.js";
+import { setActiveSection, sidebarIconsHTML } from "./functions/navbar.js";
+import { toggleTheme } from "./functions/theme.js";
+import { languagesCSS, languagesHTML } from "./functions/language.js";
+import { schoolingHTML } from "./functions/scholarity.js";
+import { coursesHTML } from "./functions/course.js";
+import { projectsHTML } from "./functions/project.js";
 import { profileDescription } from "./data/profile.js";
+import { socialMediaHTML } from "./functions/socialMedia.js";
 
 const addCSS = css => document.head.appendChild(document.createElement("style")).innerHTML = css;
 
@@ -92,3 +93,4 @@ let projectItems = document.querySelectorAll(".project-item-info");
 })
 
 document.querySelector(".profile-text").innerHTML = `<p>${profileDescription}</p>`
+document.querySelector(".social-media").innerHTML = socialMediaHTML();
