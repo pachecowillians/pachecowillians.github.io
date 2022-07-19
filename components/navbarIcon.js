@@ -1,4 +1,4 @@
-export function navbarIconHTML(section) {
+export function NavbarIcon(section) {
     return ( /*html*/ `
     <a href="#${section.referenceName}">
         <div class="sidebar-icon ${section.referenceName=='profile' ? 'selected-item' : ''}" id="${section.referenceName}Icon">

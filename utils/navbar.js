@@ -1,6 +1,5 @@
 import { isSectionInViewport } from "./viewport.js";
 import { sections } from "../data/sections.js";
-import { navbarIconHTML } from "../components/navbarIcon.js";
 
 export function setActiveSection(oldSection) {
     var i = 0;
@@ -16,8 +15,4 @@ export function setActiveSection(oldSection) {
         let icon = document.querySelector(`#${sections[i].referenceName}Icon`);
         icon.classList.add("selected-item");
     }
-}
-
-export function navbarIconsHTML() {
-    return sections.map((section) => (navbarIconHTML(section))).join('');
 }
