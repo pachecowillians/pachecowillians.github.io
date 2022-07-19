@@ -1,3 +1,5 @@
+import { isProgressBarInViewport } from "../utils/viewport.js";
+
 export function languageHTML(language) {
     return /*html*/ `
         <div class="language-container ${language.referenceName}">
@@ -7,7 +9,9 @@ export function languageHTML(language) {
                     <span>${language.name}</span>
                     <span>${language.percentage}%</span>
                 </div>
-                <div class="progress-bar"> <span> </span> </div>
+                <div class="progress-bar"> 
+                    <span></span> 
+                </div>
             </div>
         </div>
     `;
@@ -35,4 +39,13 @@ export function languageCSS(language) {
         color: ${language.color};
     }
     `;
+}
+
+export function progressBarsLoad() {
+    let progressBars = document.querySelectorAll('.progress-bar span');
+    [...progressBars].map((progressBar) => {
+        if (isProgressBarInViewport(progressBar)) {
+            progressBar.style.animationPlayState = 'running';
+        }
+    });
 }

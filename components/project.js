@@ -8,7 +8,9 @@ export function projectHTML(project) {
                 <p>${project.description}</p>
             </div>
             <div class="project-item-hidden-languages">
-                ${project.languages.map((language)=>(`<img src="img/Languages/${language}.svg" alt="HTML">`)).join('')}
+                ${project.languages.map((language)=>(
+                    /*html*/ `<img src="img/Languages/${language}.svg" alt="HTML">`
+                    )).join('')}
             </div>
         </div>
         <div class="project-item-visible">
@@ -19,4 +21,22 @@ export function projectHTML(project) {
         </div>
     </div>
     `);
+}
+
+export function setProjectItemHeight() {
+    let items = document.querySelectorAll(".project-item");
+    let width = items[0].offsetWidth;
+    [...items].map((item) => {
+        item.style.height = `${width * 245.094/435.938}px`;
+    })
+}
+
+export function toggleProjectItem(projectItem){
+    if (projectItem.classList.contains("item-active")) {
+        projectItem.classList.remove("item-active");
+        projectItem.querySelector(".project-item-info span").innerHTML = "info";
+    } else {
+        projectItem.classList.add("item-active");
+        projectItem.querySelector(".project-item-info span").innerHTML = "<span style='color:var(--text)'> horizontal_rule </span>";
+    }
 }

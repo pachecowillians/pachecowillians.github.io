@@ -29,3 +29,11 @@ export function schoolItemHTML(schoolItem, titles) {
         </div>
     `;
 }
+
+export function toggleSchoolItem(schoolItem) {
+    if (schoolItem.classList.contains("item-active")) {
+        schoolItem.classList.remove("item-active");
+    } else {
+        schoolItem.classList.add("item-active");
+    }
+}
