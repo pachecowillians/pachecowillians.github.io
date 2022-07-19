@@ -540,13 +540,12 @@ li {
     top: 0rem;
     left: 0rem;
     transition: 0.5s ease;
-    transition-property: opacity, top;
-    transform-origin: 2rem 2rem;
+    transition-property: opacity, left;
     opacity: 1;
 }
 
 .item-active .project-item-visible {
-    top: 100%;
+    left: 100%;
 }
 
 .project-item-visible img {
