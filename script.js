@@ -5,14 +5,12 @@ import { languagesCSS, languagesHTML, programmingInformationTextHTML } from "./f
 import { coursesTitleHTML, scholarityTitleHTML, schoolInformationTextHTML, schoolingHTML } from "./functions/school.js";
 import { coursesHTML } from "./functions/school.js";
 import { projectInformationTextHTML, projectsHTML } from "./functions/project.js";
-import { profileDescriptionHTML, socialMediaHTML } from "./functions/profile.js";
 import { professionalDescriptionHTML, professionalInformationTextHTML, professionalItemsHTML, professionalTasksHTML, professionalWebsiteHTML } from "./functions/professional.js";
+import { Profile } from "./pages/profile.js";
 
 const addCSS = css => document.head.appendChild(document.createElement("style")).innerHTML = css;
 
-document.querySelector("#profile .profile-text").innerHTML = profileDescriptionHTML();
-
-document.querySelector("#profile .social-media").innerHTML = socialMediaHTML();
+document.querySelector("main").innerHTML += Profile();
 
 document.querySelector("#programming .information-text").innerHTML = programmingInformationTextHTML();
 
