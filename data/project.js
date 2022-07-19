@@ -1,4 +1,4 @@
-export const projectsInformationText = "To practice what i study, i do challenging projects in order to retain the content learned, just as i am doing with this portfolio. Some of my projects are presented here.";
+export const informationText = "To practice what i study, i do challenging projects in order to retain the content learned, just as i am doing with this portfolio. Some of my projects are presented here.";
 
 export const projects = [{
         name: 'WPS - Timer',

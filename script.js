@@ -1,11 +1,11 @@
 import { isProgressBarInViewport } from "./functions/viewport.js";
 import { navbarIconsHTML, setActiveSection } from "./functions/navbar.js";
 import { toggleTheme } from "./functions/theme.js";
-import { projectInformationTextHTML, projectsHTML } from "./functions/project.js";
 import { Profile } from "./pages/profile.js";
 import { languagesCSS, Programming } from "./pages/programming.js";
 import { School } from "./pages/school.js";
 import { Professional } from "./pages/professional.js";
+import { Projects } from "./pages/projects.js";
 
 const addCSS = css => document.head.appendChild(document.createElement("style")).innerHTML = css;
 
@@ -17,11 +17,9 @@ document.querySelector("main").innerHTML += School();
 
 document.querySelector("main").innerHTML += Professional();
 
+document.querySelector("main").innerHTML += Projects();
+
 addCSS(languagesCSS());
-
-document.querySelector("#projects .information-text").innerHTML = projectInformationTextHTML();
-
-document.querySelector("#projects .projects-container").innerHTML = projectsHTML();
 
 document.querySelector("#theme-toggle").onclick = () => { toggleTheme(); }
 
