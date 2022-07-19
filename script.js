@@ -37,17 +37,8 @@ function setProjectItemHeight() {
     })
 }
 
-document.querySelector(".programming-container").innerHTML = languagesHTML();
-addCSS(languagesCSS());
-
-document.querySelector(".scholarity-container").innerHTML = schoolingHTML();
-
-document.querySelector(".courses-container").innerHTML = coursesHTML();
-
-
 document.querySelector("main").onscroll = () => { scrolling = true; };
 
-document.querySelector("#theme-toggle").onclick = () => { toggleTheme(); }
 
 setInterval(() => {
     if (scrolling) {
@@ -68,10 +59,6 @@ let schoolItems = document.querySelectorAll(".school-item-container");
         }
     };
 })
-
-document.querySelector(".projects-container").innerHTML = projectsHTML();
-
-document.querySelector("#sidebar-menu").innerHTML = sidebarIconsHTML();
 
 window.addEventListener("resize", setProjectItemHeight);
 
@@ -98,11 +85,18 @@ document.querySelector("#profile .social-media").innerHTML = socialMediaHTML();
 
 document.querySelector("#programming .information-text").innerHTML = programmingInformationTextHTML();
 
+document.querySelector("#programming .programming-container").innerHTML = languagesHTML();
+addCSS(languagesCSS());
+
 document.querySelector("#school .information-text").innerHTML = schoolInformationTextHTML();
 
 document.querySelector("#school .scholarity").innerHTML += scholarityTitleHTML();
 
+document.querySelector("#school .scholarity-container").innerHTML = schoolingHTML();
+
 document.querySelector("#school .courses").innerHTML += coursesTitleHTML();
+
+document.querySelector("#school .courses-container").innerHTML = coursesHTML();
 
 document.querySelector("#professional .information-text").innerHTML = professionalInformationTextHTML();
 
@@ -113,3 +107,9 @@ document.querySelector("#professional .professional-description").innerHTML = pr
 document.querySelector("#professional .professional-task").innerHTML = professionalTasksHTML();
 
 document.querySelector("#projects .information-text").innerHTML = projectInformationTextHTML();
+
+document.querySelector("#projects .projects-container").innerHTML = projectsHTML();
+
+document.querySelector("#theme-toggle").onclick = () => { toggleTheme(); }
+
+document.querySelector("#sidebar-menu").innerHTML = sidebarIconsHTML();
