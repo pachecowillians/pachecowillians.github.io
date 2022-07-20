@@ -172,6 +172,16 @@ const projects = [{
         name: 'tcctecnico',
         path: 'img/Projects/tcctecnico.gif',
         filter: false
+    },
+    {
+        name: 'cs50',
+        path: 'img/Projects/cs50.gif',
+        filter: false
+    },
+    {
+        name: 'quimicaorganica',
+        path: 'img/Projects/quimicaorganica.gif',
+        filter: false
     }
 ]
 

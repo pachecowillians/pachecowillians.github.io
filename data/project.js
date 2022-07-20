@@ -29,20 +29,6 @@ export const projects = [{
         ]
     },
     {
-        name: 'Task List',
-        link: 'https://github.com/pachecowillians/task-list-react',
-        referenceName: 'tasklist',
-        description: 'Lista de tarefas criada para auxiliar na organização pessoal.',
-        languages: [
-            'javascript',
-            'html',
-            'css',
-            'nextjs',
-            'reactjs',
-            'typescript'
-        ]
-    },
-    {
         name: 'Whatsapp Clone',
         link: 'https://github.com/pachecowillians/whatsapp-clone',
         referenceName: 'whatsappclone',
@@ -54,6 +40,19 @@ export const projects = [{
             'nextjs',
             'reactjs',
             'typescript'
+        ]
+    },
+    {
+        name: 'TCC - CS50',
+        link: 'https://github.com/pachecowillians/CS50-introduction-to-computer-science',
+        referenceName: 'cs50',
+        description: 'Trabalho de Conclusão de Curso realizado ao fim do curso do CS50 de Harvard. O trabalho consiste em um gerenciador de tarefas e atividades.',
+        languages: [
+            'javascript',
+            'html',
+            'css',
+            'flask',
+            'python',
         ]
     },
     {
@@ -70,22 +69,23 @@ export const projects = [{
         ]
     },
     {
-        name: 'TCC - CS50',
-        link: 'https://github.com/pachecowillians/CS50-introduction-to-computer-science',
-        referenceName: 'wpstimer',
-        description: 'Trabalho de Conclusão de Curso realizado ao fim do curso do CS50 de Harvard. O trabalho consiste em um gerenciador de tarefas e atividades.',
+        name: 'Task List',
+        link: 'https://github.com/pachecowillians/task-list-react',
+        referenceName: 'tasklist',
+        description: 'Lista de tarefas criada para auxiliar na organização pessoal.',
         languages: [
             'javascript',
             'html',
             'css',
-            'flask',
-            'python',
+            'nextjs',
+            'reactjs',
+            'typescript'
         ]
     },
     {
         name: 'Sistema de auxílio ao aprendizado de Química Orgânica',
         link: 'https://github.com/pachecowillians/CS50-introduction-to-computer-science',
-        referenceName: 'wpstimer',
+        referenceName: 'quimicaorganica',
         description: 'Sistema implementado a pedido do professor de química para auxiliar os alunos no aprendizado de química orgânica. Uma aplicação da gamificação no ambiente escolar.',
         languages: [
             'csharp',
