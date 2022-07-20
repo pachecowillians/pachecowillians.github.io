@@ -21,9 +21,9 @@ document.querySelector("#theme-toggle").onclick = () => { toggleTheme(); }
 
 document.querySelector("main").onscroll = () => { scrolling = true; };
 
-window.addEventListener("resize", setProjectItemHeight);
+// window.addEventListener("resize", setProjectItemHeight);
 
-window.addEventListener("load", setProjectItemHeight);
+// window.addEventListener("load", setProjectItemHeight);
 
 let schoolItems = document.querySelectorAll(".school-item-container");
 

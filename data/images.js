@@ -186,6 +186,11 @@ const social = [{
         filter: true
     },
     {
+        name: 'githubwhite',
+        path: 'img/Social/githubwhite.svg',
+        filter: false
+    },
+    {
         name: 'gmail',
         path: 'img/Social/gmail.svg',
         filter: false
