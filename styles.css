@@ -118,7 +118,7 @@ aside#sidebar img:nth-child(2) {
 
 .sidebar-icon span:nth-child(1),
 .menu-icon span {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 .sidebar-icon:focus,
@@ -144,7 +144,7 @@ aside#option-menu {
     justify-content: space-between;
     align-content: center;
     align-items: center;
-    height: 5rem;
+    height: 5.5rem;
     margin-top: 2rem;
 }
 
