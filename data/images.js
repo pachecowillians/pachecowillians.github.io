@@ -159,11 +159,6 @@ const projects = [{
         filter: false
     },
     {
-        name: 'tasklist',
-        path: 'img/Projects/tasklist.gif',
-        filter: false
-    },
-    {
         name: 'whatsappclone',
         path: 'img/Projects/whatsappclone.gif',
         filter: false

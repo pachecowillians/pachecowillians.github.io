@@ -69,20 +69,6 @@ export const projects = [{
         ]
     },
     {
-        name: 'Task List',
-        link: 'https://github.com/pachecowillians/task-list-react',
-        referenceName: 'tasklist',
-        description: 'Lista de tarefas criada para auxiliar na organização pessoal.',
-        languages: [
-            'javascript',
-            'html',
-            'css',
-            'nextjs',
-            'reactjs',
-            'typescript'
-        ]
-    },
-    {
         name: 'Sistema de auxílio ao aprendizado de Química Orgânica',
         link: 'https://github.com/pachecowillians/CS50-introduction-to-computer-science',
         referenceName: 'quimicaorganica',
