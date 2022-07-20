@@ -40,6 +40,11 @@ const languages = [{
         filter: false
     },
     {
+        name: 'dotnet',
+        path: 'img/Languages/dotnet.svg',
+        filter: false
+    },
+    {
         name: 'flask',
         path: 'img/Languages/flask.svg',
         filter: true
@@ -65,6 +70,11 @@ const languages = [{
         filter: false
     },
     {
+        name: 'jquery',
+        path: 'img/Languages/jquery.svg',
+        filter: false
+    },
+    {
         name: 'mysql',
         path: 'img/Languages/mysql.svg',
         filter: false
@@ -75,8 +85,18 @@ const languages = [{
         filter: true
     },
     {
+        name: 'nodejs',
+        path: 'img/Languages/nodejs.svg',
+        filter: true
+    },
+    {
         name: 'php',
         path: 'img/Languages/php.svg',
+        filter: false
+    },
+    {
+        name: 'postgresql',
+        path: 'img/Languages/postgresql.svg',
         filter: false
     },
     {

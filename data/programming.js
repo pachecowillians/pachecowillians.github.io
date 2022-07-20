@@ -37,10 +37,22 @@ export let languages = [{
         color: 'var(--text)'
     },
     {
+        name: 'Node JS',
+        referenceName: 'nodejs',
+        percentage: ((6 / 17) * 100).toFixed(2),
+        color: '#83CD29'
+    },
+    {
         name: 'Bootstrap',
         referenceName: 'bootstrap',
         percentage: ((15 / 21) * 100).toFixed(2),
         color: '#7952B3'
+    },
+    {
+        name: 'jQuery',
+        referenceName: 'jquery',
+        percentage: ((80 / 318) * 100).toFixed(2),
+        color: '#0868AC'
     },
     {
         name: 'Flask',
@@ -85,6 +97,12 @@ export let languages = [{
         color: '#68217A'
     },
     {
+        name: '.NET',
+        referenceName: 'dotnet',
+        percentage: ((7 / 14) * 100).toFixed(2),
+        color: '#1373B2'
+    },
+    {
         name: 'Arch Linux',
         referenceName: 'archlinux',
         percentage: ((15 / 22) * 100).toFixed(2),
@@ -113,6 +131,12 @@ export let languages = [{
         referenceName: 'mysql',
         percentage: ((28 / 38) * 100).toFixed(2),
         color: '#00618A'
+    },
+    {
+        name: 'PostgreSQL',
+        referenceName: 'postgresql',
+        percentage: ((28 / 38) * 100).toFixed(2),
+        color: '#336791'
     },
     {
         name: 'Docker',
