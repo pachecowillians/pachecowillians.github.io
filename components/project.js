@@ -12,7 +12,7 @@ export function projectHTML(project) {
                 <div class="project-item-languages">
                     ${project.languages.map((language)=>(`<img src="${images.filter((image)=>(image.name==language))[0].path}" alt="${language}" title="${language}">`)).join('')}
                 </div>
-                <p>Cronômetro utilizado para o método Pomodoro de gerenciamento de tempo</p>
+                <p>${project.description}</p>
             </div>
             <a href="${project.link}" class="project-item-button" target="_blank">
                 <img src="${images.filter((image)=>(image.name=="githubwhite"))[0].path}" alt="GitHub">
