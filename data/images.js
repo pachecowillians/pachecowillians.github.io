@@ -124,10 +124,26 @@ const logo = [{
 ]
 
 const projects = [{
-    name: 'wpstimer',
-    path: 'img/Projects/wpstimer.png',
-    filter: false
-}]
+        name: 'wpstimer',
+        path: 'img/Projects/wpstimer.gif',
+        filter: false
+    },
+    {
+        name: 'catalogueit',
+        path: 'img/Projects/catalogueit.gif',
+        filter: false
+    },
+    {
+        name: 'tasklist',
+        path: 'img/Projects/tasklist.gif',
+        filter: false
+    },
+    {
+        name: 'whatsappclone',
+        path: 'img/Projects/whatsappclone.gif',
+        filter: false
+    }
+]
 
 const social = [{
         name: 'github',

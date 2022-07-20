@@ -562,6 +562,7 @@ a {
 
 .project-item-hidden-information a {
     width: 100%;
+    word-break: break-all;
 }
 
 .projects-container {
