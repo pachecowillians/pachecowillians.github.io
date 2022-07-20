@@ -15,7 +15,7 @@ export function toggleTheme() {
         });
 
         imagesToFilter.map((image) => {
-            let equalImages = document.querySelectorAll(`img[src*="${image.name}"]`);
+            let equalImages = document.querySelectorAll(`img[src="${image.path}"]`);
             [...equalImages].map((equalImage) => {
                 equalImage.style.setProperty("filter", "none");
             });
@@ -29,7 +29,7 @@ export function toggleTheme() {
         });
 
         imagesToFilter.map((image) => {
-            let equalImages = document.querySelectorAll(`img[src*="${image.name}"]`);
+            let equalImages = document.querySelectorAll(`img[src="${image.path}"]`);
             [...equalImages].map((equalImage) => {
                 equalImage.style.setProperty("filter", "invert(99%) sepia(0%) saturate(0%) hue-rotate(148deg) brightness(87%) contrast(91%)");
             });
