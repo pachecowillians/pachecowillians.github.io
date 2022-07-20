@@ -43,6 +43,12 @@ export let languages = [{
         color: '#83CD29'
     },
     {
+        name: 'Sass',
+        referenceName: 'sass',
+        percentage: ((6 / 17) * 100).toFixed(2),
+        color: '#CB6699'
+    },
+    {
         name: 'Bootstrap',
         referenceName: 'bootstrap',
         percentage: ((15 / 21) * 100).toFixed(2),
@@ -100,7 +106,7 @@ export let languages = [{
         name: '.NET',
         referenceName: 'dotnet',
         percentage: ((7 / 14) * 100).toFixed(2),
-        color: '#1373B2'
+        color: '#198AD0'
     },
     {
         name: 'Arch Linux',

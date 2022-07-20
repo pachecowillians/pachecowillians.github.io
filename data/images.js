@@ -110,6 +110,11 @@ const languages = [{
         filter: false
     },
     {
+        name: 'sass',
+        path: 'img/Languages/sass.svg',
+        filter: false
+    },
+    {
         name: 'sqlserver',
         path: 'img/Languages/sqlserver.svg',
         filter: false
