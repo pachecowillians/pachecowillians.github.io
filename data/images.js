@@ -142,6 +142,11 @@ const projects = [{
         name: 'whatsappclone',
         path: 'img/Projects/whatsappclone.gif',
         filter: false
+    },
+    {
+        name: 'tcctecnico',
+        path: 'img/Projects/tcctecnico.gif',
+        filter: false
     }
 ]
 

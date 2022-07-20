@@ -56,4 +56,40 @@ export const projects = [{
             'typescript'
         ]
     },
+    {
+        name: 'TCC - SENAI',
+        link: 'https://github.com/pachecowillians/tcc-senai',
+        referenceName: 'tcctecnico',
+        description: 'Trabalho de Conclusão de Curso realizado ao fim do curso técnico do SENAI. Ele consiste em um site para divulgação dos eventos regionais.',
+        languages: [
+            'javascript',
+            'html',
+            'css',
+            'php',
+            'bootstrap',
+        ]
+    },
+    {
+        name: 'TCC - CS50',
+        link: 'https://github.com/pachecowillians/CS50-introduction-to-computer-science',
+        referenceName: 'wpstimer',
+        description: 'Trabalho de Conclusão de Curso realizado ao fim do curso do CS50 de Harvard. O trabalho consiste em um gerenciador de tarefas e atividades.',
+        languages: [
+            'javascript',
+            'html',
+            'css',
+            'flask',
+            'python',
+        ]
+    },
+    {
+        name: 'Sistema de auxílio ao aprendizado de Química Orgânica',
+        link: 'https://github.com/pachecowillians/CS50-introduction-to-computer-science',
+        referenceName: 'wpstimer',
+        description: 'Sistema implementado a pedido do professor de química para auxiliar os alunos no aprendizado de química orgânica. Uma aplicação da gamificação no ambiente escolar.',
+        languages: [
+            'csharp',
+            'windows',
+        ]
+    },
 ];
