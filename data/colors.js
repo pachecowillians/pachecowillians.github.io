@@ -7,5 +7,9 @@ export const colors = [
     'grey',
     'white',
     'text',
-    'box-shadow'
+    'box-shadow',
+    'button',
+    'filter',
+    'filter-inverse',
+    'text-inverse',
 ];
