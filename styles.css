@@ -634,9 +634,9 @@ a {
     font-weight: 700;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 375px) {
     html {
-        font-size: 10px;
+        font-size: 12px;
     }
     main section .container {
         padding: 5rem 3rem;
@@ -697,7 +697,77 @@ a {
         font-size: 2.3rem;
     }
     .sidebar-icon span:nth-child(2) {
-        font-size: 1.1rem;
+        font-size: 1rem;
+    }
+    section h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 425px) {
+    html {
+        font-size: 14px;
+    }
+    main section .container {
+        padding: 5rem 3rem;
+    }
+    .programming-container,
+    .projects-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .project-item {
+        margin: 0;
+    }
+    .language-container {
+        width: 100%;
+    }
+    .professional-item {
+        max-width: 95%;
+    }
+    .study-container {
+        width: 95%;
+    }
+    .information-text {
+        width: 80%;
+    }
+    body {
+        grid-template-columns: none;
+        grid-template-rows: 100px auto 100px;
+        grid-template-areas: "options" "main" "navbar";
+    }
+    aside#sidebar {
+        grid-template-rows: 0 auto 0;
+        padding: 30px 0px;
+    }
+    #logoNavbar {
+        display: none;
+    }
+    #sidebar-menu {
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100vw;
+    }
+    aside#option-menu {
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        height: 2.4rem;
+    }
+    aside#option-menu #logoTopbar {
+        height: 2rem;
+        display: block;
+    }
+    .menu-icon span:hover,
+    .sidebar-icon span:hover {
+        opacity: 1;
+    }
+    .sidebar-icon {
+        flex-direction: column;
+    }
+    .sidebar-icon span:first-child {
+        font-size: 2.3rem;
+    }
+    .sidebar-icon span:nth-child(2) {
+        font-size: 1rem;
     }
     section h1 {
         font-size: 2rem;
@@ -706,7 +776,7 @@ a {
 
 @media(min-width: 425px) and (max-width: 660px) {
     html {
-        font-size: 12px;
+        font-size: 14px;
     }
     main section .container {
         padding: 5rem 4rem;
@@ -763,7 +833,7 @@ a {
 
 @media(min-width: 660px) and (max-width: 768px) {
     html {
-        font-size: 12px;
+        font-size: 14px;
     }
     main section .container {
         padding: 5rem 2rem;
@@ -783,7 +853,7 @@ a {
 
 @media(min-width: 768px) and (max-width: 980px) {
     html {
-        font-size: 12px;
+        font-size: 14px;
     }
     main section .container {
         padding: 5rem 2rem;
@@ -802,7 +872,7 @@ a {
 
 @media(min-width: 980px) and (max-width: 1100px) {
     html {
-        font-size: 12px;
+        font-size: 14px;
     }
     main section .container {
         padding: 5rem 2rem;
@@ -818,7 +888,7 @@ a {
 
 @media(min-width: 1100px) and (max-width: 1440px) {
     html {
-        font-size: 13px;
+        font-size: 15px;
     }
     main section .container {
         padding: 5rem 6rem;
