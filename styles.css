@@ -78,7 +78,7 @@ body {
     width: 100vw;
     height: 100%;
     display: grid;
-    grid-template-columns: 100px auto 100px;
+    grid-template-columns: 13rem auto 6rem;
     grid-template-areas: "navbar main options";
     background-color: var(--background);
     transition: background-color 500ms, filter ease-in 500ms;
@@ -171,6 +171,7 @@ aside#option-menu {
     justify-content: space-between;
     align-content: center;
     align-items: center;
+    padding: 4.5rem 0rem;
     height: 6.5rem;
 }
 
@@ -280,6 +281,9 @@ section h1 {
 
 .information-text {
     /* font-size: 1rem; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-weight: 600;
     width: 70%;
     background-color: var(--grey);
@@ -294,7 +298,7 @@ section h1 {
 .programming-container {
     row-gap: 4rem;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: min-content;
     justify-content: center;
     align-items: center;
@@ -555,12 +559,11 @@ a {
 
 .projects-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     justify-content: center;
     align-items: start;
     justify-items: center;
     row-gap: 5rem;
-    width: 100%;
     align-content: center;
 }
 
@@ -723,14 +726,14 @@ a {
     main section .container {
         padding: 5rem 4rem;
     }
+    .projects-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 @media(max-width: 1024px) {
     main section .container {
         padding: 5rem 2rem;
-    }
-    .projects-container {
-        grid-template-columns: repeat(1, 1fr);
     }
 }
 
@@ -740,7 +743,7 @@ a {
     }
     body {
         grid-template-columns: none;
-        grid-template-rows: 6rem auto 6rem;
+        grid-template-rows: 5rem auto 5rem;
         grid-template-areas: "options" "main" "navbar";
     }
     aside#sidebar {
@@ -816,9 +819,6 @@ a {
     html {
         /* font-size: 11px; */
     }
-    main section .container {
-        padding: 5rem 2rem;
-    }
     #profile .profile-text {
         margin: 1.5rem 0.5rem;
     }
@@ -830,17 +830,20 @@ a {
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 390px) {
     .project-item {
         width: 20rem;
     }
     .sidebar-icon span:nth-child(2) {
         font-size: 0.9rem;
     }
+    main section .container {
+        padding: 5rem 2rem;
+    }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 360px) {
     .sidebar-icon span:nth-child(2) {
-        font-size: 0.8rem;
+        font-size: 0.85rem;
     }
 }
