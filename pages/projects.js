@@ -5,7 +5,7 @@ export function Projects() {
     return /*html*/ `
     <section id="projects">
         <div class="container">
-            <div class="information-text">${informationText}</div>
+            <div class="information-text"><span>${informationText}</span></div>
             <div class="projects-container">${
                 projects.map((project) => (projectHTML(project))).join('')
             }</div>

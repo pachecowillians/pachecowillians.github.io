@@ -5,7 +5,7 @@ export function School() {
     return /*html*/ `
     <section id="school">
         <div class="container">
-            <div class="information-text">${informationText}</div>
+            <div class="information-text"><span>${informationText}</span></div>
             <div class="study-container">
                 <div class="scholarity">
                     <span class="material-symbols-outlined">

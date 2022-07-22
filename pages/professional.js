@@ -5,7 +5,7 @@ export function Professional() {
     return /*html*/ `
     <section id="professional">
         <div class="container">
-            <div class="information-text">${informationText}</div>
+            <div class="information-text"><span>${informationText}</span></div>
             <div class="professional-items-container">${
                 professionalItems.map((professionalItem) => (professionalItemHTML(professionalItem, titles))).join('')
             }</div>

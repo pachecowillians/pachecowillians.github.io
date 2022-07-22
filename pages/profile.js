@@ -11,7 +11,7 @@ export function Profile() {
             <div class="social-media"> ${
                 socialMediaItems.map((socialMediaItem) => (socialMedia(socialMediaItem))).join('')
             } </div>
-            <div class="profile-text"> ${description} </div>
+            <div class="profile-text"> <span>${description}</span> </div>
         </div>
     </section>
     `;
