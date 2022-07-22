@@ -355,7 +355,7 @@ section h1 {
 }
 
 .language-container img {
-    width: 4rem;
+    width: 3.5rem;
 }
 
 .study-container {
@@ -407,6 +407,7 @@ section h1 {
     justify-content: flex-start;
     align-items: flex-start;
     cursor: pointer;
+    margin-left: 3rem;
 }
 
 li {
