@@ -82,6 +82,9 @@ body {
     grid-template-areas: "navbar main options";
     background-color: var(--background);
     transition: background-color 500ms, filter ease-in 500ms;
+    justify-content: center;
+    justify-items: stretch;
+    align-items: stretch;
 }
 
 h1,
@@ -737,7 +740,7 @@ a {
     }
     body {
         grid-template-columns: none;
-        grid-template-rows: 7.7rem auto 7.7rem;
+        grid-template-rows: 6rem auto 6rem;
         grid-template-areas: "options" "main" "navbar";
     }
     aside#sidebar {
@@ -757,10 +760,11 @@ a {
     aside#option-menu {
         flex-direction: row-reverse;
         justify-content: space-around;
-        height: 2.4rem;
+        height: 100%;
+        padding: 0;
     }
     aside#option-menu #logoTopbar {
-        height: 2rem;
+        height: 1.7rem;
         display: block;
     }
     .sidebar-icon span:nth-child(1) {
@@ -829,6 +833,9 @@ a {
 @media (max-width: 375px) {
     .project-item {
         width: 20rem;
+    }
+    .sidebar-icon span:nth-child(2) {
+        font-size: 0.9rem;
     }
 }
 
