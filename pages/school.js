@@ -11,7 +11,7 @@ export function School() {
                     <span class="material-symbols-outlined">
                         school
                     </span>
-                    <p>${titles.scholarity}</p>
+                    <h1>${titles.scholarity}</h1>
                 </div>
                 <div class="scholarity-container">${
                     schooling.map((scholarity) => (schoolItemHTML(scholarity, titles))).join('')
@@ -20,7 +20,7 @@ export function School() {
                     <span class="material-symbols-outlined">
                         menu_book
                     </span>
-                    <p>${titles.courses}</p>
+                    <h1>${titles.courses}</h1>
                 </div>
                 <div class="courses-container">${
                     courses.map((course) => (schoolItemHTML(course, titles))).join('')
