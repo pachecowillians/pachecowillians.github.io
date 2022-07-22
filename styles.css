@@ -133,12 +133,12 @@ aside#sidebar img:nth-child(2) {
 }
 
 .sidebar-icon span {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .sidebar-icon span:nth-child(1),
 .menu-icon span {
-    font-size: 1.7rem;
+    font-size: 2rem;
 }
 
 .sidebar-icon:focus,
@@ -724,9 +724,6 @@ a {
     main section .container {
         padding: 5rem 4rem;
     }
-    .sidebar-icon span {
-        font-size: 1.1rem;
-    }
 }
 
 @media(max-width: 1024px) {
@@ -738,13 +735,7 @@ a {
     }
 }
 
-@media(max-width: 880px) {
-    .programming-container {
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
-
-@media(max-width: 768px) {
+@media(max-width: 992px) {
     main section .container {
         padding: 5rem 4rem;
     }
@@ -773,7 +764,7 @@ a {
         height: 2.4rem;
     }
     aside#option-menu #logoTopbar {
-        height: 1.8rem;
+        height: 2rem;
         display: block;
     }
     .sidebar-icon span:nth-child(1) {
@@ -791,7 +782,13 @@ a {
     }
 }
 
-@media (max-width: 425px) {
+@media(max-width: 700px) {
+    .programming-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
     html {
         font-size: 12px;
     }
