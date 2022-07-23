@@ -18,16 +18,15 @@ export const professionalItems = [{
 }]
 
 export const titles = {
-    website: {
-        portuguese: 'Site',
-        english: 'Website'
+    portuguese: {
+
+        website: 'Site',
+        description: 'Descrição',
+        tasks: 'Tarefas',
     },
-    description: {
-        portuguese: 'Descrição',
-        english: 'Description',
+    english: {
+        website: 'Website',
+        description: 'Description',
+        tasks: 'Tasks',
     },
-    tasks: {
-        portuguese: 'Tarefas',
-        english: 'Tasks'
-    }
 }
