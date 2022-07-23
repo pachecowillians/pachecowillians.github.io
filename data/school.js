@@ -1,4 +1,4 @@
-export const informationText = "I have always enjoyed studying, improving my knowledge and learning new things. Here's my education, and some courses I've taken or am taking, along with the percentage completed for each.";
+export const informationText = "Eu sempre gostei de estudar, aprimorar meus conhecimentos e aprender coisas novas. Aqui é apresentada a minha formação e alguns cursos que eu finalizei.";
 
 export let schooling = [{
         name: 'UFES - Computer Engineering College',
@@ -105,9 +105,9 @@ export let courses = [{
 ];
 
 export const titles = {
-    scholarity: 'Scholarity',
-    courses: 'Courses',
-    certificate: 'Certificate',
-    description: 'Description',
-    subjectsStudied: 'Subjects Studied'
+    scholarity: 'Formação',
+    courses: 'Cursos',
+    certificate: 'Certificado',
+    description: 'Descrição',
+    subjectsStudied: 'Conteúdo estudado'
 }
