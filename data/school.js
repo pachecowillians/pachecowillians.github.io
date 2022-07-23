@@ -1,4 +1,7 @@
-export const informationText = "Eu sempre gostei de estudar, aprimorar meus conhecimentos e aprender coisas novas. Aqui é apresentada a minha formação e alguns cursos que eu finalizei.";
+export const informationText = {
+    portuguese: "Eu sempre gostei de estudar, aprimorar meus conhecimentos e aprender coisas novas. Aqui é apresentada a minha formação e alguns cursos que eu finalizei.",
+    english: "I have always enjoyed studying, improving my knowledge and learning new things. Here is my training and some courses i completed.",
+}
 
 export let schooling = [{
         name: 'UFES - Computer Engineering College',
