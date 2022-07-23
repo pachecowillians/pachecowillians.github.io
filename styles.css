@@ -1,5 +1,4 @@
 :root {
-    /* Light Theme */
     --background-light: #F5F5F5;
     --darkgrey-light: #B9B9B9;
     --darkblue-light: #1F3C88;
@@ -14,7 +13,6 @@
     --filter-inverse-light: var(--filter-dark);
     --text-inverse-light: var(--text-dark);
     --background-inverse-light: var(--background-dark);
-    /* Dark Theme */
     --background-dark: #191919;
     --darkgrey-dark: #484848;
     --darkblue-dark: #19358C;
@@ -29,7 +27,6 @@
     --filter-inverse-dark: var(--filter-light);
     --text-inverse-dark: var(--text-light);
     --background-inverse-dark: var(--background-light);
-    /* Page Theme */
     --background: var(--background-light);
     --darkgrey: var(--darkgrey-light);
     --darkblue: var(--darkblue-light);
@@ -144,15 +141,6 @@ aside#sidebar img:nth-child(2) {
 
 #logoTopbar {
     height: 2rem;
-}
-
-.sidebar-icon span {
-    /* font-size: 1.1rem; */
-}
-
-.sidebar-icon span:nth-child(1),
-.menu-icon span {
-    /* font-size: 2rem; */
 }
 
 .sidebar-icon:focus,
@@ -282,13 +270,11 @@ section h1 {
 
 #profile .profile-text {
     color: var(--text);
-    /* font-size: 1rem; */
     text-align: justify;
     margin: 1.5rem 0rem;
 }
 
 .information-text {
-    /* font-size: 1rem; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -358,7 +344,6 @@ section h1 {
 }
 
 .progress-bar-title span {
-    /* font-size: 1.1rem; */
     font-weight: 700;
 }
 
@@ -434,7 +419,6 @@ li {
 .school-item-header h2 {
     padding: 0px;
     margin: 0px;
-    /* font-size: 1.4rem; */
 }
 
 .school-item-toggle-icon {
@@ -451,16 +435,10 @@ li {
     transition: 0.7s max-height ease;
 }
 
-.school-item-collapse-area p,
-.school-item-collapse-area h3 {
-    /* margin: 1rem 0rem; */
-}
-
 .school-item-collapse-area h3,
 .professional-item-informations h3 {
     margin-top: 2rem;
     margin-bottom: 0.5rem;
-    /* font-size: 1.2rem; */
 }
 
 .school-item-link {
@@ -538,14 +516,6 @@ li {
     justify-content: center;
     align-items: flex-start;
     row-gap: 0.5rem;
-}
-
-.professional-item-header-information h2 {
-    /* font-size: 1.5rem; */
-}
-
-.professional-item-header-information p {
-    /* font-size: 1rem; */
 }
 
 .professional-item-header {
@@ -671,7 +641,6 @@ a {
     border-radius: 0.5rem;
     color: var(--text-inverse);
     margin-bottom: 2.5rem;
-    /* margin-top: 2rem; */
 }
 
 .project-item-button img {
@@ -680,14 +649,10 @@ a {
 }
 
 .project-item-button span {
-    /* font-size: 1.3rem; */
     font-weight: 700;
 }
 
 @media(max-width: 4240px) {
-    html {
-        /* font-size: 18px; */
-    }
     body {
         grid-template-rows: none;
         grid-template-columns: 13rem auto 6rem;
@@ -716,12 +681,6 @@ a {
     }
 }
 
-@media (max-width: 2560px) {
-    html {
-        /* font-size: 15px; */
-    }
-}
-
 @media(max-width: 1920px) {
     main section .container {
         padding: 5rem 6rem;
@@ -736,9 +695,6 @@ a {
 }
 
 @media(max-width: 1440px) {
-    html {
-        /* font-size: 14px; */
-    }
     aside#sidebar,
     aside#option-menu {
         padding: 2.5rem 0rem;
@@ -755,9 +711,6 @@ a {
 }
 
 @media(max-width: 1200px) {
-    html {
-        /* font-size: 13px; */
-    }
     main section .container {
         padding: 5rem 4rem;
     }
@@ -804,12 +757,6 @@ a {
     aside#option-menu #logoTopbar {
         display: block;
     }
-    .sidebar-icon span:nth-child(1) {
-        /* font-size: 2.5rem; */
-    }
-    .sidebar-icon span:nth-child(2) {
-        /* font-size: 1.25rem; */
-    }
     .sidebar-icon {
         flex-direction: column;
     }
@@ -832,18 +779,6 @@ a {
     main section .container {
         padding: 5rem 3rem;
     }
-    html {
-        /* font-size: 12px; */
-    }
-    .sidebar-icon span:nth-child(1) {
-        /* font-size: 2rem; */
-    }
-    .sidebar-icon span:nth-child(2) {
-        /* font-size: 1rem; */
-    }
-    #profile h1 {
-        /* font-size: 2.3rem; */
-    }
     .programming-container {
         width: 100%;
     }
@@ -861,9 +796,6 @@ a {
     }
     #profile .container {
         padding: 5rem 3rem;
-    }
-    html {
-        /* font-size: 11px; */
     }
     #profile .profile-text {
         margin: 1.5rem 0.5rem;
