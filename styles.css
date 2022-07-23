@@ -209,6 +209,7 @@ aside#option-menu {
 main {
     grid-area: main;
     overflow-y: scroll;
+    overflow-x: hidden;
     scroll-behavior: smooth;
     scrollbar-width: none;
 }
@@ -583,7 +584,6 @@ a {
     align-items: center;
     box-shadow: var(--box-shadow);
     color: var(--text-inverse);
-    overflow: hidden;
     margin: 0rem 4rem;
     text-align: justify;
     width: 25rem;
@@ -595,6 +595,13 @@ a {
 .project-item a {
     color: var(--text);
     font-size: 1.2rem;
+    transition: ease 300ms;
+    transition-property: color, background, filter;
+}
+
+.project-item a:hover {
+    transition: opacity 300ms;
+    opacity: 0.8;
 }
 
 .project-item h2 {
@@ -634,7 +641,7 @@ a {
 }
 
 .project-item-information p {
-    margin: 1rem 0rem;
+    margin-bottom: 1rem;
 }
 
 .project-item-languages {
