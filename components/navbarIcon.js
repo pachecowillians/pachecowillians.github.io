@@ -1,3 +1,5 @@
+import { getCurrentLanguage } from "../utils/translate.js"
+
 export function navbarIcon(section) {
     return ( /*html*/ `
     <a href="#${section.referenceName}">
@@ -5,7 +7,7 @@ export function navbarIcon(section) {
             <span class="material-symbols-outlined">
                 ${section.iconName}
             </span>
-            <span>${section.name}</span>
+            <span>${section.name[getCurrentLanguage()]}</span>
         </div>
     </a>
     `)

@@ -1,25 +1,40 @@
 export let sections = [{
-        name: 'Perfil',
+        name: {
+            portuguese: 'Perfil',
+            english: 'Profile'
+        },
         iconName: 'person',
         referenceName: 'profile'
     },
     {
-        name: 'Programação',
+        name: {
+            portuguese: 'Programação',
+            english: 'Programming'
+        },
         iconName: 'computer',
         referenceName: 'programming'
     },
     {
-        name: 'Formação',
+        name: {
+            portuguese: 'Formação',
+            english: 'School'
+        },
         iconName: 'school',
         referenceName: 'school'
     },
     {
-        name: 'Profissional',
+        name: {
+            portuguese: 'Profissional',
+            english: 'Professional'
+        },
         iconName: 'work',
         referenceName: 'professional'
     },
     {
-        name: 'Projetos',
+        name: {
+            portuguese: 'Projetos',
+            english: 'Projects'
+        },
         iconName: 'code',
         referenceName: 'projects'
     }
