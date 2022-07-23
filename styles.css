@@ -817,6 +817,9 @@ a {
     .sidebar-icon span:hover {
         opacity: 1;
     }
+    .project-item a:hover {
+        opacity: 1;
+    }
 }
 
 @media(max-width: 700px) {
