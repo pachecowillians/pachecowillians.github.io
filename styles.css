@@ -761,7 +761,7 @@ a {
         flex-direction: column;
     }
     .menu-icon span:hover,
-    .sidebar-icon span:hover {
+    .sidebar-icon:hover {
         opacity: 1;
     }
     .project-item a:hover {
