@@ -584,11 +584,17 @@ a {
     text-align: justify;
     width: 25rem;
     background: var(--background-inverse);
+    transition: 300ms ease;
+    transition-property: filter, color, background;
 }
 
 .project-item a {
     color: var(--text);
     font-size: 1.2rem;
+}
+
+.project-item h2 {
+    font-weight: 700;
 }
 
 .project-item img[src*="nextjs"],
