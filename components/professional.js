@@ -1,4 +1,5 @@
 import { images } from "../data/images.js";
+import { getCurrentLanguage } from "../utils/translate.js"
 
 export function professionalItemHTML(professional, titles) {
     return /* html */ `
@@ -13,11 +14,11 @@ export function professionalItemHTML(professional, titles) {
             </div>
         </div>
         <div class="professional-item-informations">
-            <h3>${titles.website}</h3>
+            <h3>${titles.website[getCurrentLanguage()]}</h3>
             <a href="${professional.link}" target="_blank">${professional.link}</a>
-            <h3>${titles.description}</h3>
+            <h3>${titles.description[getCurrentLanguage()]}</h3>
             <p>${professional.description}</p>
-            <h3>${titles.tasks}</h3>
+            <h3>${titles.tasks[getCurrentLanguage()]}</h3>
             <ul>
                 ${professional.tasks.map((task)=>(`<li>${task}</li>`)).join('')}
             </ul>
