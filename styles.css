@@ -404,7 +404,7 @@ section h1 {
 }
 
 li {
-    margin: 0.25rem 3rem;
+    margin: 0.5rem 3rem;
 }
 
 .school-item-header-information {
@@ -438,7 +438,7 @@ li {
 .school-item-collapse-area h3,
 .professional-item-informations h3 {
     margin-top: 2rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 .school-item-link {
