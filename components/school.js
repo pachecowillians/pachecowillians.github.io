@@ -16,11 +16,11 @@ export function schoolItemHTML(schoolItem, titles) {
                     </div>
                 </div>
                 <div class="school-item-collapse-area">
-                    <h3>${titles.certificate[getCurrentLanguage()]}</h3>
+                    <h3>${titles[getCurrentLanguage()].certificate}</h3>
                     <a href="${schoolItem.link}" target="_blank">${schoolItem.link}</a>
-                    <h3>${titles.description[getCurrentLanguage()]}</h3>
+                    <h3>${titles[getCurrentLanguage()].description}</h3>
                     <p>${schoolItem.description}</p>
-                    <h3>${titles.subjectsStudied[getCurrentLanguage()]}</h3>
+                    <h3>${titles[getCurrentLanguage()].subjectsStudied}</h3>
                     <ul>
                         ${schoolItem.subjectsStudied.map((subject)=>(`<li>${subject}</li>`)).join('')}
                     </ul>

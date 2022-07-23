@@ -12,7 +12,7 @@ export function School() {
                     <span class="material-symbols-outlined">
                         school
                     </span>
-                    <h1>${titles.scholarity[getCurrentLanguage()]}</h1>
+                    <h1>${titles[getCurrentLanguage()].scholarity}</h1>
                 </div>
                 <div class="scholarity-container">${
                     schooling.map((scholarity) => (schoolItemHTML(scholarity, titles))).join('')
@@ -21,7 +21,7 @@ export function School() {
                     <span class="material-symbols-outlined">
                         menu_book
                     </span>
-                    <h1>${titles.courses[getCurrentLanguage()]}</h1>
+                    <h1>${titles[getCurrentLanguage()].courses}</h1>
                 </div>
                 <div class="courses-container">${
                     courses.map((course) => (schoolItemHTML(course, titles))).join('')
