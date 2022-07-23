@@ -1,6 +1,7 @@
 import { socialMedia } from "../components/socialMedia.js";
 import { images } from "../data/images.js";
 import { description, socialMediaItems } from "../data/profile.js";
+import { getCurrentLanguage } from "../utils/translate.js"
 
 export function Profile() {
     return /*html*/ `
@@ -11,7 +12,7 @@ export function Profile() {
             <div class="social-media"> ${
                 socialMediaItems.map((socialMediaItem) => (socialMedia(socialMediaItem))).join('')
             } </div>
-            <div class="profile-text"> <span>${description}</span> </div>
+            <div class="profile-text"> <span>${description[getCurrentLanguage()]}</span> </div>
         </div>
     </section>
     `;
