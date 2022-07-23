@@ -1,5 +1,6 @@
 import { schoolItemHTML } from "../components/school.js";
 import { courses, informationText, schooling, titles } from "../data/school.js";
+import { getCurrentLanguage } from "../utils/translate.js"
 
 export function School() {
     return /*html*/ `
@@ -11,7 +12,7 @@ export function School() {
                     <span class="material-symbols-outlined">
                         school
                     </span>
-                    <h1>${titles.scholarity}</h1>
+                    <h1>${titles.scholarity[getCurrentLanguage()]}</h1>
                 </div>
                 <div class="scholarity-container">${
                     schooling.map((scholarity) => (schoolItemHTML(scholarity, titles))).join('')
@@ -20,7 +21,7 @@ export function School() {
                     <span class="material-symbols-outlined">
                         menu_book
                     </span>
-                    <h1>${titles.courses}</h1>
+                    <h1>${titles.courses[getCurrentLanguage()]}</h1>
                 </div>
                 <div class="courses-container">${
                     courses.map((course) => (schoolItemHTML(course, titles))).join('')

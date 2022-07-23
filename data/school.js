@@ -105,9 +105,24 @@ export let courses = [{
 ];
 
 export const titles = {
-    scholarity: 'Formação',
-    courses: 'Cursos',
-    certificate: 'Certificado',
-    description: 'Descrição',
-    subjectsStudied: 'Conteúdo estudado'
+    scholarity: {
+        portuguese: 'Formação',
+        english: 'Schooling'
+    },
+    courses: {
+        portuguese: 'Cursos',
+        english: 'Courses'
+    },
+    certificate: {
+        portuguese: 'Certificado',
+        english: 'Certificate'
+    },
+    description: {
+        portuguese: 'Descrição',
+        english: 'Description'
+    },
+    subjectsStudied: {
+        portuguese: 'Conteúdo estudado',
+        english: 'Subjects studied'
+    },
 }
