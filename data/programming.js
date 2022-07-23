@@ -1,4 +1,7 @@
-export const informationText = 'Durante meus estudos, aprendi a usar várias linguagens de programação, tecnologias e sistemas operacionais. Os conhecimentos adquiridos são listados aqui com base no quanto eu sei de cada assunto.'
+export const informationText = {
+    portuguese: 'Durante meus estudos, aprendi a usar várias linguagens de programação, tecnologias e sistemas operacionais. Os conhecimentos adquiridos são listados aqui com base no quanto eu sei de cada assunto.',
+    english: 'During my studies, i learned to use various programming languages, technologies and operating systems. The acquired knowledge is listed here based on how much i know about each subject.'
+}
 
 export let languages = [{
         name: 'HTML',
