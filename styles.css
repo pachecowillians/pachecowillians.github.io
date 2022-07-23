@@ -142,6 +142,10 @@ aside#sidebar img:nth-child(2) {
     column-gap: 1rem;
 }
 
+#logoTopbar {
+    height: 2rem;
+}
+
 .sidebar-icon span {
     /* font-size: 1.1rem; */
 }
@@ -358,7 +362,7 @@ section h1 {
 }
 
 .language-container img {
-    width: 3.5rem;
+    width: 3rem;
 }
 
 .study-container {
@@ -410,7 +414,7 @@ section h1 {
     justify-content: flex-start;
     align-items: flex-start;
     cursor: pointer;
-    margin-left: 3rem;
+    margin-left: 1rem;
 }
 
 li {
@@ -815,6 +819,9 @@ a {
 }
 
 @media (max-width: 500px) {
+    main section .container {
+        padding: 5rem 3rem;
+    }
     html {
         /* font-size: 12px; */
     }
@@ -839,6 +846,12 @@ a {
 }
 
 @media (max-width: 425px) {
+    main section .container {
+        padding: 5rem 2rem;
+    }
+    #profile .container {
+        padding: 5rem 3rem;
+    }
     html {
         /* font-size: 11px; */
     }
@@ -861,12 +874,27 @@ a {
         font-size: 0.9rem;
     }
     main section .container {
-        padding: 5rem 2rem;
+        padding: 5rem 1rem;
+    }
+    .project-item-content img {
+        width: 1.8rem;
+    }
+    .project-item a {
+        font-size: 1.1rem;
+    }
+    .project-item-button {
+        margin-bottom: 2rem;
+    }
+    .project-item-information {
+        padding: 2rem 2rem 1rem 2rem;
     }
 }
 
 @media (max-width: 360px) {
     .sidebar-icon span:nth-child(2) {
         font-size: 0.85rem;
+    }
+    #profile .container {
+        padding: 5rem 2rem;
     }
 }
