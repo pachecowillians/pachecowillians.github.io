@@ -186,7 +186,7 @@ aside#option-menu {
 }
 
 .menu-icon span:hover,
-.sidebar-icon span:hover {
+.sidebar-icon:hover {
     transition: color 300ms, opacity 100ms;
     opacity: 0.5;
 }
@@ -785,7 +785,6 @@ a {
         padding: 0;
     }
     aside#option-menu #logoTopbar {
-        height: 1.7rem;
         display: block;
     }
     .sidebar-icon span:nth-child(1) {
