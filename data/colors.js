@@ -12,4 +12,5 @@ export const colors = [
     'filter',
     'filter-inverse',
     'text-inverse',
+    'background-inverse',
 ];

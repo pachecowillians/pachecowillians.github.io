@@ -8,11 +8,12 @@
     --grey-light: #E1E1E1;
     --white-light: #F5F5F5;
     --text-light: var(--black-light);
-    --box-shadow-light: rgb(0 0 0 / 40%);
-    --button-light: var(--background-dark);
+    --box-shadow-light: rgb(50 50 93 / 25%) 0px 2px 5px -1px, rgb(0 0 0 / 30%) 0px 1px 3px -1px;
+    --button-light: var(--background-light);
     --filter-light: none;
     --filter-inverse-light: var(--filter-dark);
     --text-inverse-light: var(--text-dark);
+    --background-inverse-light: var(--background-dark);
     /* Dark Theme */
     --background-dark: #191919;
     --darkgrey-dark: #484848;
@@ -23,10 +24,11 @@
     --white-dark: #D3D3D3;
     --text-dark: var(--white-dark);
     --box-shadow-dark: rgb(255 255 255 / 40%);
-    --button-dark: var(--background-light);
+    --button-dark: var(--background-dark);
     --filter-dark: invert(99%) sepia(4%) saturate(755%) hue-rotate(314deg) brightness(116%) contrast(92%);
     --filter-inverse-dark: var(--filter-light);
     --text-inverse-dark: var(--text-light);
+    --background-inverse-dark: var(--background-light);
     /* Page Theme */
     --background: var(--background-light);
     --darkgrey: var(--darkgrey-light);
@@ -39,8 +41,9 @@
     --box-shadow: var(--box-shadow-light);
     --button: var(--button-light);
     --filter: var(--filter-light);
-    --filter-inverse: var(--filter-dark);
-    --text-inverse: var(--text-dark);
+    --filter-inverse: var(--filter-inverse-light);
+    --text-inverse: var(--text-inverse-light);
+    --background-inverse: var(--background-inverse-light);
 }
 
 img[src*="logo"],
@@ -574,13 +577,27 @@ a {
     align-content: center;
     justify-content: center;
     align-items: center;
-    box-shadow: 0px 0px 6px 0px var(--box-shadow);
-    color: var(--text);
-    border-radius: 0.5rem;
+    box-shadow: var(--box-shadow);
+    color: var(--text-inverse);
     overflow: hidden;
     margin: 0rem 4rem;
     text-align: justify;
     width: 25rem;
+    background: var(--background-inverse);
+}
+
+.project-item a {
+    color: var(--text);
+    font-size: 1.2rem;
+}
+
+.project-item img[src*="nextjs"],
+.project-item img[src*="flask"] {
+    filter: var(--filter-inverse);
+}
+
+.project-item img[src*="github"] {
+    filter: var(--filter);
 }
 
 .project-item-image,
