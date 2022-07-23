@@ -14,7 +14,7 @@ export function toggleLanguage() {
         actualLanguage = 'portuguese';
     }
 
-    document.querySelector("body").innerHTML = Home();
+    //document.querySelector("body").innerHTML = Home();
     loadPage();
 }
 
