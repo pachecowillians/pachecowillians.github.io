@@ -1,4 +1,7 @@
-export const informationText = "Eu costumo fazer projetos desafiadores a fim de praticar o que eu aprendi e fixar o conteúdo estudado, assim como fiz neste portfolio. Alguns dos meus projetos são apresentados aqui.";
+export const informationText = {
+    portuguese: "Eu costumo fazer projetos desafiadores a fim de praticar o que eu aprendi e fixar o conteúdo estudado, assim como fiz neste portfolio. Alguns dos meus projetos são apresentados aqui.",
+    english: "I usually do challenging projects in order to practice what i've learned and fix the content studied, just like i did in this portfolio. Some of my projects are presented here.",
+};
 
 export const projects = [{
         name: 'WPS - Timer',
