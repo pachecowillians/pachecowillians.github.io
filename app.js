@@ -21,7 +21,7 @@ export function loadPage() {
 
     document.querySelector("#theme-toggle").onclick = () => { toggleTheme(); }
 
-    document.querySelector("#language-toggle").onclick = () => { toggleLanguage(); }
+    // document.querySelector("#language-toggle").onclick = () => { toggleLanguage(); }
 
     document.querySelector("main").onscroll = () => { scrolling = true; };
 

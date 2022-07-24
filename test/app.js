@@ -25,5 +25,6 @@ function setState(callback) {
 $(".btn").onclick = () => {
     setState(() => { state.text = 'New name of the state' });
 }
+console.log($(".btn").onclick);
 
 renderH1();

@@ -1,7 +1,34 @@
 import { socialMedia } from "../components/socialMedia.js";
 import { images } from "../data/images.js";
 import { description, socialMediaItems } from "../data/profile.js";
-import { getCurrentLanguage } from "../utils/translate.js"
+import { getCurrentLanguage, toggleLanguage } from "../utils/translate.js"
+
+let $ = (identifier) => {
+    const element = document.querySelectorAll(identifier);
+    if (element.length > 1) {
+        return element;
+    } else if (element.length == 1) {
+        return element[0];
+    }
+}
+
+let descriptionState = {
+    description: description[getCurrentLanguage()]
+}
+
+function renderProfile() {
+
+
+    const template = document.createElement('template');
+    template.innerHTML = Profile();
+
+    $("main").replaceChild(template.content, $("#profile"));
+}
+
+function setDescriptionState(callback) {
+    callback();
+    renderProfile();
+}
 
 export function Profile() {
     return /*html*/ `
@@ -12,8 +39,15 @@ export function Profile() {
             <div class="social-media"> ${
                 socialMediaItems.map((socialMediaItem) => (socialMedia(socialMediaItem))).join('')
             } </div>
-            <div class="profile-text"> <span>${description[getCurrentLanguage()]}</span> </div>
+            <div class="profile-text"> <span>${descriptionState.description}</span> </div>
         </div>
     </section>
     `;
+}
+
+window.onload = function(e) {
+    $("#language-toggle").onclick = () => {
+        toggleLanguage();
+        setDescriptionState(() => { descriptionState.description = description[getCurrentLanguage()] });
+    }
 }
