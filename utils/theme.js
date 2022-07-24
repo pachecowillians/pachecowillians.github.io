@@ -1,4 +1,5 @@
 import { colors } from "../data/colors.js";
+import { $ } from "./selector.js";
 
 export function toggleTheme() {
     let windowStyle = window.getComputedStyle(document.documentElement);
@@ -10,12 +11,12 @@ export function toggleTheme() {
             document.documentElement.style.setProperty(`--${color}`, `var(--${color}-light)`);
         });
 
-        document.querySelector("#theme-toggle span").innerHTML = 'dark_mode';
+        $("#theme-toggle span").innerHTML = 'dark_mode';
     } else {
         colors.map(color => {
             document.documentElement.style.setProperty(`--${color}`, `var(--${color}-dark)`);
         });
 
-        document.querySelector("#theme-toggle span").innerHTML = 'light_mode';
+        $("#theme-toggle span").innerHTML = 'light_mode';
     }
 }

@@ -1,3 +1,4 @@
+import { $ } from "./utils/selector.js"
 import { Home } from "./pages/home.js";
 import { setActiveSection } from "./utils/navbar.js";
 import { toggleTheme } from "./utils/theme.js";
@@ -14,24 +15,23 @@ let scrolling = false;
 
 addCSS(languagesCSS());
 
-document.querySelector("head").innerHTML += favicon();
+$("head").innerHTML += favicon();
 
 export function loadPage() {
-    document.querySelector("body").innerHTML = Home();
+    $("body").innerHTML = Home();
 
-    document.querySelector("#theme-toggle").onclick = () => { toggleTheme(); }
+    $("#theme-toggle").onclick = () => { toggleTheme(); }
 
-    // document.querySelector("#language-toggle").onclick = () => { toggleLanguage(); }
+    $("main").onscroll = () => { scrolling = true; };
 
-    document.querySelector("main").onscroll = () => { scrolling = true; };
-
-    let schoolItems = document.querySelectorAll(".school-item-container");
+    let schoolItems = $(".school-item-container");
 
     [...schoolItems].map((item) => {
         item.onclick = (event) => { toggleSchoolItem(event.currentTarget); };
     })
 
-    let projectItems = document.querySelectorAll(".project-item-info");
+    let projectItems = $(".project-item-info");
+    console.log(projectItems);
 
     [...projectItems].map((item) => {
         item.onclick = (event) => { toggleProjectItem(event.currentTarget.parentElement); };
@@ -43,7 +43,7 @@ export function loadPage() {
 
             progressBarsLoad();
 
-            let activeItem = document.querySelector(".selected-item").parentElement.parentElement.id;
+            let activeItem = $(".selected-item").parentElement.parentElement.id;
             activeItem = activeItem.substring(0, activeItem.length - 'Item'.length);
             setActiveSection(activeItem);
         }

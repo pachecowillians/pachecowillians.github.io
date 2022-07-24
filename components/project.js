@@ -23,13 +23,6 @@ export function projectHTML(project) {
     `);
 }
 
-export function setProjectItemHeight() {
-    let items = document.querySelectorAll(".project-item");
-    let width = items[0].offsetWidth;
-    [...items].map((item) => {
-        item.style.height = `${width * 245.094/435.938}px`;
-    })
-}
 
 export function toggleProjectItem(projectItem) {
     if (projectItem.classList.contains("item-active")) {

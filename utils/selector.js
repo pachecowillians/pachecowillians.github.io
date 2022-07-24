@@ -4,5 +4,7 @@ export let $ = (identifier) => {
         return element;
     } else if (element.length == 1) {
         return element[0];
+    } else {
+        return [];
     }
 }
