@@ -1,6 +1,5 @@
 import { sections } from "../data/sections.js";
-import { Home } from "../pages/home.js";
-import { loadPage } from "../script.js";
+import { loadPage } from "../app.js";
 
 let actualLanguage = 'portuguese';
 
@@ -14,7 +13,6 @@ export function toggleLanguage() {
         actualLanguage = 'portuguese';
     }
 
-    //document.querySelector("body").innerHTML = Home();
     loadPage();
 }
 
