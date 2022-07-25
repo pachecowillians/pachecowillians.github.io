@@ -1,3 +1,5 @@
+import { $ } from "./selector.js";
+
 let actualLanguage = 'portuguese';
 
 export function toggleLanguage() {
@@ -11,3 +13,13 @@ export function toggleLanguage() {
 export function getCurrentLanguage() {
     return actualLanguage;
 }
+
+window.addEventListener("load", function() {
+    $("#language-toggle").addEventListener(
+        "click",
+        function() {
+            toggleLanguage();
+        },
+        false
+    );
+}, false);

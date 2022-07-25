@@ -21,7 +21,6 @@ window.addEventListener("load", function() {
     $("#language-toggle").addEventListener(
         "click",
         function() {
-            toggleLanguage();
             setNavbar(() => { sectionState = navbarData[getCurrentLanguage()] });
         },
         false
