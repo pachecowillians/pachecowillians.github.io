@@ -25,6 +25,7 @@ window.addEventListener("load", function() {
         },
         false
     );
+    setProfile(() => { profileState = profileData[getCurrentLanguage()] });
 }, false);
 
 

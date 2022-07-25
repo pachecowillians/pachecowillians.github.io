@@ -24,6 +24,7 @@ window.addEventListener("load", function() {
         },
         false
     );
+    setProgramming(() => { programmingState = programmingData[getCurrentLanguage()] });
 }, false);
 
 

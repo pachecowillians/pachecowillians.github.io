@@ -25,6 +25,7 @@ window.addEventListener("load", function() {
         },
         false
     );
+    setNavbar(() => { sectionState = navbarData[getCurrentLanguage()] });
 }, false);
 
 export function Navbar() {
