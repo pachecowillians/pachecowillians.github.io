@@ -26,10 +26,7 @@ export function loadPage() {
             scrolling = false;
 
             progressBarsLoad();
-
-            let activeItem = $(".selected-item").parentElement.parentElement.id;
-            activeItem = activeItem.substring(0, activeItem.length - 'Item'.length);
-            setActiveSection(activeItem);
+            setActiveSection();
         }
     }, 200);
 }
