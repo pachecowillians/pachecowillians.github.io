@@ -22,14 +22,3 @@ export function projectHTML(project) {
     </div>
     `);
 }
-
-
-export function toggleProjectItem(projectItem) {
-    if (projectItem.classList.contains("item-active")) {
-        projectItem.classList.remove("item-active");
-        projectItem.querySelector(".project-item-info span").innerHTML = "info";
-    } else {
-        projectItem.classList.add("item-active");
-        projectItem.querySelector(".project-item-info span").innerHTML = "<span style='color:var(--text)'> horizontal_rule </span>";
-    }
-}

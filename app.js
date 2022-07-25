@@ -3,7 +3,6 @@ import { Home } from "./pages/home.js";
 import { setActiveSection } from "./utils/navbar.js";
 import { toggleTheme } from "./utils/theme.js";
 import { languagesCSS } from "./pages/programming.js";
-import { toggleProjectItem } from "./components/project.js";
 import { progressBarsLoad } from "./components/language.js";
 import { favicon } from "./components/favicon.js";
 
@@ -21,12 +20,6 @@ export function loadPage() {
     $("#theme-toggle").onclick = () => { toggleTheme(); }
 
     $("main").onscroll = () => { scrolling = true; };
-
-    let projectItems = $(".project-item-info");
-
-    [...projectItems].map((item) => {
-        item.onclick = (event) => { toggleProjectItem(event.currentTarget.parentElement); };
-    })
 
     setInterval(() => {
         if (scrolling) {
