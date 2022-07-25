@@ -1,6 +1,6 @@
 import { $ } from "../utils/selector.js";
 import { projectHTML } from "../components/project.js";
-import { projectsData } from "../data/project.js";
+import { projectsData } from "../data/projects.js";
 import { getCurrentLanguage } from "../utils/translate.js"
 
 let projectsState = projectsData[getCurrentLanguage()];
