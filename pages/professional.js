@@ -14,6 +14,7 @@ function renderProfessional() {
 function setProfessional(callback) {
     callback();
     renderProfessional();
+    setActiveSection();
 }
 
 window.addEventListener("load", function() {

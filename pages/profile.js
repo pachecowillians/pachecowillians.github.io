@@ -15,6 +15,7 @@ function renderProfile() {
 function setProfile(callback) {
     callback();
     renderProfile();
+    setActiveSection();
 }
 
 window.addEventListener("load", function() {

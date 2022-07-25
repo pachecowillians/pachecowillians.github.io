@@ -2,6 +2,7 @@ import { $ } from "../utils/selector.js";
 import { projectHTML } from "../components/project.js";
 import { projectsData } from "../data/projects.js";
 import { getCurrentLanguage } from "../utils/translate.js"
+import { setActiveSection } from "../utils/navbar.js";
 
 let projectsState = projectsData[getCurrentLanguage()];
 
@@ -14,6 +15,7 @@ function renderProjects() {
 function setProjects(callback) {
     callback();
     renderProjects();
+    setActiveSection();
 }
 
 window.addEventListener("load", function() {

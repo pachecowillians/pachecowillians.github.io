@@ -14,6 +14,7 @@ function renderProgramming() {
 function setProgramming(callback) {
     callback();
     renderProgramming();
+    setActiveSection();
 }
 
 window.addEventListener("load", function() {
