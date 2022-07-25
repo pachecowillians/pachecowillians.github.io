@@ -2,7 +2,7 @@ import { $ } from "../utils/selector.js";
 import { images } from "../data/images.js";
 import { socialMedia } from "../components/socialMedia.js";
 import { profileData } from "../data/profile.js";
-import { getCurrentLanguage, toggleLanguage } from "../utils/translate.js"
+import { getCurrentLanguage } from "../utils/translate.js"
 
 let profileState = profileData[getCurrentLanguage()];
 
