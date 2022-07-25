@@ -1,6 +1,32 @@
 import { images } from "../data/images.js";
-import { sections } from "../data/sections.js";
+import { navbarData } from "../data/sections.js";
+import { $ } from "../utils/selector.js";
+import { getCurrentLanguage, toggleLanguage } from "../utils/translate.js";
 import { navbarIcon } from "./navbarIcon.js";
+
+let sectionState = navbarData[getCurrentLanguage()];
+
+function renderNavbar() {
+    const newElement = document.createElement('template');
+    newElement.innerHTML = Navbar();
+    $("body").replaceChild(newElement.content, $("#sidebar"));
+}
+
+function setNavbar(callback) {
+    callback();
+    renderNavbar();
+}
+
+window.addEventListener("load", function() {
+    $("#language-toggle").addEventListener(
+        "click",
+        function() {
+            toggleLanguage();
+            setNavbar(() => { sectionState = navbarData[getCurrentLanguage()] });
+        },
+        false
+    );
+}, false);
 
 export function Navbar() {
     return /*html*/ `
@@ -11,7 +37,7 @@ export function Navbar() {
             </a>
         </div>
         <div id="sidebar-menu">
-            ${sections.map((section) => (navbarIcon(section))).join('')}
+            ${sectionState.map((section) => (navbarIcon(section))).join('')}
         </div>
     </aside>
     `;

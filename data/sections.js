@@ -1,41 +1,56 @@
-export let sections = [{
-        name: {
-            portuguese: 'Perfil',
-            english: 'Profile'
+export let navbarData = {
+    portuguese: [{
+            name: 'Perfil',
+            iconName: 'person',
+            referenceName: 'profile'
         },
-        iconName: 'person',
-        referenceName: 'profile'
-    },
-    {
-        name: {
-            portuguese: 'Programação',
-            english: 'Programming'
+        {
+            name: 'Programação',
+            iconName: 'computer',
+            referenceName: 'programming'
         },
-        iconName: 'computer',
-        referenceName: 'programming'
-    },
-    {
-        name: {
-            portuguese: 'Formação',
-            english: 'School'
+        {
+            name: 'Formação',
+            iconName: 'school',
+            referenceName: 'school'
         },
-        iconName: 'school',
-        referenceName: 'school'
-    },
-    {
-        name: {
-            portuguese: 'Profissional',
-            english: 'Professional'
+        {
+            name: 'Profissional',
+            iconName: 'work',
+            referenceName: 'professional'
         },
-        iconName: 'work',
-        referenceName: 'professional'
-    },
-    {
-        name: {
-            portuguese: 'Projetos',
-            english: 'Projects'
+        {
+            name: 'Projetos',
+            iconName: 'code',
+            referenceName: 'projects'
+        }
+
+    ],
+    english: [{
+            name: 'Profile',
+            iconName: 'person',
+            referenceName: 'profile'
         },
-        iconName: 'code',
-        referenceName: 'projects'
-    }
-];
+        {
+            name: 'Programming',
+            iconName: 'computer',
+            referenceName: 'programming'
+        },
+        {
+            name: 'School',
+            iconName: 'school',
+            referenceName: 'school'
+        },
+        {
+            name: 'Professional',
+            iconName: 'work',
+            referenceName: 'professional'
+        },
+        {
+            name: 'Projects',
+            iconName: 'code',
+            referenceName: 'projects'
+        }
+
+    ]
+}

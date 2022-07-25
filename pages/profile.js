@@ -17,12 +17,16 @@ function setProfile(callback) {
     renderProfile();
 }
 
-window.onload = function(e) {
-    $("#language-toggle").onclick = () => {
-        toggleLanguage();
-        setProfile(() => { profileState = profileData[getCurrentLanguage()] });
-    }
-}
+window.addEventListener("load", function() {
+    $("#language-toggle").addEventListener(
+        "click",
+        function() {
+            setProfile(() => { profileState = profileData[getCurrentLanguage()] });
+        },
+        false
+    );
+}, false);
+
 
 export function Profile() {
     return /*html*/ `

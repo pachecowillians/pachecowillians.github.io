@@ -31,7 +31,6 @@ export function loadPage() {
     })
 
     let projectItems = $(".project-item-info");
-    console.log(projectItems);
 
     [...projectItems].map((item) => {
         item.onclick = (event) => { toggleProjectItem(event.currentTarget.parentElement); };
