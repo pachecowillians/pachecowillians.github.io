@@ -1,14 +1,39 @@
+import { $ } from "../utils/selector.js";
 import { languageCSS, languageHTML } from "../components/language.js";
-import { informationText, languages } from "../data/programming.js";
+import { programmingData } from "../data/programming.js";
 import { getCurrentLanguage } from "../utils/translate.js"
+
+let programmingState = programmingData[getCurrentLanguage()];
+
+function renderProgramming() {
+    const newElement = document.createElement('template');
+    newElement.innerHTML = Programming();
+    $("main").replaceChild(newElement.content, $("#programming"));
+}
+
+function setProgramming(callback) {
+    callback();
+    renderProgramming();
+}
+
+window.addEventListener("load", function() {
+    $("#language-toggle").addEventListener(
+        "click",
+        function() {
+            setProgramming(() => { programmingState = programmingData[getCurrentLanguage()] });
+        },
+        false
+    );
+}, false);
+
 
 export function Programming() {
     return /*html*/ `
     <section id="programming">
         <div class="container">
-            <div class="information-text"><span>${informationText[getCurrentLanguage()]}</span></div>
+            <div class="information-text"><span>${programmingState.informationText}</span></div>
             <div class="programming-container">${
-                languages.map((language) => (languageHTML(language))).join('')
+                programmingState.languages.map((language) => (languageHTML(language))).join('')
             }</div>
         </div>
     </section>
@@ -16,5 +41,5 @@ export function Programming() {
 }
 
 export function languagesCSS() {
-    return languages.map((language) => (languageCSS(language))).join('\n');
+    return programmingState.languages.map((language) => (languageCSS(language))).join('\n');
 }
