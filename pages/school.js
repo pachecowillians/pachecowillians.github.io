@@ -1,5 +1,5 @@
 import { $ } from "../utils/selector.js";
-import { schoolItemHTML, toggleSchoolItem } from "../components/school.js";
+import { schoolItemHTML, toggleSchoolItem } from "../components/schoolItem.js";
 import { schoolData } from "../data/school.js";
 import { getCurrentLanguage } from "../utils/translate.js"
 
@@ -11,7 +11,6 @@ function renderSchool() {
     $("main").replaceChild(newElement.content, $("#school"));
 
     [...$(".school-item-container")].map((item) => {
-        console.log(item)
         item.onclick = (event) => { toggleSchoolItem(event.currentTarget); };
     })
 }

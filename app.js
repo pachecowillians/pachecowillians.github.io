@@ -5,9 +5,7 @@ import { toggleTheme } from "./utils/theme.js";
 import { languagesCSS } from "./pages/programming.js";
 import { toggleProjectItem } from "./components/project.js";
 import { progressBarsLoad } from "./components/language.js";
-import { toggleSchoolItem } from "./components/school.js";
 import { favicon } from "./components/favicon.js";
-import { toggleLanguage } from "./utils/translate.js";
 
 const addCSS = css => document.head.appendChild(document.createElement("style")).innerHTML = css;
 
