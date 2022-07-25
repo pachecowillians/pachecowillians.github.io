@@ -18,7 +18,6 @@ function renderSchool() {
 function setSchool(callback) {
     callback();
     renderSchool();
-    setActiveSection();
 }
 
 window.addEventListener("load", function() {

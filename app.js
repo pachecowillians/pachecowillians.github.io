@@ -21,6 +21,8 @@ export function loadPage() {
 
     $("main").onscroll = () => { scrolling = true; };
 
+    setActiveSection();
+
     setInterval(() => {
         if (scrolling) {
             scrolling = false;
@@ -32,3 +34,7 @@ export function loadPage() {
 }
 
 loadPage();
+
+window.addEventListener("load", function() {
+    setActiveSection();
+}, false);

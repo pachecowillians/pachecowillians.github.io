@@ -13,7 +13,9 @@ export function setActiveSection() {
     }
 
     let oldIcon = $(".selected-item");
-    oldIcon.classList.remove("selected-item");
+    if (oldIcon.length != 0) {
+        oldIcon.classList.remove("selected-item");
+    }
 
     let icon = $(`#${sections[i].referenceName}Icon`);
     icon.classList.add("selected-item");

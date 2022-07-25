@@ -15,7 +15,6 @@ function renderProjects() {
 function setProjects(callback) {
     callback();
     renderProjects();
-    setActiveSection();
 }
 
 window.addEventListener("load", function() {
