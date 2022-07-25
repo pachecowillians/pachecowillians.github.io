@@ -24,12 +24,6 @@ export function loadPage() {
 
     $("main").onscroll = () => { scrolling = true; };
 
-    let schoolItems = $(".school-item-container");
-
-    [...schoolItems].map((item) => {
-        item.onclick = (event) => { toggleSchoolItem(event.currentTarget); };
-    })
-
     let projectItems = $(".project-item-info");
 
     [...projectItems].map((item) => {
