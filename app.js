@@ -8,6 +8,8 @@ import { favicon } from "./components/favicon.js";
 
 const addCSS = css => document.head.appendChild(document.createElement("style")).innerHTML = css;
 
+let scrolling = false;
+
 addCSS(languagesCSS());
 
 $("head").innerHTML += favicon();
@@ -17,13 +19,19 @@ export function loadPage() {
 
     $("#theme-toggle").onclick = () => { toggleTheme(); }
 
-    $("main").onscroll = () => {
-        progressBarsLoad();
+    $("main").onscroll = () => { scrolling = true; };
 
-        let activeItem = $(".selected-item").parentElement.parentElement.id;
-        activeItem = activeItem.substring(0, activeItem.length - 'Item'.length);
-        setActiveSection(activeItem);
-    };
+    setInterval(() => {
+        if (scrolling) {
+            scrolling = false;
+
+            progressBarsLoad();
+
+            let activeItem = $(".selected-item").parentElement.parentElement.id;
+            activeItem = activeItem.substring(0, activeItem.length - 'Item'.length);
+            setActiveSection(activeItem);
+        }
+    }, 200);
 }
 
 loadPage();
