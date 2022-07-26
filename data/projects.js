@@ -5,77 +5,79 @@ export const projectsData = {
                 name: 'WPS - Timer',
                 link: 'https://github.com/pachecowillians/wps-timer',
                 referenceName: 'wpstimer',
-                description: 'Cronômetro utilizado para o método Pomodoro de gerenciamento de tempo.',
+                description: 'Temporizador utilizado para o método Pomodoro de gerenciamento de tempo. Ele possui vários tempos pré-definidos e emite um alerta sonoro e uma notificação quando o tempo acaba.',
                 languages: [
-                    'javascript',
-                    'html',
-                    'css',
                     'nextjs',
                     'reactjs',
-                    'typescript'
+                    'javascript',
+                    'typescript',
+                    'html',
+                    'css',
                 ]
             },
             {
                 name: 'Catalogue it',
                 link: 'https://github.com/pachecowillians/catalogueit',
                 referenceName: 'catalogueit',
-                description: 'Catálogo de produtos com um ambiente de gerenciamento para o administrador.',
+                description: 'Catálogo para exibição e gerenciamento dos produtos da empresa. Um usuário comum utiliza-o para ver os produtos disponíveis e o gerente da empresa utiliza-o para apresentar e gerenciar os produtos a venda.',
                 languages: [
-                    'javascript',
-                    'html',
-                    'css',
                     'nextjs',
                     'reactjs',
-                    'typescript'
+                    'javascript',
+                    'typescript',
+                    'html',
+                    'css',
                 ]
             },
             {
                 name: 'Whatsapp Clone',
                 link: 'https://github.com/pachecowillians/whatsapp-clone',
                 referenceName: 'whatsappclone',
-                description: 'Réplica do site do Whatsapp para praticar a construção de interfaces com NextJS.',
+                description: 'Réplica do site do Whatsapp feita a fim de praticar a construção de interfaces complexas, aplicando o conceito de Single Page Application para tornar a navegação da página mais fluida.',
                 languages: [
-                    'javascript',
-                    'html',
-                    'css',
                     'nextjs',
                     'reactjs',
-                    'typescript'
+                    'javascript',
+                    'typescript',
+                    'html',
+                    'css',
                 ]
             },
             {
                 name: 'TCC - CS50',
                 link: 'https://github.com/pachecowillians/CS50-introduction-to-computer-science',
                 referenceName: 'cs50',
-                description: 'Trabalho de Conclusão de Curso realizado ao fim do curso do CS50 de Harvard. O trabalho consiste em um gerenciador de tarefas e atividades.',
+                description: 'Trabalho de Conclusão de Curso realizado no curso CS50 - Introduction to Computer Science oferecido por Harvard. A aplicação é um gerenciador de tarefas e atividades organizado por datas e tarefas recorrentes.',
                 languages: [
+                    'python',
+                    'flask',
                     'javascript',
                     'html',
                     'css',
-                    'flask',
-                    'python',
                 ]
             },
             {
                 name: 'TCC - SENAI',
                 link: 'https://github.com/pachecowillians/tcc-senai',
                 referenceName: 'tcctecnico',
-                description: 'Trabalho de Conclusão de Curso realizado ao fim do curso técnico do SENAI. Ele consiste em um site para divulgação dos eventos regionais.',
+                description: 'Trabalho de Conclusão de Curso realizado ao fim do curso Técnico em Desenvolvimento de Sistemas do SENAI. Trata-se de um site para divulgação dos eventos regionais que possui um sistema de login, cadastro e gerenciamento de eventos.',
                 languages: [
                     'javascript',
-                    'html',
                     'css',
+                    'html',
                     'php',
                     'bootstrap',
+                    'jquery',
                 ]
             },
             {
-                name: 'Sistema de auxílio ao aprendizado de Química Orgânica',
+                name: 'Química Orgânica',
                 link: 'https://github.com/pachecowillians/CS50-introduction-to-computer-science',
                 referenceName: 'quimicaorganica',
-                description: 'Sistema implementado a pedido do professor de química para auxiliar os alunos no aprendizado de química orgânica. Uma aplicação da gamificação no ambiente escolar.',
+                description: 'Sistema desktop implementado a pedido do professor de química do ensino médio a fim de auxiliar os alunos no aprendizado da matéria de Química Orgânica. Esta foi uma aplicação da gamificação no ambiente escolar.',
                 languages: [
                     'csharp',
+                    'dotnet',
                     'windows',
                 ]
             },
@@ -87,77 +89,79 @@ export const projectsData = {
                 name: 'WPS - Timer',
                 link: 'https://github.com/pachecowillians/wps-timer',
                 referenceName: 'wpstimer',
-                description: 'Pomodoro timer',
+                description: 'Timer used for the Pomodoro method of time management. It has several preset times and gives an audible alert and a notification when the time is up.',
                 languages: [
-                    'javascript',
-                    'html',
-                    'css',
                     'nextjs',
                     'reactjs',
-                    'typescript'
+                    'javascript',
+                    'typescript',
+                    'html',
+                    'css',
                 ]
             },
             {
                 name: 'Catalogue it',
                 link: 'https://github.com/pachecowillians/catalogueit',
                 referenceName: 'catalogueit',
-                description: 'Catálogo de produtos com um ambiente de gerenciamento para o administrador.',
+                description: "Catalog for displaying and managing the company's products. A common user uses it to see available products and the company manager uses it to present and manage the products for sale.",
                 languages: [
-                    'javascript',
-                    'html',
-                    'css',
                     'nextjs',
                     'reactjs',
-                    'typescript'
+                    'javascript',
+                    'typescript',
+                    'html',
+                    'css',
                 ]
             },
             {
                 name: 'Whatsapp Clone',
                 link: 'https://github.com/pachecowillians/whatsapp-clone',
                 referenceName: 'whatsappclone',
-                description: 'Réplica do site do Whatsapp para praticar a construção de interfaces com NextJS.',
+                description: 'Replica of the Whatsapp website made in order to practice building complex interfaces, applying the Single Page Application concept to make page navigation more fluid.',
                 languages: [
-                    'javascript',
-                    'html',
-                    'css',
                     'nextjs',
                     'reactjs',
-                    'typescript'
+                    'javascript',
+                    'typescript',
+                    'html',
+                    'css',
                 ]
             },
             {
-                name: 'TCC - CS50',
+                name: 'Final Project - CS50',
                 link: 'https://github.com/pachecowillians/CS50-introduction-to-computer-science',
                 referenceName: 'cs50',
-                description: 'Trabalho de Conclusão de Curso realizado ao fim do curso do CS50 de Harvard. O trabalho consiste em um gerenciador de tarefas e atividades.',
+                description: 'Completion of course work carried out in the course CS50 - Introduction to Computer Science offered by Harvard. The application is a task and activity manager organized by dates and recurring tasks.',
                 languages: [
+                    'python',
+                    'flask',
                     'javascript',
                     'html',
                     'css',
-                    'flask',
-                    'python',
                 ]
             },
             {
-                name: 'TCC - SENAI',
+                name: 'Final Project - SENAI',
                 link: 'https://github.com/pachecowillians/tcc-senai',
                 referenceName: 'tcctecnico',
-                description: 'Trabalho de Conclusão de Curso realizado ao fim do curso técnico do SENAI. Ele consiste em um site para divulgação dos eventos regionais.',
+                description: 'Completion of course work carried out at the end of the Technical course in Systems Development at SENAI. It is a site for the dissemination of regional events that has a login, registration and event management system.',
                 languages: [
                     'javascript',
-                    'html',
                     'css',
+                    'html',
                     'php',
                     'bootstrap',
+                    'jquery',
                 ]
             },
             {
-                name: 'Sistema de auxílio ao aprendizado de Química Orgânica',
+                name: 'Organic Chemistry',
                 link: 'https://github.com/pachecowillians/CS50-introduction-to-computer-science',
                 referenceName: 'quimicaorganica',
-                description: 'Sistema implementado a pedido do professor de química para auxiliar os alunos no aprendizado de química orgânica. Uma aplicação da gamificação no ambiente escolar.',
+                description: 'Desktop system implemented at the request of the high school chemistry teacher to help students learn the subject of Organic Chemistry. This was an application of gamification in the school environment.',
                 languages: [
                     'csharp',
+                    'dotnet',
                     'windows',
                 ]
             },
