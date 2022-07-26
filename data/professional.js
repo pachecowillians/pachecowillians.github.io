@@ -11,7 +11,7 @@ export const professionalData = {
             referenceName: 'controleeletronica',
             date: '2015 - 2018',
             link: 'https://controleeletronica.com.br',
-            description: "Empresa familiar que realiza a fabricação e manutenção de produtos eletrônicos, tais como reles temporizadores, sequenciadoras, indicadores e temporizadores digitais e reles de interface.",
+            description: "Empresa familiar especializada na fabricação e manutenção de produtos eletrônicos, tais como reles temporizadores, sequenciadoras, indicadores digitais, temporizadores digitais e reles de interface.",
             tasks: [
                 'Implementação e manutenção do site da empresa',
                 'Manutenção do ERP da empresa',
@@ -35,15 +35,15 @@ export const professionalData = {
             referenceName: 'controleeletronica',
             date: '2015 - 2018',
             link: 'https://controleeletronica.com.br',
-            description: "Empresa familiar que realiza a fabricação e manutenção de produtos eletrônicos, tais como reles temporizadores, sequenciadoras, indicadores e temporizadores digitais e reles de interface.",
+            description: "Family business specializing in the manufacture and maintenance of electronic products such as timer relays, sequencers, digital indicators, digital timers and interface relays.",
             tasks: [
-                'Implementação e manutenção do site da empresa',
-                'Manutenção do ERP da empresa',
-                'Programação de microcontroladores',
-                'Análise de estoque',
-                'Desenvolvimento e otimização dos produtos',
-                'Montagem e manutenção de eletrônicos',
-                'Operação de máquinas pick and place'
+                "Company website implementation and maintenance",
+                "Maintenance of the company's ERP",
+                "Microcontroller Programming",
+                "Inventory analysis",
+                "Product development and optimization",
+                "Electronics assembly and maintenance",
+                "Pick and place machine operation"
             ]
         }]
     }
