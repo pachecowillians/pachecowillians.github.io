@@ -1,6 +1,6 @@
 export const programmingData = {
     portuguese: {
-        informationText: 'Durante meus estudos, aprendi a usar várias linguagens de programação, tecnologias e sistemas operacionais. Os conhecimentos adquiridos são listados aqui com base no quanto eu sei de cada assunto.',
+        informationText: 'Durante meus estudos, aprendi várias linguagens de programação, tecnologias novas e sistemas operacionais. Os conhecimentos adquiridos são apresentados aqui com base no quanto eu sei sobre cada assunto.',
         languages: [{
                 name: 'HTML',
                 referenceName: 'html',
@@ -40,13 +40,13 @@ export const programmingData = {
             {
                 name: 'Node JS',
                 referenceName: 'nodejs',
-                percentage: ((6 / 17) * 100).toFixed(2),
+                percentage: ((3 / 59) * 100).toFixed(2),
                 color: '#83CD29'
             },
             {
                 name: 'Sass',
                 referenceName: 'sass',
-                percentage: ((6 / 17) * 100).toFixed(2),
+                percentage: ((4 / 60) * 100).toFixed(2),
                 color: '#CB6699'
             },
             {
@@ -106,7 +106,7 @@ export const programmingData = {
             {
                 name: '.NET',
                 referenceName: 'dotnet',
-                percentage: ((7 / 14) * 100).toFixed(2),
+                percentage: ((13 / 182) * 100).toFixed(2),
                 color: '#198AD0'
             },
             {
@@ -160,7 +160,7 @@ export const programmingData = {
         ]
     },
     english: {
-        informationText: 'During my studies, i learned to use various programming languages, technologies and operating systems. The acquired knowledge is listed here based on how much i know about each subject.',
+        informationText: 'During my studies, i learned several programming languages, new technologies and operating systems. The acquired knowledge is presented here based on how much i know about each subject.',
         languages: [{
                 name: 'HTML',
                 referenceName: 'html',
@@ -200,13 +200,13 @@ export const programmingData = {
             {
                 name: 'Node JS',
                 referenceName: 'nodejs',
-                percentage: ((6 / 17) * 100).toFixed(2),
+                percentage: ((3 / 59) * 100).toFixed(2),
                 color: '#83CD29'
             },
             {
                 name: 'Sass',
                 referenceName: 'sass',
-                percentage: ((6 / 17) * 100).toFixed(2),
+                percentage: ((4 / 60) * 100).toFixed(2),
                 color: '#CB6699'
             },
             {
@@ -266,7 +266,7 @@ export const programmingData = {
             {
                 name: '.NET',
                 referenceName: 'dotnet',
-                percentage: ((7 / 14) * 100).toFixed(2),
+                percentage: ((13 / 182) * 100).toFixed(2),
                 color: '#198AD0'
             },
             {
