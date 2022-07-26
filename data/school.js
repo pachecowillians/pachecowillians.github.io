@@ -118,13 +118,16 @@ export const schoolData = {
                     'Invasores do espaço gostam de desenvolvimento de jogos',
                 ]
             }, {
-                name: 'DELL - Intermediary English',
-                referenceName: 'dell',
+                name: 'Mastering 3D Modeling With Blender For Beginners',
+                referenceName: 'blenderforbeginners',
                 date: '2020',
-                link: 'https://www.google.com.br',
-                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis tortor et erat accumsan, porttitor iaculis massa porttitor. Fusce eu dolor eu nisi suscipit vestibulum. Donec nisl quam, pharetra at aliquet sit amet, suscipit sed urna.',
+                link: 'https://www.udemy.com/certificate/UC-T55B410T/',
+                description: 'Este curso tem como objetivo levar um iniciante completo a um nível em que se sentirá confortável para assumir projetos de modelagem 3D por conta própria. Ele é destinado a quem é um iniciante completo ou sabe muito pouco sobre Blender 2.8 e/ou modelagem 3D em geral. Ao final deste curso, o aluno estará confortável trabalhando com o Blender 2.8 (e versões posteriores) e será capaz de trabalhar em seus próprios projetos de modelagem 3D para que possa finalmente visualizar na tela o que tiver em sua cabeça. Os fundamentos ensinados neste curso serão valiosos por toda a vida!',
                 subjectsStudied: [
-                    'English',
+                    'Dominando as ferramentas de modelagem do Blender 2.8',
+                    'Aprenda habilidades e técnicas de modelagem 3D',
+                    'Adquira experiência prática e pratique com uma série de exercícios',
+                    'Crie seu próprio pequeno robô',
                 ]
             }
         ]
@@ -249,13 +252,16 @@ export const schoolData = {
                     'Space Invaders like game developement',
                 ]
             }, {
-                name: 'DELL - Intermediary English',
-                referenceName: 'dell',
+                name: 'Mastering 3D Modeling With Blender For Beginners',
+                referenceName: 'blenderforbeginners',
                 date: '2020',
-                link: 'https://www.google.com.br',
-                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis tortor et erat accumsan, porttitor iaculis massa porttitor. Fusce eu dolor eu nisi suscipit vestibulum. Donec nisl quam, pharetra at aliquet sit amet, suscipit sed urna.',
+                link: 'https://www.udemy.com/certificate/UC-T55B410T/',
+                description: 'This course is intended to take a complete beginner to a level where they will feel comfortable taking on 3D modeling projects on their own. It is intended for anyone who is a complete beginner or knows very little about Blender 2.8 and/or 3D modeling in general. By the end of this course, the student will be comfortable working with Blender 2.8 (and later versions) and will be able to work on their own 3D modeling projects so that they can finally visualize what they have in their heads on screen. The fundamentals taught in this course will be valuable for a lifetime!',
                 subjectsStudied: [
-                    'English',
+                    'Mastering the modeling tools of Blender 2.8',
+                    'Learn 3D modeling skills and techniques',
+                    'Get hands-on experience and practice with a number of exercises',
+                    'Create your own little robot',
                 ]
             }
         ]
