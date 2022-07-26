@@ -58,7 +58,7 @@ export const schoolData = {
             },
         ],
         courses: [{
-                name: 'Harvard - Introdução à Ciência da Computação (CS50)',
+                name: 'Harvard - Introduction to Computer Science - CS50',
                 referenceName: 'cs50',
                 date: '2020',
                 link: 'https://cs50.harvard.edu/certificates/635d0024-45d6-4d59-828a-adbc3a4a4af8',
@@ -96,23 +96,26 @@ export const schoolData = {
                     'Ferramentas para desenvolver soluções de Internet das Coisas'
                 ]
             }, {
-                name: 'Code IOT - Introduction to the Internet of Things',
-                referenceName: 'iot',
+                name: 'Code IoT - Aplicativos para dispositivos móveis',
+                referenceName: 'iot105',
                 date: '2020',
-                link: 'https://www.google.com.br',
-                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis tortor et erat accumsan, porttitor iaculis massa porttitor. Fusce eu dolor eu nisi suscipit vestibulum. Donec nisl quam, pharetra at aliquet sit amet, suscipit sed urna.',
+                link: 'https://codeiot.org.br/certificates/75ba31ea9dc44c0c831d880b96dbe761',
+                description: 'Neste curso, eu pratiquei e explorei os conceitos que estão por trás da operação e criação de aplicativos para smartphones. Aprendi a desenvolver programas e interfaces, usando o AppInventor para dar vida às minhas ideias.',
                 subjectsStudied: [
-                    'IoT'
+                    'Entender na prática os princípios básicos da criação de aplicativos',
+                    'Usar a plataforma AppInventor para desenvolver a interface e a programação de aplicativos',
+                    'Familiarizar-se com os conceitos de design e usabilidade que são importantes no desenvolvimento de aplicativos',
+                    'Criação de aplicativos e vê-los rodando no smartphone ou tablet',
                 ]
             }, {
-                name: 'Code IOT - Apps for mobile devices',
-                referenceName: 'iotmobile',
-                date: '2020',
-                link: 'https://www.google.com.br',
-                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis tortor et erat accumsan, porttitor iaculis massa porttitor. Fusce eu dolor eu nisi suscipit vestibulum. Donec nisl quam, pharetra at aliquet sit amet, suscipit sed urna.',
+                name: 'Udemy - Learn JavaScript with Fun - Build an UFO Hunter Game',
+                referenceName: 'ufohunter',
+                date: '2019',
+                link: 'https://www.udemy.com/certificate/UC-DHVLQAA1/',
+                description: 'Este curso é sobre noções básicas de JavaScript e desenvolvimento de jogos. Ele tem 2 partes principais: Fundamentos de JavaScript: esta parte do curso trata dos fundamentos do JavaScript como linguagem de programação. Loops, tomada de decisão, fundamentos de HTML e CSS, etc. Desenvolvimento de jogos: depois de aprender o básico de JavaScript como linguagem de programação, ela será aplicada para o desenvolvimento de jogos.',
                 subjectsStudied: [
-                    'Mobile Development',
-                    'IoT',
+                    'Fundamentos JavaScript', 'Fundamentos de desenvolvimento de jogos',
+                    'Invasores do espaço gostam de desenvolvimento de jogos',
                 ]
             }, {
                 name: 'DELL - Intermediary English',
@@ -185,7 +188,7 @@ export const schoolData = {
             },
         ],
         courses: [{
-                name: 'Harvard - Introduction to Computer Science (CS50)',
+                name: 'Harvard - Introduction to Computer Science - CS50',
                 referenceName: 'cs50',
                 date: '2020',
                 link: 'https://cs50.harvard.edu/certificates/635d0024-45d6-4d59-828a-adbc3a4a4af8',
@@ -223,23 +226,27 @@ export const schoolData = {
                     'Tools to develop Internet of Things solutions'
                 ]
             }, {
-                name: 'Code IOT - Introduction to the Internet of Things',
-                referenceName: 'iot',
+                name: 'Code IoT - Apps for mobile devices',
+                referenceName: 'iot105',
                 date: '2020',
-                link: 'https://www.google.com.br',
-                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis tortor et erat accumsan, porttitor iaculis massa porttitor. Fusce eu dolor eu nisi suscipit vestibulum. Donec nisl quam, pharetra at aliquet sit amet, suscipit sed urna.',
+                link: 'https://codeiot.org.br/certificates/75ba31ea9dc44c0c831d880b96dbe761',
+                description: 'In this course, i practiced and explored the concepts behind operating and creating smartphone apps. I learned to develop programs and interfaces, using AppInventor to bring my ideas to life.',
                 subjectsStudied: [
-                    'IoT'
+                    'Understand the basic principles of application creation in practice',
+                    'Use the AppInventor platform to develop the application interface and programming',
+                    'Becoming familiar with the design and usability concepts that are important in application development',
+                    'Creating apps and seeing them running on smartphone or tablet',
                 ]
             }, {
-                name: 'Code IOT - Apps for mobile devices',
-                referenceName: 'iotmobile',
-                date: '2020',
-                link: 'https://www.google.com.br',
-                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis tortor et erat accumsan, porttitor iaculis massa porttitor. Fusce eu dolor eu nisi suscipit vestibulum. Donec nisl quam, pharetra at aliquet sit amet, suscipit sed urna.',
+                name: 'Udemy - Learn JavaScript with Fun - Build an UFO Hunter Game',
+                referenceName: 'ufohunter',
+                date: '2019',
+                link: 'https://www.udemy.com/certificate/UC-DHVLQAA1/',
+                description: "This course is about JavaScript basics and game development. It has 2 main parts: JavaScript Fundamentals: This part of the course covers the fundamentals of JavaScript as a programming language. Loops, decision making, HTML and CSS fundamentals, etc. Game Development: After learning the basics of JavaScript as a programming language, it will be applied to game development.",
                 subjectsStudied: [
-                    'Mobile Development',
-                    'IoT',
+                    'JavaScript fundamentals',
+                    'Game Developement fundamentals',
+                    'Space Invaders like game developement',
                 ]
             }, {
                 name: 'DELL - Intermediary English',
