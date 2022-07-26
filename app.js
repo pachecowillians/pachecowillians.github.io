@@ -14,27 +14,26 @@ addCSS(languagesCSS());
 
 $("head").innerHTML += favicon();
 
-export function loadPage() {
-    $("body").innerHTML = Home();
 
-    $("#theme-toggle").onclick = () => { toggleTheme(); }
+$("body").innerHTML = Home();
 
-    $("main").onscroll = () => { scrolling = true; };
+$("#theme-toggle").onclick = () => { toggleTheme(); }
 
-    setActiveSection();
+$("main").onscroll = () => { scrolling = true; };
 
-    setInterval(() => {
-        if (scrolling) {
-            scrolling = false;
+setActiveSection();
 
-            progressBarsLoad();
-            setActiveSection();
-        }
-    }, 200);
-}
 
-loadPage();
+setInterval(() => {
+    if (scrolling) {
+        scrolling = false;
+
+        progressBarsLoad();
+        setActiveSection();
+    }
+}, 200);
 
 window.addEventListener("load", function() {
     setActiveSection();
+    progressBarsLoad();
 }, false);

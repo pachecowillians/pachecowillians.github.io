@@ -1,7 +1,8 @@
 import { images } from "../data/images.js";
 import { navbarData } from "../data/sections.js";
+import { setActiveSection } from "../utils/navbar.js";
 import { $ } from "../utils/selector.js";
-import { getCurrentLanguage, toggleLanguage } from "../utils/translate.js";
+import { getCurrentLanguage } from "../utils/translate.js";
 import { navbarIcon } from "./navbarIcon.js";
 
 let sectionState = navbarData[getCurrentLanguage()];
@@ -15,6 +16,7 @@ function renderNavbar() {
 function setNavbar(callback) {
     callback();
     renderNavbar();
+    setActiveSection();
 }
 
 window.addEventListener("load", function() {

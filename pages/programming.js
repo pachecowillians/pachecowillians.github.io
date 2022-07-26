@@ -1,5 +1,5 @@
 import { $ } from "../utils/selector.js";
-import { languageCSS, languageHTML } from "../components/language.js";
+import { languageCSS, languageHTML, progressBarsLoad } from "../components/language.js";
 import { programmingData } from "../data/programming.js";
 import { getCurrentLanguage } from "../utils/translate.js"
 
@@ -14,6 +14,7 @@ function renderProgramming() {
 function setProgramming(callback) {
     callback();
     renderProgramming();
+    progressBarsLoad();
 }
 
 window.addEventListener("load", function() {
