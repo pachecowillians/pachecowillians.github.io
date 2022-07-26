@@ -108,13 +108,26 @@ export const schoolData = {
                     'Criação de aplicativos e vê-los rodando no smartphone ou tablet',
                 ]
             }, {
+                name: 'HTML e CSS: O Início (incluindo 5 Projetos)',
+                referenceName: 'htmlcss',
+                date: '2022',
+                link: 'https://www.udemy.com/certificate/UC-7240ad8b-0814-4da6-a216-e3d6e53399b5/',
+                description: 'Neste curso quem nunca programou sequer uma linha de código conseguirá realizar projetos web e criar sites! Do absoluto zero a níveis profissionais. O curso cobre os principais conceitos de HTML e CSS, reforça a utilização de tags e regras de CSS no mundo real, ou seja, o aluno terá, além da explicação teórica, uma experiência de como a programação web funciona no mercado de trabalho.',
+                subjectsStudied: [
+                    'Utilizar HTML de forma plena, respeitando as boas práticas e estruturar layouts com a linguagem',
+                    'Aplicar CSS a páginas web e conhecer as propriedades mais utilizadas aliado com práticas em exemplos simulando projetos reais',
+                    'Utilizar HTML e CSS do jeito certo / que utilizam em empresas',
+                    'Desenvolver projetos web',
+                ]
+            }, {
                 name: 'Udemy - Learn JavaScript with Fun - Build an UFO Hunter Game',
                 referenceName: 'ufohunter',
                 date: '2019',
                 link: 'https://www.udemy.com/certificate/UC-DHVLQAA1/',
                 description: 'Este curso é sobre noções básicas de JavaScript e desenvolvimento de jogos. Ele tem 2 partes principais: Fundamentos de JavaScript: esta parte do curso trata dos fundamentos do JavaScript como linguagem de programação. Loops, tomada de decisão, fundamentos de HTML e CSS, etc. Desenvolvimento de jogos: depois de aprender o básico de JavaScript como linguagem de programação, ela será aplicada para o desenvolvimento de jogos.',
                 subjectsStudied: [
-                    'Fundamentos JavaScript', 'Fundamentos de desenvolvimento de jogos',
+                    'Fundamentos JavaScript',
+                    'Fundamentos de desenvolvimento de jogos',
                     'Invasores do espaço gostam de desenvolvimento de jogos',
                 ]
             }, {
@@ -128,6 +141,22 @@ export const schoolData = {
                     'Aprenda habilidades e técnicas de modelagem 3D',
                     'Adquira experiência prática e pratique com uma série de exercícios',
                     'Crie seu próprio pequeno robô',
+                ]
+            }, {
+                name: 'DELL - Inglês intermediário I',
+                referenceName: 'inglesintermediario',
+                date: '2020',
+                link: 'https://drive.google.com/file/d/18TxtuR7P3r4MdSva4HelwAzNMEeAzVMl/view?usp=sharing',
+                description: 'Curso de Inglês intermediário I, realizado pelo Instituto Desenvolvimento,                 Estratégia e Conhecimento (IDESCO) da Universidade Estadual do Ceará',
+                subjectsStudied: [
+                    'Aula 1 - What are you like?',
+                    'Aula 2 - I used to do a lot of things',
+                    'Aula 3 - Talking about future events',
+                    'Aula 4 - Have you finished it yet?',
+                    'Aula 5 - What should i do?',
+                    'Aula 6 - How healthy are you?',
+                    'Aula 7 - Take out the trash',
+                    'Aula 8 - If you study English, you will learn it!',
                 ]
             }
         ]
@@ -241,6 +270,18 @@ export const schoolData = {
                     'Creating apps and seeing them running on smartphone or tablet',
                 ]
             }, {
+                name: 'HTML and CSS: The Beginning (including 5 Projects)',
+                referenceName: 'htmlcss',
+                date: '2022',
+                link: 'https://www.udemy.com/certificate/UC-7240ad8b-0814-4da6-a216-e3d6e53399b5/',
+                description: "In this course, those who have never programmed a single line of code will be able to carry out web projects and create websites! From absolute zero to professional levels. The course covers the main concepts of HTML and CSS, reinforces the use of CSS tags and rules in the real world, that is, the student will have, in addition to the theoretical explanation, an experience of how web programming works in the job market.",
+                subjectsStudied: [
+                    'Use HTML fully, respecting good practices and structuring layouts with the language',
+                    'Applying CSS to web pages and knowing the most used properties combined with practical examples simulating real projects',
+                    'Using HTML and CSS the right way / used in companies',
+                    'Develop web projects',
+                ]
+            }, {
                 name: 'Udemy - Learn JavaScript with Fun - Build an UFO Hunter Game',
                 referenceName: 'ufohunter',
                 date: '2019',
@@ -262,6 +303,22 @@ export const schoolData = {
                     'Learn 3D modeling skills and techniques',
                     'Get hands-on experience and practice with a number of exercises',
                     'Create your own little robot',
+                ]
+            }, {
+                name: 'DELL - Intermediate English I',
+                referenceName: 'inglesintermediario',
+                date: '2020',
+                link: 'https://drive.google.com/file/d/18TxtuR7P3r4MdSva4HelwAzNMEeAzVMl/view?usp=sharing',
+                description: 'Intermediate English course i, carried out by the Development, Strategy and Knowledge Institute (IDESCO) of the State University of Ceará',
+                subjectsStudied: [
+                    'Class 1 - What are you like?',
+                    'Class 2 - I used to do a lot of things',
+                    'Class 3 - Talking about future events',
+                    'Class 4 - Have you finished it yet?',
+                    'Class 5 - What should i do?',
+                    'Class 6 - How healthy are you?',
+                    'Class 7 - Take out the trash',
+                    'Class 8 - If you study English, you will learn it!',
                 ]
             }
         ]
