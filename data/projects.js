@@ -72,7 +72,7 @@ export const projectsData = {
             },
             {
                 name: 'Química Orgânica',
-                link: 'https://github.com/pachecowillians/CS50-introduction-to-computer-science',
+                link: 'https://github.com/pachecowillians/organic-chemistry',
                 referenceName: 'quimicaorganica',
                 description: 'Sistema desktop implementado a pedido do professor de química do ensino médio a fim de auxiliar os alunos no aprendizado da matéria de Química Orgânica. Esta foi uma aplicação da gamificação no ambiente escolar.',
                 languages: [
@@ -156,7 +156,7 @@ export const projectsData = {
             },
             {
                 name: 'Organic Chemistry',
-                link: 'https://github.com/pachecowillians/CS50-introduction-to-computer-science',
+                link: 'https://github.com/pachecowillians/organic-chemistry',
                 referenceName: 'quimicaorganica',
                 description: 'Desktop system implemented at the request of the high school chemistry teacher to help students learn the subject of Organic Chemistry. This was an application of gamification in the school environment.',
                 languages: [
