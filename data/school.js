@@ -83,15 +83,17 @@ export const schoolData = {
                 ]
             },
             {
-                name: 'SENAI - Unlocking Industry 4.0',
-                referenceName: 'senai',
+                name: 'Code IoT - Introdução à Internet das Coisas',
+                referenceName: 'iot101',
                 date: '2020',
-                link: 'https://www.google.com.br',
-                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis tortor et erat accumsan, porttitor iaculis massa porttitor. Fusce eu dolor eu nisi suscipit vestibulum. Donec nisl quam, pharetra at aliquet sit amet, suscipit sed urna.',
+                link: 'https://codeiot.org.br/certificates/d7e8fb0cb77f4465b4c67c3c69657956',
+                description: 'Neste curso, aprendi sobre um assunto que está cada vez mais presente em nossas vidas: Internet das Coisas. Compreendi o que é e como funciona, descobri algumas das suas aplicações que já fazem parte do nosso quotidiano e conheci tendências nesta área. Também projetei soluções para problemas reais e conhecerei aplicações nesta área.',
                 subjectsStudied: [
-                    'IoT',
-                    'Big Data',
-                    'Cloud Computing'
+                    'Funcionamento da Internet',
+                    'Aplicação da Internet das Coisas no dia a dia',
+                    'Conceitos e tendências de Internet das Coisas',
+                    'Identificar problemas e imaginar soluções com Internet das Coisas',
+                    'Ferramentas para desenvolver soluções de Internet das Coisas'
                 ]
             }, {
                 name: 'Code IOT - Introduction to the Internet of Things',
@@ -208,15 +210,17 @@ export const schoolData = {
                 ]
             },
             {
-                name: 'SENAI - Unlocking Industry 4.0',
-                referenceName: 'senai',
+                name: 'Code IoT - Introduction to the Internet of Things',
+                referenceName: 'iot101',
                 date: '2020',
-                link: 'https://www.google.com.br',
-                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis tortor et erat accumsan, porttitor iaculis massa porttitor. Fusce eu dolor eu nisi suscipit vestibulum. Donec nisl quam, pharetra at aliquet sit amet, suscipit sed urna.',
+                link: 'https://codeiot.org.br/certificates/d7e8fb0cb77f4465b4c67c3c69657956',
+                description: 'In this course, i learned about a subject that is increasingly present in our lives: Internet of Things. I understood what it is and how it works, i discovered some of its applications that are already part of our daily lives and i learned about trends in this area. I have also designed solutions for real problems and will learn about applications in this area.',
                 subjectsStudied: [
-                    'IoT',
-                    'Big Data',
-                    'Cloud Computing'
+                    'Internet Operation',
+                    'Application of the Internet of Things in everyday life',
+                    'Internet of Things concepts and trends',
+                    'Identify problems and imagine solutions with the Internet of Things',
+                    'Tools to develop Internet of Things solutions'
                 ]
             }, {
                 name: 'Code IOT - Introduction to the Internet of Things',
