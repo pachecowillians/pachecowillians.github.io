@@ -15,7 +15,7 @@ export function schoolItemHTML(schoolItem, titles) {
                 </div>
                 <div class="school-item-collapse-area">
                     <h3>${titles.certificate}</h3>
-                    <a href="${schoolItem.link}" target="_blank">${schoolItem.link}</a>
+                    ${schoolItem.links.map((link)=>(`<a href="${link}" target="_blank">${link}</a>`)).join('')}
                     <h3>${titles.description}</h3>
                     <p>${schoolItem.description}</p>
                     <h3>${titles.subjectsStudied}</h3>
