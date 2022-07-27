@@ -401,6 +401,7 @@ section h1 {
     align-items: flex-start;
     cursor: pointer;
     margin-left: 1rem;
+    word-break: break-word;
 }
 
 li {
