@@ -58,6 +58,18 @@ export const schoolData = {
             },
         ],
         courses: [{
+                name: 'Udemy - HTML e CSS: O Início (incluindo 5 Projetos)',
+                referenceName: 'htmlcss',
+                date: '2022',
+                link: 'https://www.udemy.com/certificate/UC-7240ad8b-0814-4da6-a216-e3d6e53399b5/',
+                description: 'Neste curso quem nunca programou sequer uma linha de código conseguirá realizar projetos web e criar sites! Do absoluto zero a níveis profissionais. O curso cobre os principais conceitos de HTML e CSS, reforça a utilização de tags e regras de CSS no mundo real, ou seja, o aluno terá, além da explicação teórica, uma experiência de como a programação web funciona no mercado de trabalho.',
+                subjectsStudied: [
+                    'Utilizar HTML de forma plena, respeitando as boas práticas e estruturar layouts com a linguagem',
+                    'Aplicar CSS a páginas web e conhecer as propriedades mais utilizadas aliado com práticas em exemplos simulando projetos reais',
+                    'Utilizar HTML e CSS do jeito certo / que utilizam em empresas',
+                    'Desenvolver projetos web',
+                ]
+            }, {
                 name: 'Harvard - Introduction to Computer Science - CS50',
                 referenceName: 'cs50',
                 date: '2020',
@@ -108,30 +120,7 @@ export const schoolData = {
                     'Criação de aplicativos e vê-los rodando no smartphone ou tablet',
                 ]
             }, {
-                name: 'HTML e CSS: O Início (incluindo 5 Projetos)',
-                referenceName: 'htmlcss',
-                date: '2022',
-                link: 'https://www.udemy.com/certificate/UC-7240ad8b-0814-4da6-a216-e3d6e53399b5/',
-                description: 'Neste curso quem nunca programou sequer uma linha de código conseguirá realizar projetos web e criar sites! Do absoluto zero a níveis profissionais. O curso cobre os principais conceitos de HTML e CSS, reforça a utilização de tags e regras de CSS no mundo real, ou seja, o aluno terá, além da explicação teórica, uma experiência de como a programação web funciona no mercado de trabalho.',
-                subjectsStudied: [
-                    'Utilizar HTML de forma plena, respeitando as boas práticas e estruturar layouts com a linguagem',
-                    'Aplicar CSS a páginas web e conhecer as propriedades mais utilizadas aliado com práticas em exemplos simulando projetos reais',
-                    'Utilizar HTML e CSS do jeito certo / que utilizam em empresas',
-                    'Desenvolver projetos web',
-                ]
-            }, {
-                name: 'Udemy - Learn JavaScript with Fun - Build an UFO Hunter Game',
-                referenceName: 'ufohunter',
-                date: '2019',
-                link: 'https://www.udemy.com/certificate/UC-DHVLQAA1/',
-                description: 'Este curso é sobre noções básicas de JavaScript e desenvolvimento de jogos. Ele tem 2 partes principais: Fundamentos de JavaScript: esta parte do curso trata dos fundamentos do JavaScript como linguagem de programação. Loops, tomada de decisão, fundamentos de HTML e CSS, etc. Desenvolvimento de jogos: depois de aprender o básico de JavaScript como linguagem de programação, ela será aplicada para o desenvolvimento de jogos.',
-                subjectsStudied: [
-                    'Fundamentos JavaScript',
-                    'Fundamentos de desenvolvimento de jogos',
-                    'Invasores do espaço gostam de desenvolvimento de jogos',
-                ]
-            }, {
-                name: 'Mastering 3D Modeling With Blender For Beginners',
+                name: 'Udemy - Mastering 3D Modeling With Blender For Beginners',
                 referenceName: 'blenderforbeginners',
                 date: '2020',
                 link: 'https://www.udemy.com/certificate/UC-T55B410T/',
@@ -158,7 +147,35 @@ export const schoolData = {
                     'Aula 7 - Take out the trash',
                     'Aula 8 - If you study English, you will learn it!',
                 ]
-            }
+            }, {
+                name: 'SENAI - Desvendando a Indústria 4.0',
+                referenceName: 'senaiindustria',
+                date: '2020',
+                link: 'https://www.sp.senai.br/consulta-certificado?qrcode=0003483/6057552',
+                description: 'Curso de Indústria 4.0 oferecido pelo SENAI-SP. Nesse curso é apresentado o conceito em questão e são abordados aspectos e tecnologias empregadas nesse novo conceito. Além disso, são mostradas aplicações reais das máquinas e tecnologias estudadas nas indústrias.',
+                subjectsStudied: [
+                    'Indústria 4.0',
+                    'Evolução Industrial',
+                    'Big Data',
+                    'Robótica Avançada',
+                    'Segurança Digital',
+                    'Computação em Nuvem',
+                    'Manufatura Digital',
+                    'Manufatura Aditiva',
+                    'Integração de Sistemas',
+                ]
+            }, {
+                name: 'Udemy - Learn JavaScript with Fun - Build an UFO Hunter Game',
+                referenceName: 'ufohunter',
+                date: '2019',
+                link: 'https://www.udemy.com/certificate/UC-DHVLQAA1/',
+                description: 'Este curso é sobre noções básicas de JavaScript e desenvolvimento de jogos. Ele tem 2 partes principais: Fundamentos de JavaScript: esta parte do curso trata dos fundamentos do JavaScript como linguagem de programação. Loops, tomada de decisão, fundamentos de HTML e CSS, etc. Desenvolvimento de jogos: depois de aprender o básico de JavaScript como linguagem de programação, ela será aplicada para o desenvolvimento de jogos.',
+                subjectsStudied: [
+                    'Fundamentos JavaScript',
+                    'Fundamentos de desenvolvimento de jogos',
+                    'Invasores do espaço gostam de desenvolvimento de jogos',
+                ]
+            },
         ]
     },
     english: {
@@ -220,6 +237,18 @@ export const schoolData = {
             },
         ],
         courses: [{
+                name: 'Udemy - HTML e CSS: O Início (incluindo 5 Projetos)',
+                referenceName: 'htmlcss',
+                date: '2022',
+                link: 'https://www.udemy.com/certificate/UC-7240ad8b-0814-4da6-a216-e3d6e53399b5/',
+                description: "In this course, those who have never programmed a single line of code will be able to carry out web projects and create websites! From absolute zero to professional levels. The course covers the main concepts of HTML and CSS, reinforces the use of CSS tags and rules in the real world, that is, the student will have, in addition to the theoretical explanation, an experience of how web programming works in the job market.",
+                subjectsStudied: [
+                    'Use HTML fully, respecting good practices and structuring layouts with the language',
+                    'Applying CSS to web pages and knowing the most used properties combined with practical examples simulating real projects',
+                    'Using HTML and CSS the right way / used in companies',
+                    'Develop web projects',
+                ]
+            }, {
                 name: 'Harvard - Introduction to Computer Science - CS50',
                 referenceName: 'cs50',
                 date: '2020',
@@ -245,7 +274,7 @@ export const schoolData = {
                 ]
             },
             {
-                name: 'Code IoT - Introduction to the Internet of Things',
+                name: 'Code IoT - Introdução à Internet das Coisas',
                 referenceName: 'iot101',
                 date: '2020',
                 link: 'https://codeiot.org.br/certificates/d7e8fb0cb77f4465b4c67c3c69657956',
@@ -258,7 +287,7 @@ export const schoolData = {
                     'Tools to develop Internet of Things solutions'
                 ]
             }, {
-                name: 'Code IoT - Apps for mobile devices',
+                name: 'Code IoT - Aplicativos para dispositivos móveis',
                 referenceName: 'iot105',
                 date: '2020',
                 link: 'https://codeiot.org.br/certificates/75ba31ea9dc44c0c831d880b96dbe761',
@@ -270,30 +299,7 @@ export const schoolData = {
                     'Creating apps and seeing them running on smartphone or tablet',
                 ]
             }, {
-                name: 'HTML and CSS: The Beginning (including 5 Projects)',
-                referenceName: 'htmlcss',
-                date: '2022',
-                link: 'https://www.udemy.com/certificate/UC-7240ad8b-0814-4da6-a216-e3d6e53399b5/',
-                description: "In this course, those who have never programmed a single line of code will be able to carry out web projects and create websites! From absolute zero to professional levels. The course covers the main concepts of HTML and CSS, reinforces the use of CSS tags and rules in the real world, that is, the student will have, in addition to the theoretical explanation, an experience of how web programming works in the job market.",
-                subjectsStudied: [
-                    'Use HTML fully, respecting good practices and structuring layouts with the language',
-                    'Applying CSS to web pages and knowing the most used properties combined with practical examples simulating real projects',
-                    'Using HTML and CSS the right way / used in companies',
-                    'Develop web projects',
-                ]
-            }, {
-                name: 'Udemy - Learn JavaScript with Fun - Build an UFO Hunter Game',
-                referenceName: 'ufohunter',
-                date: '2019',
-                link: 'https://www.udemy.com/certificate/UC-DHVLQAA1/',
-                description: "This course is about JavaScript basics and game development. It has 2 main parts: JavaScript Fundamentals: This part of the course covers the fundamentals of JavaScript as a programming language. Loops, decision making, HTML and CSS fundamentals, etc. Game Development: After learning the basics of JavaScript as a programming language, it will be applied to game development.",
-                subjectsStudied: [
-                    'JavaScript fundamentals',
-                    'Game Developement fundamentals',
-                    'Space Invaders like game developement',
-                ]
-            }, {
-                name: 'Mastering 3D Modeling With Blender For Beginners',
+                name: 'Udemy - Mastering 3D Modeling With Blender For Beginners',
                 referenceName: 'blenderforbeginners',
                 date: '2020',
                 link: 'https://www.udemy.com/certificate/UC-T55B410T/',
@@ -305,7 +311,7 @@ export const schoolData = {
                     'Create your own little robot',
                 ]
             }, {
-                name: 'DELL - Intermediate English I',
+                name: 'DELL - Inglês intermediário I',
                 referenceName: 'inglesintermediario',
                 date: '2020',
                 link: 'https://drive.google.com/file/d/18TxtuR7P3r4MdSva4HelwAzNMEeAzVMl/view?usp=sharing',
@@ -320,7 +326,35 @@ export const schoolData = {
                     'Class 7 - Take out the trash',
                     'Class 8 - If you study English, you will learn it!',
                 ]
-            }
+            }, {
+                name: 'SENAI - Desvendando a Indústria 4.0',
+                referenceName: 'senaiindustria',
+                date: '2020',
+                link: 'https://www.sp.senai.br/consulta-certificado?qrcode=0003483/6057552',
+                description: 'Industry 4.0 course offered by SENAI-SP. In this course, the concept in question is presented and aspects and technologies used in this new concept are discussed. In addition, real applications of the machines and technologies studied in the industries are shown.',
+                subjectsStudied: [
+                    'Industry 4.0',
+                    'Industrial Evolution',
+                    'Big data',
+                    'Advanced Robotics',
+                    'Digital Security',
+                    'Cloud computing',
+                    'Digital Manufacturing',
+                    'Additive Manufacturing',
+                    'Systems integration',
+                ]
+            }, {
+                name: 'Udemy - Learn JavaScript with Fun - Build an UFO Hunter Game',
+                referenceName: 'ufohunter',
+                date: '2019',
+                link: 'https://www.udemy.com/certificate/UC-DHVLQAA1/',
+                description: "This course is about JavaScript basics and game development. It has 2 main parts: JavaScript Fundamentals: This part of the course covers the fundamentals of JavaScript as a programming language. Loops, decision making, HTML and CSS fundamentals, etc. Game Development: After learning the basics of JavaScript as a programming language, it will be applied to game development.",
+                subjectsStudied: [
+                    'JavaScript fundamentals',
+                    'Game Developement fundamentals',
+                    'Space Invaders like game developement',
+                ]
+            },
         ]
     }
 }
