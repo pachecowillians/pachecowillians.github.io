@@ -103,7 +103,10 @@ export const schoolData = {
                 name: 'Harvard - Introduction to Computer Science - CS50',
                 referenceName: 'cs50',
                 date: '2020',
-                links: ['https://cs50.harvard.edu/certificates/635d0024-45d6-4d59-828a-adbc3a4a4af8'],
+                links: [
+                    'https://cs50.harvard.edu/certificates/635d0024-45d6-4d59-828a-adbc3a4a4af8',
+                    'https://courses.edx.org/certificates/33a7ac74b15b438d9067ace1d0bcf992'
+                ],
                 description: 'Introdução à Ciência da Computação de Harvard, mais conhecido como CS50, é o maior curso do campus de Harvard e mais de 2.000.000 de alunos em todo o mundo se inscreveram no curso no edX. Ele oferece uma série de cursos introdutórios CS50 e programas de certificação profissional de Harvard que estão abertos a alunos de todas as origens que desejam explorar ciência da computação, desenvolvimento de aplicativos e jogos para dispositivos móveis, tecnologias de negócios e a arte da programação.',
                 subjectsStudied: [
                     'Python',
@@ -312,7 +315,10 @@ export const schoolData = {
                 name: 'Harvard - Introduction to Computer Science - CS50',
                 referenceName: 'cs50',
                 date: '2020',
-                links: ['https://cs50.harvard.edu/certificates/635d0024-45d6-4d59-828a-adbc3a4a4af8'],
+                links: [
+                    'https://cs50.harvard.edu/certificates/635d0024-45d6-4d59-828a-adbc3a4a4af8',
+                    'https://courses.edx.org/certificates/33a7ac74b15b438d9067ace1d0bcf992'
+                ],
                 description: 'Introduction to Computer Science from Harvard, better known as CS50, is the largest course on the Harvard campus and more than 2,000,000 learners worldwide have registered for the course on edX. The course offers a series of introductory CS50 courses and Professional Certificate programs from Harvard that are open to learners of all backgrounds looking to explore computer science, mobile app and game development, business technologies, and the art of programming.',
                 subjectsStudied: [
                     'Python',
