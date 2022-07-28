@@ -65,26 +65,25 @@ export const schoolData = {
                     'VisuAlg',
                 ]
             }, {
-                name: 'SESI - High School',
-                referenceName: 'sesiHigh',
+                name: 'SESI - Ensino Médio',
+                referenceName: 'ensinomedio',
                 date: '2016 - 2018',
-                links: ['https://www.google.com.br'],
-                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis tortor et erat accumsan, porttitor iaculis massa porttitor. Fusce eu dolor eu nisi suscipit vestibulum. Donec nisl quam, pharetra at aliquet sit amet, suscipit sed urna.',
+                links: ['https://drive.google.com/file/d/1uN9icy6QPGiJloAPJiG0SWWsdoWA7BVN/view?usp=sharing'],
+                description: 'Ensino Médio realizado no SESI com bolsa de estudos integral EBEP oferecida aos alunos de destaque da instituição.',
                 subjectsStudied: [
-                    'Math',
-                    'Portuguese',
-                    'History'
-                ]
-            }, {
-                name: 'SESI - Elementary School',
-                referenceName: 'sesiElementary',
-                date: '2012 - 2016',
-                links: ['https://www.google.com.br'],
-                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis tortor et erat accumsan, porttitor iaculis massa porttitor. Fusce eu dolor eu nisi suscipit vestibulum. Donec nisl quam, pharetra at aliquet sit amet, suscipit sed urna.',
-                subjectsStudied: [
-                    'Math',
-                    'Portuguese',
-                    'History'
+                    'Arte',
+                    'Biologia',
+                    'Educação Física',
+                    'Filosofia',
+                    'Física',
+                    'Geografia',
+                    'História',
+                    'Português',
+                    'Matemática',
+                    'Química',
+                    'Redação',
+                    'Sociologia',
+                    'Inglês',
                 ]
             },
         ],
@@ -276,25 +275,24 @@ export const schoolData = {
                 ]
             }, {
                 name: 'SESI - High School',
-                referenceName: 'sesiHigh',
+                referenceName: 'ensinomedio',
                 date: '2016 - 2018',
-                links: ['https://www.google.com.br'],
-                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis tortor et erat accumsan, porttitor iaculis massa porttitor. Fusce eu dolor eu nisi suscipit vestibulum. Donec nisl quam, pharetra at aliquet sit amet, suscipit sed urna.',
+                links: ['https://drive.google.com/file/d/1uN9icy6QPGiJloAPJiG0SWWsdoWA7BVN/view?usp=sharing'],
+                description: 'High school carried out at SESI with a full EBEP scholarship offered to outstanding students of the institution.',
                 subjectsStudied: [
-                    'Math',
+                    'Art',
+                    'Biology',
+                    'Physical education',
+                    'Philosophy',
+                    'Physical',
+                    'Geography',
+                    'History',
                     'Portuguese',
-                    'History'
-                ]
-            }, {
-                name: 'SESI - Elementary School',
-                referenceName: 'sesiElementary',
-                date: '2012 - 2016',
-                links: ['https://www.google.com.br'],
-                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis tortor et erat accumsan, porttitor iaculis massa porttitor. Fusce eu dolor eu nisi suscipit vestibulum. Donec nisl quam, pharetra at aliquet sit amet, suscipit sed urna.',
-                subjectsStudied: [
                     'Math',
-                    'Portuguese',
-                    'History'
+                    'Chemistry',
+                    'Redaction',
+                    'Sociology',
+                    'English',
                 ]
             },
         ],
