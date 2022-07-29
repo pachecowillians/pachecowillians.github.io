@@ -29,7 +29,6 @@ export function schoolItemHTML(schoolItem, titles) {
 }
 
 export function toggleSchoolItem(schoolItem) {
-    console.log("entrou");
     if (schoolItem.classList.contains("item-active")) {
         schoolItem.classList.remove("item-active");
     } else {
