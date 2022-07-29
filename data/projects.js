@@ -60,7 +60,7 @@ export const projectsData = {
                 name: 'TCC - SENAI',
                 link: 'https://github.com/pachecowillians/tcc-senai',
                 referenceName: 'tcctecnico',
-                description: 'Trabalho de Conclusão de Curso realizado ao fim do curso Técnico em Desenvolvimento de Sistemas do SENAI. Trata-se de um site para divulgação dos eventos regionais que possui um sistema de login, cadastro e gerenciamento de eventos.',
+                description: 'Trabalho de Conclusão de Curso realizado no curso Técnico em Desenvolvimento de Sistemas do SENAI. Trata-se de um site para divulgação dos eventos regionais que possui um sistema de login, cadastro e gerenciamento de eventos.',
                 languages: [
                     'javascript',
                     'css',
@@ -68,6 +68,7 @@ export const projectsData = {
                     'php',
                     'bootstrap',
                     'jquery',
+                    'mysql',
                 ]
             },
             {
@@ -144,7 +145,7 @@ export const projectsData = {
                 name: 'Final Project - SENAI',
                 link: 'https://github.com/pachecowillians/tcc-senai',
                 referenceName: 'tcctecnico',
-                description: 'Completion of course work carried out at the end of the Technical course in Systems Development at SENAI. It is a site for the dissemination of regional events that has a login, registration and event management system.',
+                description: 'Completion of course work carried out in the Technical course in Systems Development at SENAI. It is a site for the dissemination of regional events that has a login, registration and event management system.',
                 languages: [
                     'javascript',
                     'css',
@@ -152,6 +153,7 @@ export const projectsData = {
                     'php',
                     'bootstrap',
                     'jquery',
+                    'mysql',
                 ]
             },
             {
