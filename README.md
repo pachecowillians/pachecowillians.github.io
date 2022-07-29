@@ -50,12 +50,4 @@ http-server .
 The above command will start the server in the current directory and will generate a link to access server. It can usually be accessed through <a href="http://localhost:8080">http://localhost:8080</a>.
 </p>
 
-<div align="center">
-    <br/>
-    <img height="50px" src="./img/Languages/html.svg"/>
-    <img height="50px" src="./img/Languages/css.svg"/>
-    <img height="50px" src="./img/Languages/javascript.svg"/>
-    <br/>
-</div>
-
 <br/>
