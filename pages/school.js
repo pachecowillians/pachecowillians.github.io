@@ -10,9 +10,19 @@ function renderSchool() {
     newElement.innerHTML = School();
     $("main").replaceChild(newElement.content, $("#school"));
 
-    [...$(".school-item-container")].map((item) => {
-        item.onclick = (event) => { toggleSchoolItem(event.currentTarget); };
-    })
+    [...$(".school-item-visible-area")].map((item) => {
+        item.onclick = (event) => {
+            let schoolItem = event.currentTarget.parentElement.parentElement;
+            toggleSchoolItem(schoolItem);
+        };
+    });
+
+    [...$(".school-item-toggle-icon")].map((item) => {
+        item.onclick = (event) => {
+            let schoolItem = event.currentTarget.parentElement;
+            toggleSchoolItem(schoolItem);
+        };
+    });
 }
 
 function setSchool(callback) {
