@@ -35,7 +35,7 @@ export function Navbar() {
     <aside id="sidebar">
         <div class="logo-container">
             <a href="#profile">
-                <img src="${images.filter(image=> image.name=='logo')[0].path}" alt="Logo" id="logoNavbar">
+                <img src="${images.filter(image=> image.name=='logo')[0].path}" alt="Logo" id="logoNavbar" title="WPS">
             </a>
         </div>
         <div id="sidebar-menu">

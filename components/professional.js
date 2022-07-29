@@ -6,7 +6,7 @@ export function professionalItemHTML(professional, titles) {
     <div class="professional-item">
         <div class="professional-item-header">
             <div class="professional-item-header-image">
-                <img src="${images.filter(image => image.name==professional.referenceName)[0].path}" alt="${professional.name}" id="${professional.referenceName}">
+                <img src="${images.filter(image => image.name==professional.referenceName)[0].path}" alt="${professional.name}" id="${professional.referenceName}" title="${professional.name}">
             </div>
             <div class="professional-item-header-information">
                 <h2>${professional.name}</h2>

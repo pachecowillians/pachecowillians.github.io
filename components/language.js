@@ -5,7 +5,7 @@ import { isProgressBarInViewport } from "../utils/viewport.js";
 export function languageHTML(language) {
     return /*html*/ `
         <div class="language-container ${language.referenceName}">
-            <img src="${images.filter(image=> image.name==language.referenceName)[0].path}" alt="${language.name}" id="${language.referenceName}">
+            <img src="${images.filter(image=> image.name==language.referenceName)[0].path}" alt="${language.name}" id="${language.referenceName}" title="${language.name}">
             <div class="progress-bar-container">
                 <div class="progress-bar-title">
                     <span>${language.name}</span>
