@@ -1,5 +1,4 @@
 <div align="center">
-    <br/>
     <img height="150em" src="./img/Logo/wps.svg"/>
     <br/>
 </div>
