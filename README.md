@@ -1,22 +1,8 @@
 <div align="center">
-    <img height="150em" src="./img/Logo/wps.svg"/>
-    <br/>
-</div>
-
-<div align="center">
     <br/>
     <img src="./img/Projects/portfolio.gif"/>
     <img height="339px" src="./img/Projects/portfoliomobile.gif"/>
     <br>
-</div>
-
-
-<div align="center">
-    <br/>
-    <img height="50px" src="./img/Languages/html.svg"/>
-    <img height="50px" src="./img/Languages/css.svg"/>
-    <img height="50px" src="./img/Languages/javascript.svg"/>
-    <br/>
 </div>
 
 <br/>
@@ -63,3 +49,13 @@ http-server .
 <p align="justify"> 
 The above command will start the server in the current directory and will generate a link to access server. It can usually be accessed through <a href="http://localhost:8080">http://localhost:8080</a>.
 </p>
+
+<div align="center">
+    <br/>
+    <img height="50px" src="./img/Languages/html.svg"/>
+    <img height="50px" src="./img/Languages/css.svg"/>
+    <img height="50px" src="./img/Languages/javascript.svg"/>
+    <br/>
+</div>
+
+<br/>
