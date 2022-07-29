@@ -15,6 +15,11 @@ export const profileData = {
                 name: 'Linkedin',
                 referenceName: 'linkedin',
                 link: 'https://www.linkedin.com/in/willian-pacheco-silva-b99745213/'
+            },
+            {
+                name: 'Currículo',
+                referenceName: 'curriculum',
+                link: 'https://drive.google.com/file/d/1JTGqWwnGAT-oF6iE0_T0ldqPs_h-Zrpy/view?usp=sharing'
             }
         ]
     },
@@ -34,6 +39,11 @@ export const profileData = {
                 name: 'Linkedin',
                 referenceName: 'linkedin',
                 link: 'https://www.linkedin.com/in/willian-pacheco-silva-b99745213/'
+            },
+            {
+                name: 'Curriculum',
+                referenceName: 'curriculum',
+                link: 'https://drive.google.com/file/d/1JTGqWwnGAT-oF6iE0_T0ldqPs_h-Zrpy/view?usp=sharing'
             }
         ]
     }

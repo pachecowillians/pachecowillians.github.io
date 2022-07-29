@@ -160,6 +160,10 @@ const social = [{
     {
         name: 'linkedin',
         path: 'img/Social/linkedin.svg',
+    },
+    {
+        name: 'curriculum',
+        path: 'img/Social/curriculum.svg',
     }
 ]
 

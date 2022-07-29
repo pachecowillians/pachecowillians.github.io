@@ -46,6 +46,7 @@
 img[src*="logo"],
 img[src*="nextjs"],
 img[src*="flask"],
+img[src*="curriculum"],
 img[src*="controleeletronica"],
 #github {
     filter: var(--filter);
