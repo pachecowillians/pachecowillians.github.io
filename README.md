@@ -2,8 +2,8 @@
 
 <div align="center">
     <br/>
-    <img height="340px" src="./img/Projects/portfolio.gif"/>
-    <img height="340px" src="./img/Projects/portfoliomobile.gif"/>
+    <img src="./img/Projects/portfolio.gif"/>
+    <img height="339px" src="./img/Projects/portfoliomobile.gif"/>
 </div>
 
 <br>
