@@ -19,7 +19,7 @@ export const profileData = {
             {
                 name: 'Currículo',
                 referenceName: 'curriculum',
-                link: 'https://drive.google.com/file/d/1JTGqWwnGAT-oF6iE0_T0ldqPs_h-Zrpy/view?usp=sharing'
+                link: 'https://drive.google.com/file/d/10T7wsvErw2WzI4i0kHaKw1mO8OO4s93L/view?usp=sharing'
             }
         ]
     },
@@ -43,7 +43,7 @@ export const profileData = {
             {
                 name: 'Curriculum',
                 referenceName: 'curriculum',
-                link: 'https://drive.google.com/file/d/1JTGqWwnGAT-oF6iE0_T0ldqPs_h-Zrpy/view?usp=sharing'
+                link: 'https://drive.google.com/file/d/10T7wsvErw2WzI4i0kHaKw1mO8OO4s93L/view?usp=sharing'
             }
         ]
     }
