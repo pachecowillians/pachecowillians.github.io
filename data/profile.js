@@ -14,7 +14,7 @@ export const profileData = {
             {
                 name: 'Linkedin',
                 referenceName: 'linkedin',
-                link: 'https://www.linkedin.com/in/willian-pacheco-silva-b99745213/'
+                link: 'https://www.linkedin.com/in/pachecowillians/'
             },
             {
                 name: 'Currículo',
@@ -38,7 +38,7 @@ export const profileData = {
             {
                 name: 'Linkedin',
                 referenceName: 'linkedin',
-                link: 'https://www.linkedin.com/in/willian-pacheco-silva-b99745213/'
+                link: 'https://www.linkedin.com/in/pachecowillians/'
             },
             {
                 name: 'Curriculum',
