@@ -12,7 +12,7 @@ export const schoolData = {
                 name: 'UFES - Bacharelado em Engenharia da Computação',
                 referenceName: 'ufes',
                 date: '2019 - Today',
-                links: ['https://drive.google.com/file/d/1q2rKDXZiGwu3VXIP-4IA36BKXuVyD_Bb/view?usp=sharing'],
+                links: ['https://drive.google.com/file/d/11ruMjRiczGhd-rg-ZeI7xRnDegWU5sA5/view?usp=sharing'],
                 description: 'Curso de Bacharelado em Engenharia da Computação em progresso na Universidade Federal do Espírito Santo. Atualmente me encontro no 7º período, periodizado e sem nenhuma reprovação.',
                 subjectsStudied: [
                     'Python',
@@ -224,7 +224,7 @@ export const schoolData = {
                 name: "UFES - Bachelor's Degree in Computer Engineering",
                 referenceName: 'ufes',
                 date: '2019 - Today',
-                links: ['https://drive.google.com/file/d/1q2rKDXZiGwu3VXIP-4IA36BKXuVyD_Bb/view?usp=sharing'],
+                links: ['https://drive.google.com/file/d/11ruMjRiczGhd-rg-ZeI7xRnDegWU5sA5/view?usp=sharing'],
                 description: "Bachelor's Degree in Computer Engineering in progress at the Federal University of Espírito Santo. I am currently in the 7th period, periodized and without any failure.",
                 subjectsStudied: [
                     'Python',
