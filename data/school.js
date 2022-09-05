@@ -11,7 +11,7 @@ export const schoolData = {
         schooling: [{
                 name: 'UFES - Bacharelado em Engenharia da Computação',
                 referenceName: 'ufes',
-                date: '2019 - Today',
+                date: '2019 - Hoje',
                 links: ['https://drive.google.com/file/d/11ruMjRiczGhd-rg-ZeI7xRnDegWU5sA5/view?usp=sharing'],
                 description: 'Curso de Bacharelado em Engenharia da Computação em progresso na Universidade Federal do Espírito Santo. Atualmente me encontro no 7º período, periodizado e sem nenhuma reprovação.',
                 subjectsStudied: [
