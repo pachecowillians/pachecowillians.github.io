@@ -51,7 +51,6 @@ export const projectsData = {
                 languages: [
                     'python',
                     'flask',
-                    'javascript',
                     'html',
                     'css',
                 ]
@@ -136,7 +135,6 @@ export const projectsData = {
                 languages: [
                     'python',
                     'flask',
-                    'javascript',
                     'html',
                     'css',
                 ]
