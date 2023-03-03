@@ -316,11 +316,11 @@ section h1 {
 
 .language-container span {
     font-weight: 700;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
 .language-container img {
-    width: 3.5rem;
+    width: 4rem;
 }
 
 .study-container {
@@ -776,6 +776,14 @@ a {
     .programming-container {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .language-container span {
+        font-size: 1.2rem;
+    }
+
+    .language-container img {
+        width: 4rem;
+    }
 }
 
 @media (max-width: 500px) {
@@ -855,5 +863,13 @@ a {
 
     #profile .container {
         padding: 5rem 2rem;
+    }
+
+    .language-container span {
+        font-size: 1rem;
+    }
+
+    .language-container img {
+        width: 2.5rem;
     }
 }
