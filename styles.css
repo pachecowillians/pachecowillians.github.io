@@ -248,6 +248,7 @@ section h1 {
     height: 14rem;
     border-radius: 50%;
     object-fit: cover;
+    object-position: 50% 5%;
 }
 
 #profile .social-media {
