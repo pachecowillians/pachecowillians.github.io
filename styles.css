@@ -292,7 +292,7 @@ section h1 {
 }
 
 .programming-container {
-    row-gap: 4rem;
+    row-gap: 6rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: min-content;
@@ -303,7 +303,7 @@ section h1 {
     width: 95%;
 }
 
-.progress-bar-container {
+/* .progress-bar-container {
     display: flex;
     flex-direction: column;
     row-gap: 0.8rem;
@@ -326,31 +326,33 @@ section h1 {
     left: 0;
     height: 100%;
     width: 0;
-}
+} */
 
 .language-container {
     display: flex;
+    flex-direction: column;
     align-content: center;
     justify-content: center;
     align-items: center;
-    column-gap: 1.6rem;
+    row-gap: 1rem;
     height: 4rem;
     width: 90%;
 }
 
-.progress-bar-title {
+/* .progress-bar-title {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
     justify-content: space-between;
-}
+} */
 
-.progress-bar-title span {
+.language-container span {
     font-weight: 700;
+    font-size: 1.2rem;
 }
 
 .language-container img {
-    width: 3rem;
+    width: 4rem;
 }
 
 .study-container {
@@ -661,16 +663,20 @@ a {
         grid-template-rows: none;
         grid-template-columns: 13rem auto 6rem;
     }
+
     main section .container {
         padding: 5rem 30rem;
     }
+
     aside#sidebar,
     aside#option-menu {
         padding: 4.5rem 0rem;
     }
+
     .programming-container {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(10, 1fr);
     }
+
     .projects-container {
         grid-template-columns: repeat(4, 1fr);
     }
@@ -680,6 +686,11 @@ a {
     main section .container {
         padding: 5rem 15rem;
     }
+
+    .programming-container {
+        grid-template-columns: repeat(7, 1fr);
+    }
+
     .projects-container {
         grid-template-columns: repeat(3, 1fr);
     }
@@ -689,26 +700,36 @@ a {
     main section .container {
         padding: 5rem 6rem;
     }
-    .projects-container,
+
     .programming-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .projects-container {
         grid-template-columns: repeat(2, 1fr);
     }
+
+
     .information-text {
         padding: 1.5rem 2rem;
     }
 }
 
 @media(max-width: 1440px) {
+
     aside#sidebar,
     aside#option-menu {
         padding: 2.5rem 0rem;
     }
+
     #sidebar-menu {
         row-gap: 3rem;
     }
+
     .professional-items-container {
         max-width: 90%;
     }
+
     .project-item {
         margin: 0rem 2rem;
     }
@@ -718,6 +739,7 @@ a {
     main section .container {
         padding: 5rem 4rem;
     }
+
     .projects-container {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -733,41 +755,50 @@ a {
     main section .container {
         padding: 5rem 4rem;
     }
+
     body {
         grid-template-columns: none;
         grid-template-rows: 5rem auto 5rem;
         grid-template-areas: "options" "main" "navbar";
     }
+
     aside#sidebar {
         grid-template-areas: "logo menu .";
         grid-template-rows: 0 auto 0;
         align-content: center;
     }
+
     #logoNavbar {
         display: none;
     }
+
     #sidebar-menu {
         flex-direction: row;
         align-items: center;
         justify-content: space-evenly;
         width: 100vw;
     }
+
     aside#option-menu {
         flex-direction: row-reverse;
         justify-content: space-around;
         height: 100%;
         padding: 0;
     }
+
     aside#option-menu #logoTopbar {
         display: block;
     }
+
     .sidebar-icon {
         flex-direction: column;
     }
+
     .menu-icon span:hover,
     .sidebar-icon:hover {
         opacity: 1;
     }
+
     .project-item a:hover {
         opacity: 1;
     }
@@ -775,7 +806,7 @@ a {
 
 @media(max-width: 700px) {
     .programming-container {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -783,12 +814,15 @@ a {
     main section .container {
         padding: 5rem 3rem;
     }
+
     .programming-container {
         width: 100%;
     }
+
     section h1 {
         font-size: 2rem;
     }
+
     section h2 {
         font-size: 1.5rem;
     }
@@ -798,15 +832,19 @@ a {
     main section .container {
         padding: 5rem 2rem;
     }
+
     #profile .container {
         padding: 5rem 3rem;
     }
+
     #profile .profile-text {
         margin: 1.5rem 0.5rem;
     }
+
     section h1 {
         font-size: 1.75rem;
     }
+
     section h2 {
         font-size: 1.25rem;
     }
@@ -816,21 +854,27 @@ a {
     .project-item {
         width: 20rem;
     }
+
     .sidebar-icon span:nth-child(2) {
         font-size: 0.9rem;
     }
+
     main section .container {
         padding: 5rem 1rem;
     }
+
     .project-item-content img {
         width: 1.8rem;
     }
+
     .project-item a {
         font-size: 1.1rem;
     }
+
     .project-item-button {
         margin-bottom: 2rem;
     }
+
     .project-item-information {
         padding: 2rem 2rem 1rem 2rem;
     }
@@ -840,6 +884,7 @@ a {
     .sidebar-icon span:nth-child(2) {
         font-size: 0.85rem;
     }
+
     #profile .container {
         padding: 5rem 2rem;
     }
