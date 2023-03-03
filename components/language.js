@@ -1,6 +1,4 @@
 import { images } from "../data/images.js";
-import { $ } from "../utils/selector.js";
-import { isProgressBarInViewport } from "../utils/viewport.js";
 
 export function languageHTML(language) {
     return /*html*/ `
@@ -33,13 +31,4 @@ export function languageCSS(language) {
         color: ${language.color};
     }
     `;
-}
-
-export function progressBarsLoad() {
-    let progressBars = $('.progress-bar span');
-    [...progressBars].map((progressBar) => {
-        if (isProgressBarInViewport(progressBar)) {
-            progressBar.style.animationPlayState = 'running';
-        }
-    });
 }

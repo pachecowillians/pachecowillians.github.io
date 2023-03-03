@@ -303,31 +303,6 @@ section h1 {
     width: 95%;
 }
 
-/* .progress-bar-container {
-    display: flex;
-    flex-direction: column;
-    row-gap: 0.8rem;
-    width: 100%;
-}
-
-.progress-bar {
-    position: relative;
-    width: 100%;
-    background: transparent;
-    height: 1.6rem;
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-.progress-bar span {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 0;
-} */
-
 .language-container {
     display: flex;
     flex-direction: column;
@@ -338,13 +313,6 @@ section h1 {
     height: 4rem;
     width: 90%;
 }
-
-/* .progress-bar-title {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: space-between;
-} */
 
 .language-container span {
     font-weight: 700;

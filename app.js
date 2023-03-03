@@ -3,7 +3,6 @@ import { Home } from "./pages/home.js";
 import { setActiveSection } from "./utils/navbar.js";
 import { toggleTheme } from "./utils/theme.js";
 import { languagesCSS } from "./pages/programming.js";
-import { progressBarsLoad } from "./components/language.js";
 import { favicon } from "./components/favicon.js";
 
 const addCSS = css => document.head.appendChild(document.createElement("style")).innerHTML = css;
@@ -28,12 +27,10 @@ setInterval(() => {
     if (scrolling) {
         scrolling = false;
 
-        progressBarsLoad();
         setActiveSection();
     }
 }, 200);
 
 window.addEventListener("load", function() {
     setActiveSection();
-    progressBarsLoad();
 }, false);
