@@ -61,7 +61,6 @@ export const projectsData = {
                 referenceName: 'tcctecnico',
                 description: 'Trabalho de Conclusão de Curso realizado no curso Técnico em Desenvolvimento de Sistemas do SENAI. Trata-se de um site para divulgação dos eventos regionais que possui um sistema de login, cadastro e gerenciamento de eventos.',
                 languages: [
-                    'javascript',
                     'css',
                     'html',
                     'php',
@@ -145,7 +144,6 @@ export const projectsData = {
                 referenceName: 'tcctecnico',
                 description: 'Completion of course work carried out in the Technical course in Systems Development at SENAI. It is a site for the dissemination of regional events that has a login, registration and event management system.',
                 languages: [
-                    'javascript',
                     'css',
                     'html',
                     'php',
