@@ -1,6 +1,6 @@
 export const programmingData = {
     portuguese: {
-        informationText: 'Durante meus estudos, aprendi várias linguagens de programação, tecnologias novas e sistemas operacionais. Os conhecimentos adquiridos são apresentados aqui com base no quanto eu sei sobre cada assunto.',
+        informationText: 'Durante meus estudos, aprendi várias linguagens de programação, tecnologias novas e sistemas operacionais. Os conhecimentos adquiridos, tecnologias e linguagens dominadas são aqui apresentados.',
         languages: [{
                 name: 'HTML',
                 referenceName: 'html',
@@ -160,7 +160,7 @@ export const programmingData = {
         ]
     },
     english: {
-        informationText: 'During my studies, i learned several programming languages, new technologies and operating systems. The acquired knowledge is presented here based on how much i know about each subject.',
+        informationText: 'During my studies, I learned several programming languages, new technologies and operating systems. The knowledge acquired, technologies and languages mastered are presented here.',
         languages: [{
                 name: 'HTML',
                 referenceName: 'html',
