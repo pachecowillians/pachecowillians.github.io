@@ -545,6 +545,7 @@ a {
     margin: 0rem 4rem;
     text-align: justify;
     width: 25rem;
+    border-radius: 5px;
     background: var(--background);
     transition: 300ms ease;
     transition-property: filter, color, background;
@@ -579,6 +580,7 @@ a {
 .project-item-image,
 .project-item-image img {
     width: 100%;
+    border-radius: 5px 5px 0px 0px;
 }
 
 .project-item-content {
