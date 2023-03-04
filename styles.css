@@ -538,20 +538,21 @@ a {
     justify-content: center;
     align-items: center;
     box-shadow: var(--box-shadow);
-    color: var(--text-inverse);
+    color: var(--text);
     margin: 0rem 4rem;
     text-align: justify;
     width: 25rem;
-    background: var(--background-inverse);
+    background: var(--grey);
     transition: 300ms ease;
     transition-property: filter, color, background;
 }
 
 .project-item a {
-    color: var(--text);
+    color: var(--text-inverse);
     font-size: 1.2rem;
     transition: ease 300ms;
     transition-property: color, background, filter;
+    background-color: var(--text);
 }
 
 .project-item a:hover {
@@ -563,13 +564,13 @@ a {
     font-weight: 700;
 }
 
-.project-item img[src*="nextjs"],
+/* .project-item img[src*="nextjs"],
 .project-item img[src*="flask"] {
     filter: var(--filter-inverse);
-}
+} */
 
 .project-item img[src*="github"] {
-    filter: var(--filter);
+    filter: var(--filter-inverse);
 }
 
 .project-item-image,
