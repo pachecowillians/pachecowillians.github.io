@@ -303,6 +303,15 @@ section h1 {
     width: 95%;
 }
 
+.programming-categories,
+.programming-category {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4rem;
+    width: 95%;
+}
+
+
 .language-container {
     display: flex;
     flex-direction: column;
@@ -345,7 +354,8 @@ section h1 {
 }
 
 .scholarity h1,
-.courses h1 {
+.courses h1,
+.programming-category h1 {
     font-size: 2rem;
 }
 

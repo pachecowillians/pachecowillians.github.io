@@ -16,10 +16,10 @@ function setProgramming(callback) {
     renderProgramming();
 }
 
-window.addEventListener("load", function() {
+window.addEventListener("load", function () {
     $("#language-toggle").addEventListener(
         "click",
-        function() {
+        function () {
             setProgramming(() => { programmingState = programmingData[getCurrentLanguage()] });
         },
         false
@@ -29,13 +29,22 @@ window.addEventListener("load", function() {
 
 
 export function Programming() {
+    const categories = [...new Set(programmingState.languages.map(language => language.category))];
+
+
     return /*html*/ `
     <section id="programming">
         <div class="container">
             <div class="information-text"><span>${programmingState.informationText}</span></div>
-            <div class="programming-container">${
-                programmingState.languages.map((language) => (languageHTML(language))).join('')
-            }</div>
+            <div class="programming-categories">
+                ${categories.map(category => {
+        return /*html */`
+                    <div class="programming-category">
+                        <h1>${category}</h1>
+                        <div class="programming-container">${programmingState.languages.filter(language => language.category == category).map((language) => (languageHTML(language))).join('')}</div>
+                    </div>`
+    }).join('')}  
+            </div>  
         </div>
     </section>
     `;
