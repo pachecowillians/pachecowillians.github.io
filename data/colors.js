@@ -9,6 +9,7 @@ export const colors = [
     'text',
     'box-shadow',
     'button',
+    'button-inverse',
     'filter',
     'filter-inverse',
     'text-inverse',

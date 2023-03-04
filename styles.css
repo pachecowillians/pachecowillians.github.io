@@ -8,7 +8,8 @@
     --white-light: #F5F5F5;
     --text-light: var(--black-light);
     --box-shadow-light: rgb(50 50 93 / 25%) 0px 2px 5px -1px, rgb(0 0 0 / 30%) 0px 1px 3px -1px;
-    --button-light: var(--background-light);
+    --button-light: #000000;
+    --button-inverse-light: #ffffff;
     --filter-light: none;
     --filter-inverse-light: var(--filter-dark);
     --text-inverse-light: var(--text-dark);
@@ -21,8 +22,9 @@
     --grey-dark: #252525;
     --white-dark: #D3D3D3;
     --text-dark: var(--white-dark);
-    --box-shadow-dark: rgb(255 255 255 / 40%);
-    --button-dark: var(--background-dark);
+    --box-shadow-dark: rgb(255 255 255 / 25%) 0px 2px 5px -1px, rgb(0 0 0 / 30%) 0px 1px 3px -1px;
+    --button-dark: #ffffff;
+    --button-inverse-dark: #000000;
     --filter-dark: invert(99%) sepia(4%) saturate(755%) hue-rotate(314deg) brightness(116%) contrast(92%);
     --filter-inverse-dark: var(--filter-light);
     --text-inverse-dark: var(--text-light);
@@ -37,6 +39,7 @@
     --text: var(--black-light);
     --box-shadow: var(--box-shadow-light);
     --button: var(--button-light);
+    --button-inverse: var(--button-inverse-light);
     --filter: var(--filter-light);
     --filter-inverse: var(--filter-inverse-light);
     --text-inverse: var(--text-inverse-light);
@@ -542,17 +545,17 @@ a {
     margin: 0rem 4rem;
     text-align: justify;
     width: 25rem;
-    background: var(--grey);
+    background: var(--background);
     transition: 300ms ease;
     transition-property: filter, color, background;
 }
 
 .project-item a {
-    color: var(--text-inverse);
+    color: var(--button-inverse);
     font-size: 1.2rem;
     transition: ease 300ms;
     transition-property: color, background, filter;
-    background-color: var(--text);
+    background-color: var(--button);
 }
 
 .project-item a:hover {
