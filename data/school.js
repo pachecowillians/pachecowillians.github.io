@@ -18,7 +18,7 @@ export const schoolData = {
                     ref: '../docs/history_ufes.pdf',
                 },
             ],
-            description: 'Curso de Bacharelado em Engenharia da Computação em progresso na Universidade Federal do Espírito Santo. Atualmente me encontro no 7º período, periodizado e sem nenhuma reprovação.',
+            description: 'Curso de Bacharelado em Engenharia da Computação em progresso na Universidade Federal do Espírito Santo. Atualmente me encontro no 9º período, periodizado e sem nenhuma reprovação.',
             subjectsStudied: [
                 'Python',
                 'MySQL',
@@ -291,7 +291,7 @@ export const schoolData = {
                     ref: '../docs/history_ufes.pdf',
                 },
             ],
-            description: "Bachelor's Degree in Computer Engineering in progress at the Federal University of Espírito Santo. I am currently in the 7th period, periodized and without any failure.",
+            description: "Bachelor's Degree in Computer Engineering in progress at the Federal University of Espírito Santo. I am currently in the 9th period, periodized and without any failure.",
             subjectsStudied: [
                 'Python',
                 'MySQL',
