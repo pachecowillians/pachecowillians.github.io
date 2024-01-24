@@ -108,6 +108,27 @@ export const schoolData = {
         ],
         courses: [
             {
+                name: 'Séries Temporais e Análises Preditivas com Python',
+                referenceName: 'temporalSeries',
+                date: '2023',
+                links: [
+                    {
+                        name: 'Certificado do curso Séries Temporais e Análises Preditivas com Python',
+                        ref: 'https://www.udemy.com/certificate/UC-045d3f24-9017-40e5-8f43-12269d3524be/',
+                    },
+                ],
+                description: 'Este curso é o seu guia completo para análise de série temporal usando Python. Todos os principais aspectos da análise de dados temporais são estudados!  Na era de big data, empresas em todo o mundo usam Python para avaliar a "avalanche" de informações à sua disposição. Tornando-se proficiente na análise de dados de séries temporais em Python, você pode dar à sua empresa uma vantagem competitiva e levar sua carreira para outro nível! Veja o que você vai estudar',
+                subjectsStudied: [
+                    'Fundamentos de Séries Temporais: Exemplos de séries temporais, decomposição (sanonalidade, tendência, resíduos), autocorrelação, decomposição.',
+                    'Pré-Processamento e Visualização: Estruturas de Dados, importação de CSV, Excel, HTML e JSON, formatos de data e hora,  gráficos diversos com gráficos de linhas  e histogramas, agregações, variações e muito mais.',
+                    'Características e Condições: Médias móveis, séries estacionárias, teste de estacionariedade com Log e diferenciação, remoção de componentes como tendência e sanozalidade.',
+                    'Métodos Estatísticos de Previsão de Séries Temporais: Médias Móveis, Suaviação Exponencial, Holt Winters, Arima e Auto-Arima.',
+                    'Machine Learning e Deep Learning: Introdução ao Keras, Random Forest para seleção de atributos, multi layer Perceptron, Redes Neurais Recorrentes (RNN) com  Long short-term memory (LSTM) e Gated recurrent units (GRU)',
+                    'Transformers: Introdução aos Transformers e Pytorch. Exemplos de uso de Transformers para previsão de séries temporais.',
+                    'Detecção de Anomalias: Técnicas como Média Móvel, Exponencial Smothing, Seasonal and Trend Decomposition (SLT) e Arima, voltadas para Detecção de Anomalias'
+                ]
+            },
+            {
                 name: 'Udemy - HTML e CSS: O Início (incluindo 5 Projetos)',
                 referenceName: 'htmlcss',
                 date: '2022',
