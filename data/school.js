@@ -129,6 +129,30 @@ export const schoolData = {
                 ]
             },
             {
+                name: 'Udemy - Designer Web & Mobile Completo: UI/UX, Figma, +mais',
+                referenceName: 'webandmobile',
+                date: '2022',
+                links: [
+                    {
+                        name: 'Certificado do curso Designer Web & Mobile Completo: UI/UX, Figma, +mais',
+                        ref: 'https://www.udemy.com/certificate/UC-d3bebf29-2dd0-4c0f-b5c2-ad0272580499/',
+                    },
+                ],
+                description: 'Usando as mais recentes práticas recomendadas em Design de Páginas Web e Design para Dispositivos Móveis, bem como em Design de Interface do Usuário e Experiência do Usuário (UI/UX), este curso concentra-se em levá-lo de forma eficiente de um nível inicial a um ponto em que você possa ser contratado ou conquistar contratos como freelancer. Vamos utilizar ferramentas em alta demanda, como o Figma, para mostrar a você um fluxo de trabalho completo, desde o início até o fim.',
+                subjectsStudied: [
+                    'Princípios de design para web e dispositivos móveis + Design vs Desenvolvimento web',
+                    'Esboço, Inspiração + Estrutura',
+                    'Wireframes, Prototipagem e Feedback',
+                    'Teoria do design + Acessibilidade',
+                    'Design de aplicativos + Sistemas de design',
+                    'Utilizando nosso sistema de design e prototipagem de alta fidelidade com o Figma',
+                    'Transformar um design no Figma em um site funcional usando HTML e CSS',
+                    'HTML + HTML5',
+                    'CSS + CSS3 - Noções básicas de CSS, Grid CSS, Flexbox, Animações CSS',
+                    'Colocando seu site online'
+                ]
+            },
+            {
                 name: 'Udemy - HTML e CSS: O Início (incluindo 5 Projetos)',
                 referenceName: 'htmlcss',
                 date: '2022',
@@ -420,6 +444,30 @@ export const schoolData = {
                     "Machine Learning and Deep Learning: Introduction to Keras, Random Forest for attribute selection, multi-layer Perceptron, Recurrent Neural Networks (RNN) with Long Short-Term Memory (LSTM), and Gated Recurrent Units (GRU).",
                     "Transformers: Introduction to Transformers and PyTorch. Examples of using Transformers for time series prediction.",
                     "Anomaly Detection: Techniques such as Moving Average, Exponential Smoothing, Seasonal and Trend Decomposition (SLT), and Arima, focused on Anomaly Detection."
+                ]
+            },
+            {
+                name: 'Udemy - Complete Web & Mobile Designer: UI/UX, Figma, +more',
+                referenceName: 'webandmobile',
+                date: '2022',
+                links: [
+                    {
+                        name: 'Certificate for the Complete Web & Mobile Designer: UI/UX, Figma, +more course',
+                        ref: 'https://www.udemy.com/certificate/UC-d3bebf29-2dd0-4c0f-b5c2-ad0272580499/',
+                    },
+                ],
+                description: 'Using the latest best practices in Web Design and Mobile Design as well as User Interface and User Experience Design (UI/UX), this course focuses on efficiently getting you from zero to a point where you can get hired or win freelance contracts. We will use in demand tools like Figma to show you a full workflow from start to finish.',
+                subjectsStudied: [
+                    'Web & Mobile Design Principles + Design vs Web Development',
+                    'Sketching, Inspiration + Structure',
+                    'Wireframes, Prototyping and Feedback',
+                    'Design Theory + Accessibility',
+                    'Application Design + Design Systems',
+                    'Using our Design System and Hi-Fi prototyping with Figma',
+                    'Take a Figma design and convert it to a live website using HTML and CSS',
+                    'HTML + HTML5',
+                    'CSS + CSS3 - CSS Basics, CSS Grid, Flexbox, CSS Animations',
+                    'PUTTING YOUR WEBSITE ONLINE'
                 ]
             },
             {
