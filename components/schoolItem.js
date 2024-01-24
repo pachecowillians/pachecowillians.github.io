@@ -14,13 +14,23 @@ export function schoolItemHTML(schoolItem, titles) {
                     </div>
                 </div>
                 <div class="school-item-collapse-area">
-                    <h3>${titles.certificate}</h3>
-                    ${schoolItem.links.map((link)=>(`<a href="${link.ref}" target="_blank">- ${link.name}</a><br>`)).join('')}
+                ${schoolItem.links.length > 0 ? (
+                    `<div>
+                        <h3>${titles.certificate}</h3>
+                        ${schoolItem.links.map((link) => (
+                            `<a href=${link.ref} target="_blank" key=${link.name}>
+                                - ${link.name}
+                            </a>
+                            <br />`
+                        ))}
+                    </div>`
+                ):('')}
+                
                     <h3>${titles.description}</h3>
                     <p>${schoolItem.description}</p>
                     <h3>${titles.subjectsStudied}</h3>
                     <ul>
-                        ${schoolItem.subjectsStudied.map((subject)=>(`<li>${subject}</li>`)).join('')}
+                        ${schoolItem.subjectsStudied.map((subject) => (`<li>${subject}</li>`)).join('')}
                     </ul>
                 </div>
             </div>
