@@ -426,7 +426,7 @@ export const schoolData = {
         ],
         courses: [
             {
-                name: ";Udemy - Time Series and Predictive Analysis with Python",
+                name: "Udemy - Time Series and Predictive Analysis with Python",
                 referenceName: "temporalSeries",
                 date: "2023",
                 links: [
