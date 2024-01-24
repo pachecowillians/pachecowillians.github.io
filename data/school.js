@@ -402,6 +402,27 @@ export const schoolData = {
         ],
         courses: [
             {
+                name: "Time Series and Predictive Analysis with Python",
+                referenceName: "temporalSeries",
+                date: "2023",
+                links: [
+                    {
+                        name: "Certificate for the Time Series and Predictive Analysis with Python course",
+                        ref: "https://www.udemy.com/certificate/UC-045d3f24-9017-40e5-8f43-12269d3524be/"
+                    }
+                ],
+                description: "This course is your comprehensive guide to time series analysis using Python. All major aspects of temporal data analysis are covered! In the era of big data, companies worldwide use Python to assess the 'avalanche' of information at their disposal. Becoming proficient in time series data analysis in Python can give your company a competitive edge and take your career to the next level! Here's what you will study:",
+                subjectsStudied: [
+                    "Fundamentals of Time Series: Examples of time series, decomposition (seasonality, trend, residuals), autocorrelation, decomposition.",
+                    "Pre-processing and Visualization: Data structures, CSV, Excel, HTML, and JSON import, date and time formats, various charts with line and histogram charts, aggregations, variations, and more.",
+                    "Features and Conditions: Moving averages, stationary series, stationarity testing with Log and differentiation, removal of components such as trend and seasonality.",
+                    "Statistical Methods for Time Series Forecasting: Moving Averages, Exponential Smoothing, Holt Winters, Arima, and Auto-Arima.",
+                    "Machine Learning and Deep Learning: Introduction to Keras, Random Forest for attribute selection, multi-layer Perceptron, Recurrent Neural Networks (RNN) with Long Short-Term Memory (LSTM), and Gated Recurrent Units (GRU).",
+                    "Transformers: Introduction to Transformers and PyTorch. Examples of using Transformers for time series prediction.",
+                    "Anomaly Detection: Techniques such as Moving Average, Exponential Smoothing, Seasonal and Trend Decomposition (SLT), and Arima, focused on Anomaly Detection."
+                ]
+            },
+            {
                 name: 'Udemy - HTML e CSS: O Início (incluindo 5 Projetos)',
                 referenceName: 'htmlcss',
                 date: '2022',
