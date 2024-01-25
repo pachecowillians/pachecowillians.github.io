@@ -288,7 +288,7 @@ export const schoolData = {
                 date: '2020',
                 links: [
                     {
-                        name: 'Certificado do curso de Inglês Intermediário',
+                        name: 'Certificado do curso Inglês intermediário I',
                         ref: '../docs/intermediary_english.pdf',
                     },
                 ],
@@ -357,7 +357,7 @@ export const schoolData = {
         },
         schooling: [
             {
-                name: 'Master\'s in Electrical Engineering - Telecommunications and Information Technology(TTI)',
+                name: 'Master\'s in Electrical Engineering - Telecommunications and Information Technology (TTI)',
                 institution: 'UFES',
                 referenceName: 'ufesmaster',
                 date: '2024 - Present',
@@ -521,13 +521,13 @@ export const schoolData = {
                 ]
             },
             {
-                name: 'HTML e CSS: O Início (incluindo 5 Projetos)',
+                name: 'HTML and CSS: The Beginning (including 5 Projects)',
                 institution: 'Udemy',
                 referenceName: 'htmlcss',
                 date: '2022',
                 links: [
                     {
-                        name: 'Certificate for the course HTML e CSS: O Início (incluindo 5 Projetos)',
+                        name: 'Certificate for the course HTML and CSS: The Beginning (including 5 Projects)',
                         ref: 'https://www.udemy.com/certificate/UC-7240ad8b-0814-4da6-a216-e3d6e53399b5/',
                     },
                 ],
@@ -539,17 +539,17 @@ export const schoolData = {
                     'Develop web projects',
                 ]
             }, {
-                name: 'Introduction to Computer Science - CS50',
+                name: 'CS50 - Introduction to Computer Science',
                 institution: 'Harvard',
                 referenceName: 'cs50',
                 date: '2020',
                 links: [
                     {
-                        name: 'Certificate for the course Introduction to Computer Science - CS50',
+                        name: 'Certificate for the course CS50 - Introduction to Computer Science',
                         ref: 'https://cs50.harvard.edu/certificates/635d0024-45d6-4d59-828a-adbc3a4a4af8',
                     },
                     {
-                        name: 'Certificate for the course Introduction to Computer Science - EDX',
+                        name: 'Certificate for the course CS50 - Introduction to Computer Science - EDX',
                         ref: 'https://courses.edx.org/certificates/33a7ac74b15b438d9067ace1d0bcf992',
                     },
                 ],
@@ -574,13 +574,13 @@ export const schoolData = {
                 ]
             },
             {
-                name: 'Introdução à Internet das Coisas',
+                name: 'Introduction to the Internet of Things',
                 institution: 'Code IoT',
                 referenceName: 'iot101',
                 date: '2020',
                 links: [
                     {
-                        name: 'Certificate for the course Introdução à Internet das Coisas',
+                        name: 'Certificate for the course Introduction to the Internet of Things',
                         ref: 'https://codeiot.org.br/certificates/d7e8fb0cb77f4465b4c67c3c69657956',
                     },
                 ],
@@ -593,13 +593,13 @@ export const schoolData = {
                     'Tools to develop Internet of Things solutions'
                 ]
             }, {
-                name: 'Aplicativos para dispositivos móveis',
+                name: 'Mobile App Development',
                 institution: 'Code IoT',
                 referenceName: 'iot105',
                 date: '2020',
                 links: [
                     {
-                        name: 'Certificate for the course Aplicativos para dispositivos móveis',
+                        name: 'Certificate for the course Mobile App Development',
                         ref: 'https://codeiot.org.br/certificates/75ba31ea9dc44c0c831d880b96dbe761',
                     },
                 ],
@@ -629,13 +629,13 @@ export const schoolData = {
                     'Create your own little robot',
                 ]
             }, {
-                name: 'Inglês intermediário I',
+                name: 'Intermediate English I',
                 institution: 'DELL',
                 referenceName: 'inglesintermediario',
                 date: '2020',
                 links: [
                     {
-                        name: 'Intermediate English Course Certificate',
+                        name: 'Certificate for the course Intermediate English I',
                         ref: '../docs/intermediary_english.pdf',
                     },
                 ],
@@ -651,13 +651,13 @@ export const schoolData = {
                     'Class 8 - If you study English, you will learn it!',
                 ]
             }, {
-                name: 'Desvendando a Indústria 4.0',
+                name: 'Unveiling Industry 4.0',
                 institution: 'SENAI',
                 referenceName: 'senaiindustria',
                 date: '2020',
                 links: [
                     {
-                        name: 'Certificate for the course Desvendando a Indústria 4.0',
+                        name: 'Certificate for the course Unveiling Industry 4.0',
                         ref: 'https://www.sp.senai.br/consulta-certificado?qrcode=0003483/6057552',
                     },
                 ],
