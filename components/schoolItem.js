@@ -22,7 +22,7 @@ export function schoolItemHTML(schoolItem, titles) {
                                 - ${link.name}
                             </a>
                             <br />`
-                        ))}
+                        )).join('')}
                     </div>`
                 ):('')}
                 
