@@ -192,17 +192,17 @@ export const schoolData = {
                     'Desenvolver projetos web',
                 ]
             }, {
-                name: 'Introduction to Computer Science - CS50',
+                name: 'CS50 - Introdução à Ciência da Computação',
                 institution: 'Harvard',
                 referenceName: 'cs50',
                 date: '2020',
                 links: [
                     {
-                        name: 'Certificado do curso Introduction to Computer Science - CS50',
+                        name: 'Certificado do curso CS50 - Introdução à Ciência da Computação',
                         ref: 'https://cs50.harvard.edu/certificates/635d0024-45d6-4d59-828a-adbc3a4a4af8',
                     },
                     {
-                        name: 'Certificado do curso Introduction to Computer Science - EDX',
+                        name: 'Certificado do curso CS50 - Introdução à Ciência da Computação - EDX',
                         ref: 'https://courses.edx.org/certificates/33a7ac74b15b438d9067ace1d0bcf992',
                     },
                 ],
@@ -246,7 +246,7 @@ export const schoolData = {
                     'Ferramentas para desenvolver soluções de Internet das Coisas'
                 ]
             }, {
-                name: 'Code IoT - Aplicativos para dispositivos móveis',
+                name: 'Aplicativos para dispositivos móveis',
                 institution: 'Code IoT',
                 referenceName: 'iot105',
                 date: '2020',
@@ -264,13 +264,13 @@ export const schoolData = {
                     'Criação de aplicativos e vê-los rodando no smartphone ou tablet',
                 ]
             }, {
-                name: 'Mastering 3D Modeling With Blender For Beginners',
+                name: 'Dominando Modelagem 3D com Blender para Iniciantes',
                 institution: 'Udemy',
                 referenceName: 'blenderforbeginners',
                 date: '2020',
                 links: [
                     {
-                        name: 'Certificado do curso Mastering 3D Modeling With Blender For Beginners',
+                        name: 'Certificado do curso Dominando Modelagem 3D com Blender para Iniciantes',
                         ref: 'https://www.udemy.com/certificate/UC-T55B410T/',
                     },
                 ],
@@ -292,7 +292,7 @@ export const schoolData = {
                         ref: '../docs/intermediary_english.pdf',
                     },
                 ],
-                description: 'Curso de Inglês intermediário I, realizado pelo Instituto Desenvolvimento,                 Estratégia e Conhecimento (IDESCO) da Universidade Estadual do Ceará',
+                description: 'Curso de Inglês intermediário I, realizado pelo Instituto Desenvolvimento, Estratégia e Conhecimento (IDESCO) da Universidade Estadual do Ceará',
                 subjectsStudied: [
                     'Aula 1 - What are you like?',
                     'Aula 2 - I used to do a lot of things',
@@ -327,13 +327,13 @@ export const schoolData = {
                     'Integração de Sistemas',
                 ]
             }, {
-                name: 'Learn JavaScript with Fun - Build an UFO Hunter Game',
+                name: 'Aprenda JavaScript com Diversão - Construa um Jogo UFO Hunter',
                 institution: 'Udemy',
                 referenceName: 'ufohunter',
                 date: '2019',
                 links: [
                     {
-                        name: 'Certificado do curso Learn JavaScript with Fun - Build an UFO Hunter Game',
+                        name: 'Certificado do curso Aprenda JavaScript com Diversão - Construa um Jogo UFO Hunter',
                         ref: 'https://www.udemy.com/certificate/UC-DHVLQAA1/',
                     },
                 ],
