@@ -475,6 +475,7 @@ li {
     align-content: center;
     justify-content: center;
     align-items: center;
+    max-width: 80%;
     row-gap: 3rem;
     color: var(--text);
 }

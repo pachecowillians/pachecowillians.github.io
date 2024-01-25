@@ -8,107 +8,174 @@ export const schoolData = {
             description: 'Descrição',
             subjectsStudied: 'Conteúdo estudado',
         },
-        schooling: [{
-            name: 'UFES - Bacharelado em Engenharia da Computação',
-            referenceName: 'ufes',
-            date: '2019 - Hoje',
-            links: [
-                {
-                    name: 'Histórico da UFES',
-                    ref: '../docs/history_ufes.pdf',
-                },
-            ],
-            description: 'Curso de Bacharelado em Engenharia da Computação em progresso na Universidade Federal do Espírito Santo. Atualmente me encontro no 9º período, periodizado e sem nenhuma reprovação.',
-            subjectsStudied: [
-                'Python',
-                'MySQL',
-                'Docker',
-                'C / C++',
-                'Java',
-                'MIPS Assembly',
-                'Processing',
-                'Estruturas de Dados',
-                'Programação Orientada a Objetos',
-                'UML',
-                'Metodologias ágeis e tradicionais de desenvolvimento de software',
-                'Manipulação de Arquivos',
-                'Alocação estática e dinâmica de memória',
-                'Arquitetura de Computadores',
-                'Sistemas Operacionais',
-                'Operadores bitwise',
-                'Eletrônica Analógica e Digital',
-                'Algoritmos computacionais de Interpolação e Regressão',
-                'Cálculo Integral, Diferencial e Limites',
-                'Análise de Circuitos Elétricos no Domínio do tempo e da Frequência',
-                'Criação de blocos de controle utilizando máquinas de estado',
-                'Solução de Sistemas Lineares',
-                'Projeto elétrico residencial',
-                'Mecânica Clássica',
-                'Eletromagnetismo',
-            ]
-        },
-        {
-            name: 'SENAI - Curso Técnico em Desenvolvimento de Sistemas',
-            referenceName: 'ctds01',
-            date: '2017 - 2018',
-            links: [
-                {
-                    name: 'Diploma do SENAI',
-                    ref: '../docs/senai_degree.pdf',
-                },
-                {
-                    name: 'Menção honrosa por maiores notas',
-                    ref: '../docs/honorable_mention_grades.pdf',
-                },
-                {
-                    name: 'Menção honrosa por maior frequência',
-                    ref: '../docs/honorable_mention_frequency.pdf',
-                },
-            ],
-            description: 'Curso Técnico em Desenvolvimento de Sistemas realizado no SENAI como parte da bolsa de estudos integral que recebi no ensino médio pelo projeto EBEP. Ao fim do curso técnico recebi duas menções honrosas: uma por alcançar a maior nota geral da turma, e outra por apresentar a maior assiduidade dentre os alunos.',
-            subjectsStudied: [
-                'Programação Orientada a Objetos',
-                'SQL Server',
-                'Modelo MVC',
-                'C#',
-                '.NET',
-                'Metodologias ágeis e tradicionais de desenvolvimento de software',
-                'UML',
-                'Teste de sistemas',
-                'Pacote Office (Word, Excel e PowerPoint)',
-                'VisuAlg',
-            ]
-        }, {
-            name: 'SESI - Ensino Médio',
-            referenceName: 'ensinomedio',
-            date: '2016 - 2018',
-            links: [
-                {
-                    name: 'Diploma do SESI',
-                    ref: '../docs/sesi_degree.pdf',
-                },
-            ],
-            description: 'Ensino Médio realizado no SESI com bolsa de estudos integral EBEP oferecida aos alunos de destaque da instituição.',
-            subjectsStudied: [
-                'Arte',
-                'Biologia',
-                'Educação Física',
-                'Filosofia',
-                'Física',
-                'Geografia',
-                'História',
-                'Português',
-                'Matemática',
-                'Química',
-                'Redação',
-                'Sociologia',
-                'Inglês',
-            ]
-        },
+        schooling: [
+            {
+                name: 'Mestrado em Engenharia Elétrica - Telecomunicações e Tecnologia da Informação (TTI)',
+                institution: 'UFES',
+                referenceName: 'ufesmaster',
+                date: '2024 - Hoje',
+                links: [],
+                description: 'A tese, "Aplicação de Técnicas de Aprendizado de Máquina para Predição e Modelagem de Dados de Sensores FBG em Tanques de Líquidos", envolve uma extensa análise de dados, a implementação de modelos preditivos e avaliação de sua precisão em cenários do mundo real, resultando em contribuições valiosas para a tecnologia de sensores.             Ela tem como foco a aplicação de técnicas de aprendizado de máquina para prever e modelar dados de sensores FBG em tanques de líquidos e visa aprimorar as capacidades preditivas e otimizar a representação de dados para monitoramento eficaz em ambientes industriais.',
+                subjectsStudied: [
+                    'Python',
+                    'TensorFlow',
+                    'Machine Learning',
+                    'Inteligência Artificial',
+                    'Sensores FBG',
+                ]
+            },
+            {
+                name: 'Bacharelado em Engenharia da Computação',
+                institution: 'UFES',
+                referenceName: 'ufes',
+                date: '2019 - 2023',
+                links: [
+                    {
+                        name: 'Histórico da UFES',
+                        ref: '../docs/history_ufes.pdf',
+                    },
+                ],
+                description: 'Curso de Bacharelado em Engenharia da Computação em progresso na Universidade Federal do Espírito Santo. Atualmente me encontro no 9º período, periodizado e sem nenhuma reprovação.',
+                subjectsStudied: [
+                    'Python',
+                    'MySQL',
+                    'Docker',
+                    'C / C++',
+                    'Java',
+                    'MIPS Assembly',
+                    'Processing',
+                    'Estruturas de Dados',
+                    'Programação Orientada a Objetos',
+                    'UML',
+                    'Metodologias ágeis e tradicionais de desenvolvimento de software',
+                    'Manipulação de Arquivos',
+                    'Alocação estática e dinâmica de memória',
+                    'Arquitetura de Computadores',
+                    'Sistemas Operacionais',
+                    'Operadores bitwise',
+                    'Eletrônica Analógica e Digital',
+                    'Algoritmos computacionais de Interpolação e Regressão',
+                    'Cálculo Integral, Diferencial e Limites',
+                    'Análise de Circuitos Elétricos no Domínio do tempo e da Frequência',
+                    'Criação de blocos de controle utilizando máquinas de estado',
+                    'Solução de Sistemas Lineares',
+                    'Projeto elétrico residencial',
+                    'Mecânica Clássica',
+                    'Eletromagnetismo',
+                ]
+            },
+            {
+                name: 'Curso Técnico em Desenvolvimento de Sistemas',
+                institution: 'SENAI',
+                referenceName: 'ctds01',
+                date: '2017 - 2018',
+                links: [
+                    {
+                        name: 'Diploma do SENAI',
+                        ref: '../docs/senai_degree.pdf',
+                    },
+                    {
+                        name: 'Menção honrosa por maiores notas',
+                        ref: '../docs/honorable_mention_grades.pdf',
+                    },
+                    {
+                        name: 'Menção honrosa por maior frequência',
+                        ref: '../docs/honorable_mention_frequency.pdf',
+                    },
+                ],
+                description: 'Curso Técnico em Desenvolvimento de Sistemas realizado no SENAI como parte da bolsa de estudos integral que recebi no ensino médio pelo projeto EBEP. Ao fim do curso técnico recebi duas menções honrosas: uma por alcançar a maior nota geral da turma, e outra por apresentar a maior assiduidade dentre os alunos.',
+                subjectsStudied: [
+                    'Programação Orientada a Objetos',
+                    'SQL Server',
+                    'Modelo MVC',
+                    'C#',
+                    '.NET',
+                    'Metodologias ágeis e tradicionais de desenvolvimento de software',
+                    'UML',
+                    'Teste de sistemas',
+                    'Pacote Office (Word, Excel e PowerPoint)',
+                    'VisuAlg',
+                ]
+            }, {
+                name: 'Ensino Médio',
+                institution: 'SESI',
+                referenceName: 'ensinomedio',
+                date: '2016 - 2018',
+                links: [
+                    {
+                        name: 'Diploma do SESI',
+                        ref: '../docs/sesi_degree.pdf',
+                    },
+                ],
+                description: 'Ensino Médio realizado no SESI com bolsa de estudos integral EBEP oferecida aos alunos de destaque da instituição.',
+                subjectsStudied: [
+                    'Arte',
+                    'Biologia',
+                    'Educação Física',
+                    'Filosofia',
+                    'Física',
+                    'Geografia',
+                    'História',
+                    'Português',
+                    'Matemática',
+                    'Química',
+                    'Redação',
+                    'Sociologia',
+                    'Inglês',
+                ]
+            },
         ],
         courses: [
             {
-                name: 'Udemy - HTML e CSS: O Início (incluindo 5 Projetos)',
+                name: 'Séries Temporais e Análises Preditivas com Python',
+                institution: 'Udemy',
+                referenceName: 'temporalSeries',
+                date: '2023',
+                links: [
+                    {
+                        name: 'Certificado do curso Séries Temporais e Análises Preditivas com Python',
+                        ref: 'https://www.udemy.com/certificate/UC-045d3f24-9017-40e5-8f43-12269d3524be/',
+                    },
+                ],
+                description: 'Este curso é o seu guia completo para análise de série temporal usando Python. Todos os principais aspectos da análise de dados temporais são estudados!  Na era de big data, empresas em todo o mundo usam Python para avaliar a "avalanche" de informações à sua disposição. Tornando-se proficiente na análise de dados de séries temporais em Python, você pode dar à sua empresa uma vantagem competitiva e levar sua carreira para outro nível! Veja o que você vai estudar',
+                subjectsStudied: [
+                    'Fundamentos de Séries Temporais: Exemplos de séries temporais, decomposição (sanonalidade, tendência, resíduos), autocorrelação, decomposição.',
+                    'Pré-Processamento e Visualização: Estruturas de Dados, importação de CSV, Excel, HTML e JSON, formatos de data e hora,  gráficos diversos com gráficos de linhas  e histogramas, agregações, variações e muito mais.',
+                    'Características e Condições: Médias móveis, séries estacionárias, teste de estacionariedade com Log e diferenciação, remoção de componentes como tendência e sanozalidade.',
+                    'Métodos Estatísticos de Previsão de Séries Temporais: Médias Móveis, Suaviação Exponencial, Holt Winters, Arima e Auto-Arima.',
+                    'Machine Learning e Deep Learning: Introdução ao Keras, Random Forest para seleção de atributos, multi layer Perceptron, Redes Neurais Recorrentes (RNN) com  Long short-term memory (LSTM) e Gated recurrent units (GRU)',
+                    'Transformers: Introdução aos Transformers e Pytorch. Exemplos de uso de Transformers para previsão de séries temporais.',
+                    'Detecção de Anomalias: Técnicas como Média Móvel, Exponencial Smothing, Seasonal and Trend Decomposition (SLT) e Arima, voltadas para Detecção de Anomalias'
+                ]
+            },
+            {
+                name: 'Designer Web & Mobile Completo: UI/UX, Figma, +mais',
+                institution: 'Udemy',
+                referenceName: 'webandmobile',
+                date: '2022',
+                links: [
+                    {
+                        name: 'Certificado do curso Designer Web & Mobile Completo: UI/UX, Figma, +mais',
+                        ref: 'https://www.udemy.com/certificate/UC-d3bebf29-2dd0-4c0f-b5c2-ad0272580499/',
+                    },
+                ],
+                description: 'Usando as mais recentes práticas recomendadas em Design de Páginas Web e Design para Dispositivos Móveis, bem como em Design de Interface do Usuário e Experiência do Usuário (UI/UX), este curso concentra-se em levá-lo de forma eficiente de um nível inicial a um ponto em que você possa ser contratado ou conquistar contratos como freelancer. Vamos utilizar ferramentas em alta demanda, como o Figma, para mostrar a você um fluxo de trabalho completo, desde o início até o fim.',
+                subjectsStudied: [
+                    'Princípios de design para web e dispositivos móveis + Design vs Desenvolvimento web',
+                    'Esboço, Inspiração + Estrutura',
+                    'Wireframes, Prototipagem e Feedback',
+                    'Teoria do design + Acessibilidade',
+                    'Design de aplicativos + Sistemas de design',
+                    'Utilizando nosso sistema de design e prototipagem de alta fidelidade com o Figma',
+                    'Transformar um design no Figma em um site funcional usando HTML e CSS',
+                    'HTML + HTML5',
+                    'CSS + CSS3 - Noções básicas de CSS, Grid CSS, Flexbox, Animações CSS',
+                    'Colocando seu site online'
+                ]
+            },
+            {
+                name: 'HTML e CSS: O Início (incluindo 5 Projetos)',
+                institution: 'Udemy',
                 referenceName: 'htmlcss',
                 date: '2022',
                 links: [
@@ -125,16 +192,17 @@ export const schoolData = {
                     'Desenvolver projetos web',
                 ]
             }, {
-                name: 'Harvard - Introduction to Computer Science - CS50',
+                name: 'CS50 - Introdução à Ciência da Computação',
+                institution: 'Harvard',
                 referenceName: 'cs50',
                 date: '2020',
                 links: [
                     {
-                        name: 'Certificado do curso Introduction to Computer Science - CS50',
+                        name: 'Certificado do curso CS50 - Introdução à Ciência da Computação',
                         ref: 'https://cs50.harvard.edu/certificates/635d0024-45d6-4d59-828a-adbc3a4a4af8',
                     },
                     {
-                        name: 'Certificado do curso Introduction to Computer Science - EDX',
+                        name: 'Certificado do curso CS50 - Introdução à Ciência da Computação - EDX',
                         ref: 'https://courses.edx.org/certificates/33a7ac74b15b438d9067ace1d0bcf992',
                     },
                 ],
@@ -159,7 +227,8 @@ export const schoolData = {
                 ]
             },
             {
-                name: 'Code IoT - Introdução à Internet das Coisas',
+                name: 'Introdução à Internet das Coisas',
+                institution: 'Code IoT',
                 referenceName: 'iot101',
                 date: '2020',
                 links: [
@@ -177,7 +246,8 @@ export const schoolData = {
                     'Ferramentas para desenvolver soluções de Internet das Coisas'
                 ]
             }, {
-                name: 'Code IoT - Aplicativos para dispositivos móveis',
+                name: 'Aplicativos para dispositivos móveis',
+                institution: 'Code IoT',
                 referenceName: 'iot105',
                 date: '2020',
                 links: [
@@ -194,12 +264,13 @@ export const schoolData = {
                     'Criação de aplicativos e vê-los rodando no smartphone ou tablet',
                 ]
             }, {
-                name: 'Udemy - Mastering 3D Modeling With Blender For Beginners',
+                name: 'Dominando Modelagem 3D com Blender para Iniciantes',
+                institution: 'Udemy',
                 referenceName: 'blenderforbeginners',
                 date: '2020',
                 links: [
                     {
-                        name: 'Certificado do curso Mastering 3D Modeling With Blender For Beginners',
+                        name: 'Certificado do curso Dominando Modelagem 3D com Blender para Iniciantes',
                         ref: 'https://www.udemy.com/certificate/UC-T55B410T/',
                     },
                 ],
@@ -211,16 +282,17 @@ export const schoolData = {
                     'Crie seu próprio pequeno robô',
                 ]
             }, {
-                name: 'DELL - Inglês intermediário I',
+                name: 'Inglês intermediário I',
+                institution: 'DELL',
                 referenceName: 'inglesintermediario',
                 date: '2020',
                 links: [
                     {
-                        name: 'Certificado do curso de Inglês Intermediário',
+                        name: 'Certificado do curso Inglês intermediário I',
                         ref: '../docs/intermediary_english.pdf',
                     },
                 ],
-                description: 'Curso de Inglês intermediário I, realizado pelo Instituto Desenvolvimento,                 Estratégia e Conhecimento (IDESCO) da Universidade Estadual do Ceará',
+                description: 'Curso de Inglês intermediário I, realizado pelo Instituto Desenvolvimento, Estratégia e Conhecimento (IDESCO) da Universidade Estadual do Ceará',
                 subjectsStudied: [
                     'Aula 1 - What are you like?',
                     'Aula 2 - I used to do a lot of things',
@@ -232,7 +304,8 @@ export const schoolData = {
                     'Aula 8 - If you study English, you will learn it!',
                 ]
             }, {
-                name: 'SENAI - Desvendando a Indústria 4.0',
+                name: 'Desvendando a Indústria 4.0',
+                institution: 'SENAI',
                 referenceName: 'senaiindustria',
                 date: '2020',
                 links: [
@@ -254,12 +327,13 @@ export const schoolData = {
                     'Integração de Sistemas',
                 ]
             }, {
-                name: 'Udemy - Learn JavaScript with Fun - Build an UFO Hunter Game',
+                name: 'Aprenda JavaScript com Diversão - Construa um Jogo UFO Hunter',
+                institution: 'Udemy',
                 referenceName: 'ufohunter',
                 date: '2019',
                 links: [
                     {
-                        name: 'Certificado do curso Learn JavaScript with Fun - Build an UFO Hunter Game',
+                        name: 'Certificado do curso Aprenda JavaScript com Diversão - Construa um Jogo UFO Hunter',
                         ref: 'https://www.udemy.com/certificate/UC-DHVLQAA1/',
                     },
                 ],
@@ -281,112 +355,179 @@ export const schoolData = {
             description: 'Description',
             subjectsStudied: 'Subjects studied',
         },
-        schooling: [{
-            name: "UFES - Bachelor's Degree in Computer Engineering",
-            referenceName: 'ufes',
-            date: '2019 - Today',
-            links: [
-                {
-                    name: 'UFES History',
-                    ref: '../docs/history_ufes.pdf',
-                },
-            ],
-            description: "Bachelor's Degree in Computer Engineering in progress at the Federal University of Espírito Santo. I am currently in the 9th period, periodized and without any failure.",
-            subjectsStudied: [
-                'Python',
-                'MySQL',
-                'Docker',
-                'C / C++',
-                'Java',
-                'MIPS Assembly',
-                'Processing',
-                'Data Structures',
-                'Object Oriented Programming',
-                'UML',
-                'Agile and traditional software development methodologies',
-                'File Handling',
-                'Static and dynamic memory allocation',
-                'Computer Architecture',
-                'Operational systems',
-                'Bitwise operators',
-                'Analog and Digital Electronics',
-                'Interpolation and Regression Computational Algorithms',
-                'Integral, Differential and Limits Calculus',
-                'Analysis of Electrical Circuits in the Time and Frequency Domain',
-                'Creating control blocks using state machines',
-                'Linear Systems Solution',
-                'Residential electrical project',
-                'Classical Mechanics',
-                'Electromagnetism',
-            ]
-        },
-        {
-            name: 'SENAI - Technical Course in Systems Development',
-            referenceName: 'ctds01',
-            date: '2017 - 2018',
-            links: [
-                {
-                    name: 'SENAI degree',
-                    ref: '../docs/senai_degree.pdf',
-                },
-                {
-                    name: 'Honorable Mention for Highest Scores',
-                    ref: '../docs/honorable_mention_grades.pdf',
-                },
-                {
-                    name: 'Honorable mention for highest frequency',
-                    ref: '../docs/honorable_mention_frequency.pdf',
-                },
-            ],
-            description: 'Technical Course in Systems Development held at SENAI as part of the full scholarship I received in high school through the EBEP project. At the end of the technical course, I received two honorable mentions: one for achieving the highest overall grade in the class, and another for presenting the highest attendance among the students.',
-            subjectsStudied: [
-                'Object Oriented Programming',
-                'SQL Server',
-                'MVC Template',
-                'Ç#',
-                '.NET',
-                'Agile and traditional software development methodologies',
-                'UML',
-                'Systems Test',
-                'Office package (Word, Excel and PowerPoint)',
-                'VisuAlg',
-            ]
-        }, {
-            name: 'SESI - High School',
-            referenceName: 'ensinomedio',
-            date: '2016 - 2018',
-            links: [
-                {
-                    name: 'SESI degree',
-                    ref: '../docs/sesi_degree.pdf',
-                },
-            ],
-            description: 'High school carried out at SESI with a full EBEP scholarship offered to outstanding students of the institution.',
-            subjectsStudied: [
-                'Art',
-                'Biology',
-                'Physical education',
-                'Philosophy',
-                'Physical',
-                'Geography',
-                'History',
-                'Portuguese',
-                'Math',
-                'Chemistry',
-                'Redaction',
-                'Sociology',
-                'English',
-            ]
-        },
+        schooling: [
+            {
+                name: 'Master\'s in Electrical Engineering - Telecommunications and Information Technology (TTI)',
+                institution: 'UFES',
+                referenceName: 'ufesmaster',
+                date: '2024 - Present',
+                links: [],
+                description: 'The thesis, "Application of Machine Learning Techniques for Prediction and Modeling of FBG Sensor Data in Liquid Tanks," involves extensive data analysis, implementation of predictive models, and evaluation of their accuracy in real-world scenarios, resulting in valuable contributions to sensor technology. It focuses on the application of machine learning techniques to predict and model FBG sensor data in liquid tanks, aiming to enhance predictive capabilities and optimize data representation for effective monitoring in industrial environments.',
+                subjectsStudied: [
+                    'Python',
+                    'TensorFlow',
+                    'Machine Learning',
+                    'Artificial Intelligence',
+                    'FBG Sensors',
+                ]
+            },
+            {
+                name: "Bachelor's Degree in Computer Engineering",
+                institution: 'UFES',
+                referenceName: 'ufes',
+                date: '2019 - 2023',
+                links: [
+                    {
+                        name: 'UFES History',
+                        ref: '../docs/history_ufes.pdf',
+                    },
+                ],
+                description: "Bachelor's Degree in Computer Engineering in progress at the Federal University of Espírito Santo. I am currently in the 9th period, periodized and without any failure.",
+                subjectsStudied: [
+                    'Python',
+                    'MySQL',
+                    'Docker',
+                    'C / C++',
+                    'Java',
+                    'MIPS Assembly',
+                    'Processing',
+                    'Data Structures',
+                    'Object Oriented Programming',
+                    'UML',
+                    'Agile and traditional software development methodologies',
+                    'File Handling',
+                    'Static and dynamic memory allocation',
+                    'Computer Architecture',
+                    'Operational systems',
+                    'Bitwise operators',
+                    'Analog and Digital Electronics',
+                    'Interpolation and Regression Computational Algorithms',
+                    'Integral, Differential and Limits Calculus',
+                    'Analysis of Electrical Circuits in the Time and Frequency Domain',
+                    'Creating control blocks using state machines',
+                    'Linear Systems Solution',
+                    'Residential electrical project',
+                    'Classical Mechanics',
+                    'Electromagnetism',
+                ]
+            },
+            {
+                name: 'Technical Course in Systems Development',
+                institution: 'SENAI',
+                referenceName: 'ctds01',
+                date: '2017 - 2018',
+                links: [
+                    {
+                        name: 'SENAI degree',
+                        ref: '../docs/senai_degree.pdf',
+                    },
+                    {
+                        name: 'Honorable Mention for Highest Scores',
+                        ref: '../docs/honorable_mention_grades.pdf',
+                    },
+                    {
+                        name: 'Honorable mention for highest frequency',
+                        ref: '../docs/honorable_mention_frequency.pdf',
+                    },
+                ],
+                description: 'Technical Course in Systems Development held at SENAI as part of the full scholarship I received in high school through the EBEP project. At the end of the technical course, I received two honorable mentions: one for achieving the highest overall grade in the class, and another for presenting the highest attendance among the students.',
+                subjectsStudied: [
+                    'Object Oriented Programming',
+                    'SQL Server',
+                    'MVC Template',
+                    'Ç#',
+                    '.NET',
+                    'Agile and traditional software development methodologies',
+                    'UML',
+                    'Systems Test',
+                    'Office package (Word, Excel and PowerPoint)',
+                    'VisuAlg',
+                ]
+            }, {
+                name: 'High School',
+                institution: 'SESI',
+                referenceName: 'ensinomedio',
+                date: '2016 - 2018',
+                links: [
+                    {
+                        name: 'SESI degree',
+                        ref: '../docs/sesi_degree.pdf',
+                    },
+                ],
+                description: 'High school carried out at SESI with a full EBEP scholarship offered to outstanding students of the institution.',
+                subjectsStudied: [
+                    'Art',
+                    'Biology',
+                    'Physical education',
+                    'Philosophy',
+                    'Physical',
+                    'Geography',
+                    'History',
+                    'Portuguese',
+                    'Math',
+                    'Chemistry',
+                    'Redaction',
+                    'Sociology',
+                    'English',
+                ]
+            },
         ],
         courses: [
             {
-                name: 'Udemy - HTML e CSS: O Início (incluindo 5 Projetos)',
+                name: "Time Series and Predictive Analysis with Python",
+                institution: 'Udemy',
+                referenceName: "temporalSeries",
+                date: "2023",
+                links: [
+                    {
+                        name: "Certificate for the Time Series and Predictive Analysis with Python course",
+                        ref: "https://www.udemy.com/certificate/UC-045d3f24-9017-40e5-8f43-12269d3524be/"
+                    }
+                ],
+                description: "This course is your comprehensive guide to time series analysis using Python. All major aspects of temporal data analysis are covered! In the era of big data, companies worldwide use Python to assess the 'avalanche' of information at their disposal. Becoming proficient in time series data analysis in Python can give your company a competitive edge and take your career to the next level! Here's what you will study:",
+                subjectsStudied: [
+                    "Fundamentals of Time Series: Examples of time series, decomposition (seasonality, trend, residuals), autocorrelation, decomposition.",
+                    "Pre-processing and Visualization: Data structures, CSV, Excel, HTML, and JSON import, date and time formats, various charts with line and histogram charts, aggregations, variations, and more.",
+                    "Features and Conditions: Moving averages, stationary series, stationarity testing with Log and differentiation, removal of components such as trend and seasonality.",
+                    "Statistical Methods for Time Series Forecasting: Moving Averages, Exponential Smoothing, Holt Winters, Arima, and Auto-Arima.",
+                    "Machine Learning and Deep Learning: Introduction to Keras, Random Forest for attribute selection, multi-layer Perceptron, Recurrent Neural Networks (RNN) with Long Short-Term Memory (LSTM), and Gated Recurrent Units (GRU).",
+                    "Transformers: Introduction to Transformers and PyTorch. Examples of using Transformers for time series prediction.",
+                    "Anomaly Detection: Techniques such as Moving Average, Exponential Smoothing, Seasonal and Trend Decomposition (SLT), and Arima, focused on Anomaly Detection."
+                ]
+            },
+            {
+                name: 'Complete Web & Mobile Designer: UI/UX, Figma, +more',
+                institution: 'Udemy',
+                referenceName: 'webandmobile',
+                date: '2022',
+                links: [
+                    {
+                        name: 'Certificate for the Complete Web & Mobile Designer: UI/UX, Figma, +more course',
+                        ref: 'https://www.udemy.com/certificate/UC-d3bebf29-2dd0-4c0f-b5c2-ad0272580499/',
+                    },
+                ],
+                description: 'Using the latest best practices in Web Design and Mobile Design as well as User Interface and User Experience Design (UI/UX), this course focuses on efficiently getting you from zero to a point where you can get hired or win freelance contracts. We will use in demand tools like Figma to show you a full workflow from start to finish.',
+                subjectsStudied: [
+                    'Web & Mobile Design Principles + Design vs Web Development',
+                    'Sketching, Inspiration + Structure',
+                    'Wireframes, Prototyping and Feedback',
+                    'Design Theory + Accessibility',
+                    'Application Design + Design Systems',
+                    'Using our Design System and Hi-Fi prototyping with Figma',
+                    'Take a Figma design and convert it to a live website using HTML and CSS',
+                    'HTML + HTML5',
+                    'CSS + CSS3 - CSS Basics, CSS Grid, Flexbox, CSS Animations',
+                    'PUTTING YOUR WEBSITE ONLINE'
+                ]
+            },
+            {
+                name: 'HTML and CSS: The Beginning (including 5 Projects)',
+                institution: 'Udemy',
                 referenceName: 'htmlcss',
                 date: '2022',
                 links: [
                     {
-                        name: 'Certificate for the course HTML e CSS: O Início (incluindo 5 Projetos)',
+                        name: 'Certificate for the course HTML and CSS: The Beginning (including 5 Projects)',
                         ref: 'https://www.udemy.com/certificate/UC-7240ad8b-0814-4da6-a216-e3d6e53399b5/',
                     },
                 ],
@@ -398,16 +539,17 @@ export const schoolData = {
                     'Develop web projects',
                 ]
             }, {
-                name: 'Harvard - Introduction to Computer Science - CS50',
+                name: 'CS50 - Introduction to Computer Science',
+                institution: 'Harvard',
                 referenceName: 'cs50',
                 date: '2020',
                 links: [
                     {
-                        name: 'Certificate for the course Introduction to Computer Science - CS50',
+                        name: 'Certificate for the course CS50 - Introduction to Computer Science',
                         ref: 'https://cs50.harvard.edu/certificates/635d0024-45d6-4d59-828a-adbc3a4a4af8',
                     },
                     {
-                        name: 'Certificate for the course Introduction to Computer Science - EDX',
+                        name: 'Certificate for the course CS50 - Introduction to Computer Science - EDX',
                         ref: 'https://courses.edx.org/certificates/33a7ac74b15b438d9067ace1d0bcf992',
                     },
                 ],
@@ -432,12 +574,13 @@ export const schoolData = {
                 ]
             },
             {
-                name: 'Code IoT - Introdução à Internet das Coisas',
+                name: 'Introduction to the Internet of Things',
+                institution: 'Code IoT',
                 referenceName: 'iot101',
                 date: '2020',
                 links: [
                     {
-                        name: 'Certificate for the course Introdução à Internet das Coisas',
+                        name: 'Certificate for the course Introduction to the Internet of Things',
                         ref: 'https://codeiot.org.br/certificates/d7e8fb0cb77f4465b4c67c3c69657956',
                     },
                 ],
@@ -450,12 +593,13 @@ export const schoolData = {
                     'Tools to develop Internet of Things solutions'
                 ]
             }, {
-                name: 'Code IoT - Aplicativos para dispositivos móveis',
+                name: 'Mobile App Development',
+                institution: 'Code IoT',
                 referenceName: 'iot105',
                 date: '2020',
                 links: [
                     {
-                        name: 'Certificate for the course Aplicativos para dispositivos móveis',
+                        name: 'Certificate for the course Mobile App Development',
                         ref: 'https://codeiot.org.br/certificates/75ba31ea9dc44c0c831d880b96dbe761',
                     },
                 ],
@@ -467,7 +611,8 @@ export const schoolData = {
                     'Creating apps and seeing them running on smartphone or tablet',
                 ]
             }, {
-                name: 'Udemy - Mastering 3D Modeling With Blender For Beginners',
+                name: 'Mastering 3D Modeling With Blender For Beginners',
+                institution: 'Udemy',
                 referenceName: 'blenderforbeginners',
                 date: '2020',
                 links: [
@@ -484,12 +629,13 @@ export const schoolData = {
                     'Create your own little robot',
                 ]
             }, {
-                name: 'DELL - Inglês intermediário I',
+                name: 'Intermediate English I',
+                institution: 'DELL',
                 referenceName: 'inglesintermediario',
                 date: '2020',
                 links: [
                     {
-                        name: 'Intermediate English Course Certificate',
+                        name: 'Certificate for the course Intermediate English I',
                         ref: '../docs/intermediary_english.pdf',
                     },
                 ],
@@ -505,12 +651,13 @@ export const schoolData = {
                     'Class 8 - If you study English, you will learn it!',
                 ]
             }, {
-                name: 'SENAI - Desvendando a Indústria 4.0',
+                name: 'Unveiling Industry 4.0',
+                institution: 'SENAI',
                 referenceName: 'senaiindustria',
                 date: '2020',
                 links: [
                     {
-                        name: 'Certificate for the course Desvendando a Indústria 4.0',
+                        name: 'Certificate for the course Unveiling Industry 4.0',
                         ref: 'https://www.sp.senai.br/consulta-certificado?qrcode=0003483/6057552',
                     },
                 ],
@@ -527,7 +674,8 @@ export const schoolData = {
                     'Systems integration',
                 ]
             }, {
-                name: 'Udemy - Learn JavaScript with Fun - Build an UFO Hunter Game',
+                name: 'Learn JavaScript with Fun - Build an UFO Hunter Game',
+                institution: 'Udemy',
                 referenceName: 'ufohunter',
                 date: '2019',
                 links: [
