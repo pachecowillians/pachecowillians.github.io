@@ -10,7 +10,8 @@ export const schoolData = {
         },
         schooling: [
             {
-                name: 'UFES - Mestrado em Engenharia Elétrica - Telecomunicações e Tecnologia da Informação (TTI)',
+                name: 'Mestrado em Engenharia Elétrica - Telecomunicações e Tecnologia da Informação (TTI)',
+                institution: 'UFES',
                 referenceName: 'ufesmaster',
                 date: '2024 - Hoje',
                 links: [],
@@ -24,7 +25,8 @@ export const schoolData = {
                 ]
             },
             {
-                name: 'UFES - Bacharelado em Engenharia da Computação',
+                name: 'Bacharelado em Engenharia da Computação',
+                institution: 'UFES',
                 referenceName: 'ufes',
                 date: '2019 - 2023',
                 links: [
@@ -63,7 +65,8 @@ export const schoolData = {
                 ]
             },
             {
-                name: 'SENAI - Curso Técnico em Desenvolvimento de Sistemas',
+                name: 'Curso Técnico em Desenvolvimento de Sistemas',
+                institution: 'SENAI',
                 referenceName: 'ctds01',
                 date: '2017 - 2018',
                 links: [
@@ -94,7 +97,8 @@ export const schoolData = {
                     'VisuAlg',
                 ]
             }, {
-                name: 'SESI - Ensino Médio',
+                name: 'Ensino Médio',
+                institution: 'SESI',
                 referenceName: 'ensinomedio',
                 date: '2016 - 2018',
                 links: [
@@ -123,7 +127,8 @@ export const schoolData = {
         ],
         courses: [
             {
-                name: 'Udemy - Séries Temporais e Análises Preditivas com Python',
+                name: 'Séries Temporais e Análises Preditivas com Python',
+                institution: 'Udemy',
                 referenceName: 'temporalSeries',
                 date: '2023',
                 links: [
@@ -144,7 +149,8 @@ export const schoolData = {
                 ]
             },
             {
-                name: 'Udemy - Designer Web & Mobile Completo: UI/UX, Figma, +mais',
+                name: 'Designer Web & Mobile Completo: UI/UX, Figma, +mais',
+                institution: 'Udemy',
                 referenceName: 'webandmobile',
                 date: '2022',
                 links: [
@@ -168,7 +174,8 @@ export const schoolData = {
                 ]
             },
             {
-                name: 'Udemy - HTML e CSS: O Início (incluindo 5 Projetos)',
+                name: 'HTML e CSS: O Início (incluindo 5 Projetos)',
+                institution: 'Udemy',
                 referenceName: 'htmlcss',
                 date: '2022',
                 links: [
@@ -185,7 +192,8 @@ export const schoolData = {
                     'Desenvolver projetos web',
                 ]
             }, {
-                name: 'Harvard - Introduction to Computer Science - CS50',
+                name: 'Introduction to Computer Science - CS50',
+                institution: 'Harvard',
                 referenceName: 'cs50',
                 date: '2020',
                 links: [
@@ -219,7 +227,8 @@ export const schoolData = {
                 ]
             },
             {
-                name: 'Code IoT - Introdução à Internet das Coisas',
+                name: 'Introdução à Internet das Coisas',
+                institution: 'Code IoT',
                 referenceName: 'iot101',
                 date: '2020',
                 links: [
@@ -238,6 +247,7 @@ export const schoolData = {
                 ]
             }, {
                 name: 'Code IoT - Aplicativos para dispositivos móveis',
+                institution: 'Code IoT',
                 referenceName: 'iot105',
                 date: '2020',
                 links: [
@@ -254,7 +264,8 @@ export const schoolData = {
                     'Criação de aplicativos e vê-los rodando no smartphone ou tablet',
                 ]
             }, {
-                name: 'Udemy - Mastering 3D Modeling With Blender For Beginners',
+                name: 'Mastering 3D Modeling With Blender For Beginners',
+                institution: 'Udemy',
                 referenceName: 'blenderforbeginners',
                 date: '2020',
                 links: [
@@ -271,7 +282,8 @@ export const schoolData = {
                     'Crie seu próprio pequeno robô',
                 ]
             }, {
-                name: 'DELL - Inglês intermediário I',
+                name: 'Inglês intermediário I',
+                institution: 'DELL',
                 referenceName: 'inglesintermediario',
                 date: '2020',
                 links: [
@@ -292,7 +304,8 @@ export const schoolData = {
                     'Aula 8 - If you study English, you will learn it!',
                 ]
             }, {
-                name: 'SENAI - Desvendando a Indústria 4.0',
+                name: 'Desvendando a Indústria 4.0',
+                institution: 'SENAI',
                 referenceName: 'senaiindustria',
                 date: '2020',
                 links: [
@@ -314,7 +327,8 @@ export const schoolData = {
                     'Integração de Sistemas',
                 ]
             }, {
-                name: 'Udemy - Learn JavaScript with Fun - Build an UFO Hunter Game',
+                name: 'Learn JavaScript with Fun - Build an UFO Hunter Game',
+                institution: 'Udemy',
                 referenceName: 'ufohunter',
                 date: '2019',
                 links: [

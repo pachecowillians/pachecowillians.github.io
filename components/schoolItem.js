@@ -8,7 +8,7 @@ export function schoolItemHTML(schoolItem, titles) {
                 <div class="school-item-visible-area">
                     <div class="school-item-header">
                         <div class="school-item-header-information">
-                            <h2>${schoolItem.name}</h2>
+                            <h2>${schoolItem.institution}: ${schoolItem.name}</h2>
                             <p>${schoolItem.date}</p>
                         </div>
                     </div>
